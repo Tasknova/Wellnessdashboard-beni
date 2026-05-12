@@ -61,54 +61,95 @@ CATEGORIES = {
     'FMCG':            {'mix': 0.08, 'margin_range': (0.15, 0.22), 'avg_price': 90},
 }
 
-# Real Indian pharma brands
-BRANDS = {
-    'Rx Medicines': [
-        'Cipla', 'Sun Pharma', 'Dr. Reddys', 'Lupin', 'Zydus', 'Torrent Pharma',
-        'Mankind', 'Alkem', 'Glenmark', 'Cadila', 'Ipca', 'Abbott India',
-        'Biocon', 'Natco', 'Aurobindo', 'Hetero', 'Intas', 'Macleods',
-    ],
-    'OTC Medicines': [
-        'Cipla', 'Himalaya', 'Dabur', 'Zandu', 'Vicks', 'Crocin',
-        'Volini', 'Moov', 'Benadryl', 'Strepsils', 'Burnol', 'Dettol',
-    ],
-    'Wellness': [
-        'Himalaya', 'Patanjali', 'Amway', 'Herbalife', 'HealthKart',
-        'MuscleBlaze', 'Oziva', 'Wellbeing Nutrition', 'Kapiva', 'Setu',
-    ],
-    'Beauty & Personal Care': [
-        'Lakme', 'Nivea', 'LOreal', 'Biotique', 'Mamaearth',
-        'WOW', 'mCaffeine', 'Plum', 'Cetaphil', 'Neutrogena',
-    ],
-    'FMCG': [
-        'Colgate', 'Dettol', 'Savlon', 'Lifebuoy', 'Pampers',
-        'Huggies', 'Whisper', 'Stayfree', 'Moov', 'Band-Aid',
-    ],
+# Real Indian pharma brands — mapped to their actual product sub-types
+# Each brand maps to the sub-types it actually manufactures
+BRAND_SUBTYPES = {
+    'Rx Medicines': {
+        'Cipla':          ['Tablet', 'Capsule', 'Syrup', 'Inhaler', 'Drops'],
+        'Sun Pharma':     ['Tablet', 'Capsule', 'Ointment', 'Gel', 'Injection'],
+        'Dr. Reddys':     ['Tablet', 'Capsule', 'Injection', 'Ointment'],
+        'Lupin':          ['Tablet', 'Capsule', 'Syrup', 'Suspension'],
+        'Zydus':          ['Tablet', 'Capsule', 'Gel', 'Syrup'],
+        'Torrent Pharma': ['Tablet', 'Capsule', 'Syrup', 'Injection'],
+        'Mankind':        ['Tablet', 'Capsule', 'Injection', 'Powder'],
+        'Alkem':          ['Tablet', 'Capsule', 'Syrup', 'Drops'],
+        'Glenmark':       ['Tablet', 'Capsule', 'Gel', 'Ointment'],
+        'Cadila':         ['Tablet', 'Capsule', 'Gel', 'Syrup'],
+        'Ipca':           ['Tablet', 'Capsule', 'Suspension', 'Gel'],
+        'Abbott India':   ['Tablet', 'Capsule', 'Syrup', 'Inhaler', 'Powder'],
+        'Biocon':         ['Injection', 'Tablet', 'Capsule', 'Powder'],
+        'Natco':          ['Tablet', 'Capsule', 'Ointment', 'Drops'],
+        'Aurobindo':      ['Tablet', 'Capsule', 'Drops', 'Suspension'],
+        'Hetero':         ['Tablet', 'Capsule', 'Injection', 'Powder'],
+        'Intas':          ['Tablet', 'Capsule', 'Syrup', 'Drops', 'Injection'],
+        'Macleods':       ['Tablet', 'Capsule', 'Syrup', 'Inhaler'],
+    },
+    'OTC Medicines': {
+        'Cipla':      ['Tablet', 'Syrup', 'Drops'],
+        'Himalaya':   ['Tablet', 'Syrup', 'Cream', 'Powder', 'Gel'],
+        'Dabur':      ['Syrup', 'Drops', 'Balm', 'Oil', 'Gel'],
+        'Zandu':      ['Balm', 'Syrup', 'Tablet', 'Ointment'],
+        'Vicks':      ['Balm', 'Drops', 'Syrup', 'Lozenges', 'Spray'],
+        'Crocin':     ['Tablet', 'Syrup', 'Drops'],
+        'Volini':     ['Spray', 'Gel', 'Cream', 'Balm'],
+        'Moov':       ['Cream', 'Spray', 'Gel', 'Balm'],
+        'Benadryl':   ['Syrup', 'Tablet', 'Drops'],
+        'Strepsils':  ['Lozenges', 'Spray'],
+        'Burnol':     ['Cream', 'Ointment'],
+        'Dettol':     ['Cream', 'Ointment', 'Spray'],
+    },
+    'Wellness': {
+        'Himalaya':            ['Tablet', 'Capsule', 'Powder', 'Oil'],
+        'Patanjali':           ['Capsule', 'Powder', 'Oil', 'Syrup'],
+        'Amway':               ['Tablet', 'Capsule', 'Protein Bar', 'Drink Mix'],
+        'Herbalife':           ['Powder', 'Capsule', 'Drink Mix', 'Tablet'],
+        'HealthKart':          ['Powder', 'Capsule', 'Drink Mix', 'Gummies'],
+        'MuscleBlaze':         ['Powder', 'Protein Bar', 'Drink Mix', 'Capsule'],
+        'Oziva':               ['Capsule', 'Powder', 'Drink Mix', 'Gummies'],
+        'Wellbeing Nutrition': ['Capsule', 'Drink Mix', 'Gummies', 'Tablet'],
+        'Kapiva':              ['Syrup', 'Drink Mix', 'Capsule', 'Oil'],
+        'Setu':                ['Tablet', 'Capsule', 'Gummies', 'Powder'],
+    },
+    'Beauty & Personal Care': {
+        'Lakme':      ['Face Wash', 'Moisturizer', 'Sunscreen', 'Face Mask', 'Serum'],
+        'Nivea':      ['Body Lotion', 'Moisturizer', 'Lip Balm', 'Face Wash', 'Sunscreen'],
+        'LOreal':     ['Shampoo', 'Conditioner', 'Serum', 'Face Wash', 'Sunscreen'],
+        'Biotique':   ['Face Wash', 'Shampoo', 'Conditioner', 'Body Lotion', 'Toner'],
+        'Mamaearth':  ['Face Wash', 'Shampoo', 'Body Lotion', 'Sunscreen', 'Serum'],
+        'WOW':        ['Shampoo', 'Conditioner', 'Face Wash', 'Body Lotion', 'Serum'],
+        'mCaffeine':  ['Face Wash', 'Body Lotion', 'Serum', 'Face Mask', 'Shampoo'],
+        'Plum':       ['Face Wash', 'Moisturizer', 'Sunscreen', 'Lip Balm', 'Toner'],
+        'Cetaphil':   ['Face Wash', 'Moisturizer', 'Body Lotion', 'Sunscreen'],
+        'Neutrogena': ['Face Wash', 'Sunscreen', 'Moisturizer', 'Body Lotion', 'Lip Balm'],
+    },
+    'FMCG': {
+        'Colgate':    ['Toothpaste', 'Toothbrush'],
+        'Oral-B':     ['Toothpaste', 'Toothbrush'],
+        'Dettol':     ['Hand Wash', 'Sanitizer', 'Soap', 'Wipes'],
+        'Savlon':     ['Hand Wash', 'Sanitizer', 'Wipes'],
+        'Lifebuoy':   ['Soap', 'Hand Wash', 'Sanitizer'],
+        'Pampers':    ['Diaper', 'Wipes'],
+        'Huggies':    ['Diaper', 'Wipes'],
+        'MamyPoko':   ['Diaper'],
+        'Whisper':    ['Sanitary Pad'],
+        'Stayfree':   ['Sanitary Pad'],
+        'Sofy':       ['Sanitary Pad'],
+        'Johnson & Johnson': ['Cotton', 'Bandage', 'Band-Aid'],
+        'Himalaya':   ['Soap', 'Wipes', 'Cotton'],
+        'Pigeon':     ['Wipes', 'Cotton'],
+    },
 }
 
-# Product sub-types per category
-PRODUCT_TYPES = {
-    'Rx Medicines': [
-        'Tablet', 'Capsule', 'Syrup', 'Injection', 'Ointment', 'Drops',
-        'Inhaler', 'Suspension', 'Powder', 'Gel',
-    ],
-    'OTC Medicines': [
-        'Tablet', 'Syrup', 'Cream', 'Balm', 'Spray', 'Drops',
-        'Lozenges', 'Ointment', 'Powder', 'Gel',
-    ],
-    'Wellness': [
-        'Capsule', 'Powder', 'Tablet', 'Syrup', 'Oil',
-        'Drink Mix', 'Gummies', 'Protein Bar',
-    ],
-    'Beauty & Personal Care': [
-        'Face Wash', 'Moisturizer', 'Sunscreen', 'Shampoo', 'Conditioner',
-        'Body Lotion', 'Lip Balm', 'Face Mask', 'Serum', 'Toner',
-    ],
-    'FMCG': [
-        'Toothpaste', 'Hand Wash', 'Sanitizer', 'Soap', 'Diaper',
-        'Sanitary Pad', 'Tissue', 'Cotton', 'Bandage', 'Wipes',
-    ],
-}
+# Flat brand lists (for backward compat)
+BRANDS = {cat: list(brands.keys()) for cat, brands in BRAND_SUBTYPES.items()}
+
+# All possible sub-types per category (union of all brand sub-types)
+PRODUCT_TYPES = {}
+for cat, brands in BRAND_SUBTYPES.items():
+    all_types = set()
+    for types in brands.values():
+        all_types.update(types)
+    PRODUCT_TYPES[cat] = sorted(all_types)
 
 # Rx therapeutic areas
 RX_THERAPEUTIC = [
@@ -193,12 +234,12 @@ def generate_products(n=1000) -> pd.DataFrame:
     for cat, info in CATEGORIES.items():
         n_cat = int(n * info['mix'])
         brands = BRANDS[cat]
-        types = PRODUCT_TYPES[cat]
+        brand_subtypes = BRAND_SUBTYPES[cat]
         margin_lo, margin_hi = info['margin_range']
 
         for _ in range(n_cat):
             brand = np.random.choice(brands)
-            ptype = np.random.choice(types)
+            ptype = np.random.choice(brand_subtypes[brand])
             is_generic = cat == 'Rx Medicines' and np.random.random() < 0.35
             therapeutic = np.random.choice(RX_THERAPEUTIC) if cat == 'Rx Medicines' else ''
 
