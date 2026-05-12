@@ -1,0 +1,8 @@
+{
+  "name": "wellness-dashboard",
+  "version": "1.0.0",
+  "description": "Wellness Forever Revenue Intelligence Dashboard",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  }
+}
