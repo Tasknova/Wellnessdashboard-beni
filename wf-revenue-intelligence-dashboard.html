@@ -853,8 +853,8 @@ function sendChat() {
 
     var modeLabel = currentMode === 'DEEP' ? 'Deep Dive' : currentMode === 'BRIEF' ? 'Brief' : 'Insights';
     var progressMsgs = currentMode === 'DEEP'
-        ? ['Querying database', 'Generating charts', 'Comparing benchmarks', 'Building report', 'Analyzing patterns', 'Compiling insights']
-        : ['Querying data', 'Preparing ' + modeLabel.toLowerCase() + ' response', 'Analyzing database', 'Building tables', 'Adding context', 'Finalizing response'];
+        ? ['Querying database', 'Generating charts', 'Comparing benchmarks', 'Building report', 'Analyzing patterns', 'Compiling insights', 'Running deep analysis', 'Cross-referencing data']
+        : ['Querying data', 'Preparing ' + modeLabel.toLowerCase() + ' response', 'Analyzing database', 'Building tables', 'Adding context', 'Finalizing response', 'Running analysis', 'Compiling insights'];
     var progressIdx = 0;
     progressTimer = setInterval(function() {
         var textEl = typingDiv.querySelector('.typing-text');
@@ -863,10 +863,20 @@ function sendChat() {
                 textEl.textContent = progressMsgs[progressIdx];
                 progressIdx++;
             } else {
-                textEl.textContent = 'Still working... Claude is analyzing deeply';
+                textEl.textContent = 'Still working... analyzing deeply';
             }
         }
-    }, 5000);
+    }, 8000);
+
+    // Listen for live status updates from backend
+    if (responseChannel) {
+        responseChannel.bind('thinking', function(status) {
+            var textEl = typingDiv.querySelector('.typing-text');
+            if (textEl && status.message) {
+                textEl.textContent = status.message;
+            }
+        });
+    }
 
     var responsePromise = new Promise(function(resolve) {
         pendingResolve = resolve;
@@ -878,6 +888,7 @@ function sendChat() {
 
     responsePromise.then(function(data) {
         if (progressTimer) { clearInterval(progressTimer); progressTimer = null; }
+        if (responseChannel) { responseChannel.unbind('thinking'); }
         typingDiv.remove();
 
         var botDiv = document.createElement('div');
@@ -923,11 +934,11 @@ function sendChat() {
                 status: 'error',
                 response_html: '<p>Request timed out. Please try again.</p>',
                 tools_used: [],
-                elapsed_ms: 60000
+                elapsed_ms: 600000
             });
             pendingResolve = null;
         }
-    }, 60000);
+    }, 600000);  // 10 minute timeout
 }
 
 initPusher();
