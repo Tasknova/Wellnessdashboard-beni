@@ -713,9 +713,8 @@ of revenue and trending upward. UPI is the most popular payment method, reflecti
 </div>
 <div class="mode-pills">
     <div class="mode-selector-track">
-        <button class="mode-pill" data-mode="BRIEF" title="2-3 sentences, just the number">Brief</button>
-        <button class="mode-pill active" data-mode="INSIGHTS" title="Key findings + context + actions">Insights</button>
-        <button class="mode-pill" data-mode="DEEP" title="Full analysis with charts and data">Deep Dive</button>
+        <button class="mode-pill active" data-mode="INSIGHTS" title="Key findings and actionable insights">Insights</button>
+        <button class="mode-pill" data-mode="DEEP" title="Full analysis with tables, data, and deep detail">Deep Dive</button>
         <button class="mode-pill" data-mode="FORECAST" title="Predictive analytics coming soon" style="opacity:0.6;cursor:default;position:relative">Forecasting <span style="font-size:9px;background:#e94560;color:#fff;padding:1px 5px;border-radius:8px;margin-left:3px;vertical-align:middle">Soon</span></button>
     </div>
 </div>
@@ -883,7 +882,7 @@ function sendChat() {
     msgs.appendChild(typingDiv);
     scrollToBottom(true);
 
-    var modeLabel = currentMode === 'DEEP' ? 'Deep Dive' : currentMode === 'BRIEF' ? 'Brief' : 'Insights';
+    var modeLabel = currentMode === 'DEEP' ? 'Deep Dive' : 'Insights';
     var progressMsgs = currentMode === 'DEEP'
         ? ['Querying database', 'Generating charts', 'Comparing benchmarks', 'Building report', 'Analyzing patterns', 'Compiling insights', 'Running deep analysis', 'Cross-referencing data']
         : ['Querying data', 'Preparing ' + modeLabel.toLowerCase() + ' response', 'Analyzing database', 'Building tables', 'Adding context', 'Finalizing response', 'Running analysis', 'Compiling insights'];
@@ -948,6 +947,29 @@ function sendChat() {
         });
 
         msgs.appendChild(botDiv);
+
+        // Add "Show Deep Dive" button for Insights mode responses
+        if (currentMode === 'INSIGHTS') {
+            var deepBtn = document.createElement('button');
+            deepBtn.textContent = 'Show Deep Dive';
+            deepBtn.style.cssText = 'margin:6px 0 4px 0;padding:5px 14px;font-size:12px;background:#1a1a2e;color:#fff;border:none;border-radius:12px;cursor:pointer;opacity:0.85;';
+            deepBtn.onmouseenter = function() { deepBtn.style.opacity = '1'; };
+            deepBtn.onmouseleave = function() { deepBtn.style.opacity = '0.85'; };
+            var originalQuestion = msg;
+            deepBtn.addEventListener('click', function() {
+                deepBtn.disabled = true;
+                deepBtn.textContent = 'Loading deep dive...';
+                deepBtn.style.opacity = '0.5';
+                // Re-send same question with DEEP mode
+                var savedMode = currentMode;
+                currentMode = 'DEEP';
+                document.getElementById('chat-input').value = originalQuestion;
+                sendChat();
+                currentMode = savedMode;
+            });
+            msgs.appendChild(deepBtn);
+        }
+
         scrollToBottom(true);
         document.getElementById('chat-send').disabled = false;
 
