@@ -716,6 +716,7 @@ of revenue and trending upward. UPI is the most popular payment method, reflecti
         <button class="mode-pill" data-mode="BRIEF" title="2-3 sentences, just the number">Brief</button>
         <button class="mode-pill active" data-mode="INSIGHTS" title="Key findings + context + actions">Insights</button>
         <button class="mode-pill" data-mode="DEEP" title="Full analysis with charts and data">Deep Dive</button>
+        <button class="mode-pill" data-mode="FORECAST" title="Predictive analytics coming soon" style="opacity:0.6;cursor:default;position:relative">Forecasting <span style="font-size:9px;background:#e94560;color:#fff;padding:1px 5px;border-radius:8px;margin-left:3px;vertical-align:middle">Soon</span></button>
     </div>
 </div>
 <div id="chat-messages"></div>
@@ -811,6 +812,7 @@ function sendQuestion(question, mode) {
 
 document.querySelectorAll('.mode-pill').forEach(function(pill) {
     pill.addEventListener('click', function() {
+        if (pill.dataset.mode === 'FORECAST') return; // Coming soon
         document.querySelectorAll('.mode-pill').forEach(function(p) { p.classList.remove('active'); });
         pill.classList.add('active');
         currentMode = pill.dataset.mode;
