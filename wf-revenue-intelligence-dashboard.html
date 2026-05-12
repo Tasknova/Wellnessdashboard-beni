@@ -381,6 +381,7 @@ footer strong { color: var(--accent); }
     .mode-pill { font-size: 11px; padding: 5px 6px; }
 }
 </style>
+<script src="https://js.pusher.com/8.3/pusher.min.js"></script>
 </head>
 <body>
 
@@ -738,10 +739,46 @@ of revenue and trending upward. UPI is the most popular payment method, reflecti
 </div><!-- end .app-layout -->
 
 <script>
-let currentMode = 'INSIGHTS';
-let pollTimer = null;
+// --- Pusher Config (loaded from /api/config) ---
+const SESSION_ID = 'sess_' + crypto.randomUUID().slice(0, 12);
 
-// Mode pill switching
+let currentMode = 'INSIGHTS';
+let pusherClient = null;
+let responseChannel = null;
+let pendingResolve = null;
+let progressTimer = null;
+
+function initPusher() {
+    fetch('/api/config').then(function(r) { return r.json(); }).then(function(cfg) {
+        pusherClient = new Pusher(cfg.pusher_key, {
+            cluster: cfg.pusher_cluster,
+            forceTLS: true
+        });
+        responseChannel = pusherClient.subscribe('wf-responses-' + SESSION_ID);
+        responseChannel.bind('answer', function(data) {
+            if (pendingResolve) {
+                pendingResolve(data);
+                pendingResolve = null;
+            }
+        });
+        console.log('[Tasknova] Pusher connected, session:', SESSION_ID);
+    }).catch(function(err) {
+        console.error('[Tasknova] Failed to load Pusher config:', err);
+    });
+}
+
+function sendQuestion(question, mode) {
+    return fetch('/api/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            session_id: SESSION_ID,
+            question: question,
+            mode: mode
+        })
+    });
+}
+
 document.querySelectorAll('.mode-pill').forEach(function(pill) {
     pill.addEventListener('click', function() {
         document.querySelectorAll('.mode-pill').forEach(function(p) { p.classList.remove('active'); });
@@ -750,7 +787,6 @@ document.querySelectorAll('.mode-pill').forEach(function(pill) {
     });
 });
 
-// Suggested questions
 document.querySelectorAll('.suggested-q').forEach(function(btn) {
     btn.addEventListener('click', function() {
         document.getElementById('chat-input').value = btn.textContent;
@@ -758,7 +794,6 @@ document.querySelectorAll('.suggested-q').forEach(function(btn) {
     });
 });
 
-// Textarea auto-grow + Enter/Shift+Enter
 (function() {
     var ta = document.getElementById('chat-input');
     ta.addEventListener('input', function() {
@@ -779,8 +814,8 @@ function clearChat() {
     var ta = document.getElementById('chat-input');
     ta.value = ''; ta.style.height = 'auto';
     document.getElementById('chat-send').disabled = false;
-    if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
-    fetch('/clear', { method: 'POST' }).catch(function() {});
+    if (progressTimer) { clearInterval(progressTimer); progressTimer = null; }
+    pendingResolve = null;
 }
 
 function scrollToBottom(force) {
@@ -796,13 +831,11 @@ function sendChat() {
     var msg = input.value.trim();
     if (!msg) return;
 
-    // Hide suggested questions
     var sq = document.getElementById('suggested-qs');
     if (sq) sq.style.display = 'none';
 
     var msgs = document.getElementById('chat-messages');
 
-    // User bubble
     var userDiv = document.createElement('div');
     userDiv.className = 'chat-msg user';
     userDiv.textContent = msg;
@@ -812,20 +845,18 @@ function sendChat() {
     input.style.height = 'auto';
     document.getElementById('chat-send').disabled = true;
 
-    // Typing indicator (bouncing dots)
     var typingDiv = document.createElement('div');
     typingDiv.className = 'chat-msg typing';
     typingDiv.innerHTML = '<span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-text">Thinking</span>';
     msgs.appendChild(typingDiv);
     scrollToBottom(true);
 
-    // Progress messages
     var modeLabel = currentMode === 'DEEP' ? 'Deep Dive' : currentMode === 'BRIEF' ? 'Brief' : 'Insights';
     var progressMsgs = currentMode === 'DEEP'
         ? ['Querying database', 'Generating charts', 'Comparing benchmarks', 'Building report', 'Analyzing patterns', 'Compiling insights']
         : ['Querying data', 'Preparing ' + modeLabel.toLowerCase() + ' response', 'Analyzing database', 'Building tables', 'Adding context', 'Finalizing response'];
     var progressIdx = 0;
-    var progressTimer = setInterval(function() {
+    progressTimer = setInterval(function() {
         var textEl = typingDiv.querySelector('.typing-text');
         if (textEl) {
             if (progressIdx < progressMsgs.length) {
@@ -837,63 +868,69 @@ function sendChat() {
         }
     }, 5000);
 
-    // Send
-    var taggedMsg = '[' + currentMode + '] ' + msg;
-    fetch('/query', {
-        method: 'POST',
-        headers: {'Content-Type': 'text/plain'},
-        body: taggedMsg
-    }).catch(function() {});
+    var responsePromise = new Promise(function(resolve) {
+        pendingResolve = resolve;
+    });
 
-    // Poll for response
-    var attempts = 0;
-    if (pollTimer) clearInterval(pollTimer);
-    pollTimer = setInterval(function() {
-        attempts++;
-        fetch('/response').then(function(r) { return r.json(); }).then(function(data) {
-            if (data.status === 'ready') {
-                clearInterval(pollTimer);
-                clearInterval(progressTimer);
-                pollTimer = null;
-                typingDiv.remove();
-                var botDiv = document.createElement('div');
-                botDiv.className = 'chat-msg bot';
-                botDiv.innerHTML = data.response;
-                // Wrap standalone tables
-                botDiv.querySelectorAll('table.chat-table').forEach(function(tbl) {
-                    if (!tbl.parentElement.classList.contains('table-scroll')) {
-                        var wrapper = document.createElement('div');
-                        wrapper.className = 'table-scroll';
-                        tbl.parentNode.insertBefore(wrapper, tbl);
-                        wrapper.appendChild(tbl);
-                    }
-                });
-                // Wire drill-down buttons (only if they have a data-query attribute)
-                botDiv.querySelectorAll('.chat-drill-btn[data-query]').forEach(function(btn) {
-                    btn.addEventListener('click', function() {
-                        document.getElementById('chat-input').value = btn.dataset.query;
-                        sendChat();
-                    });
-                });
-                msgs.appendChild(botDiv);
-                scrollToBottom(true);
-                document.getElementById('chat-send').disabled = false;
-            } else if (false) {
-                // Timeout disabled — waits indefinitely until Claude Code responds
-                clearInterval(pollTimer);
-                clearInterval(progressTimer);
-                pollTimer = null;
-                typingDiv.remove();
-                var errDiv = document.createElement('div');
-                errDiv.className = 'chat-msg bot';
-                errDiv.textContent = 'Sorry, the request timed out. Please try again.';
-                msgs.appendChild(errDiv);
-                scrollToBottom(true);
-                document.getElementById('chat-send').disabled = false;
+    sendQuestion(msg, currentMode).catch(function(err) {
+        console.error('[Tasknova] Send failed:', err);
+    });
+
+    responsePromise.then(function(data) {
+        if (progressTimer) { clearInterval(progressTimer); progressTimer = null; }
+        typingDiv.remove();
+
+        var botDiv = document.createElement('div');
+        botDiv.className = 'chat-msg bot';
+        botDiv.innerHTML = data.response_html || data.response || '<p>No response received.</p>';
+
+        if (data.chart_url && !botDiv.querySelector('img.chat-chart')) {
+            botDiv.innerHTML += '<img class="chat-chart" src="' + data.chart_url + '" alt="Chart">';
+        }
+
+        botDiv.querySelectorAll('table.chat-table').forEach(function(tbl) {
+            if (!tbl.parentElement.classList.contains('table-scroll')) {
+                var wrapper = document.createElement('div');
+                wrapper.className = 'table-scroll';
+                tbl.parentNode.insertBefore(wrapper, tbl);
+                wrapper.appendChild(tbl);
             }
-        }).catch(function() {});
-    }, 2000);
+        });
+
+        botDiv.querySelectorAll('.chat-drill-btn[data-query]').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                document.getElementById('chat-input').value = btn.dataset.query;
+                sendChat();
+            });
+        });
+
+        msgs.appendChild(botDiv);
+        scrollToBottom(true);
+        document.getElementById('chat-send').disabled = false;
+
+        if (data.tools_used && data.tools_used.length > 0) {
+            var metaDiv = document.createElement('div');
+            metaDiv.className = 'chat-meta';
+            metaDiv.style.cssText = 'font-size:0.65rem;color:#9ca3af;padding:2px 12px 8px;';
+            metaDiv.textContent = data.tools_used.join(', ') + ' · ' + (data.elapsed_ms || 0) + 'ms';
+            msgs.appendChild(metaDiv);
+        }
+    });
+
+    setTimeout(function() {
+        if (pendingResolve) {
+            pendingResolve({
+                status: 'error',
+                response_html: '<p>Request timed out. Please try again.</p>',
+                tools_used: [],
+                elapsed_ms: 60000
+            });
+            pendingResolve = null;
+        }
+    }, 60000);
 }
+
+initPusher();
 </script>
 
 </body>

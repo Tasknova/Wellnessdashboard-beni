@@ -1,4 +1,3 @@
-*.py
 __pycache__
 *.pyc
 .git
@@ -7,3 +6,4 @@ README.md
 CLAUDE.md
 notebooks/
 data/
+_*.py

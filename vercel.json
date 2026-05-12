@@ -1,7 +1,16 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
+  "functions": {
+    "api/*.py": {
+      "runtime": "@vercel/python@4.0.0"
+    }
+  },
   "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
     {
       "source": "/",
       "destination": "/wf-revenue-intelligence-dashboard.html"
