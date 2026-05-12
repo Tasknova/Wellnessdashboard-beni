@@ -761,6 +761,36 @@ function initPusher() {
                 pendingResolve = null;
             }
         });
+        // Handle chunked responses for large answers (>10KB)
+        var chunkBuffer = {};
+        responseChannel.bind('answer_chunk', function(data) {
+            var key = data.session_id || 'default';
+            if (!chunkBuffer[key]) {
+                chunkBuffer[key] = { chunks: [], total: data.total_chunks, chart_url: null, tools_used: null, elapsed_ms: null };
+            }
+            var buf = chunkBuffer[key];
+            buf.chunks[data.chunk_index] = data.chunk;
+            if (data.chart_url) buf.chart_url = data.chart_url;
+            if (data.tools_used) buf.tools_used = data.tools_used;
+            if (data.elapsed_ms) buf.elapsed_ms = data.elapsed_ms;
+            var received = buf.chunks.filter(function(c) { return c !== undefined; }).length;
+            if (received === buf.total) {
+                var fullHtml = buf.chunks.join('');
+                delete chunkBuffer[key];
+                var assembled = {
+                    session_id: data.session_id,
+                    status: 'ok',
+                    response_html: fullHtml,
+                    chart_url: buf.chart_url,
+                    tools_used: buf.tools_used,
+                    elapsed_ms: buf.elapsed_ms
+                };
+                if (pendingResolve) {
+                    pendingResolve(assembled);
+                    pendingResolve = null;
+                }
+            }
+        });
         console.log('[Tasknova] Pusher connected, session:', SESSION_ID);
     }).catch(function(err) {
         console.error('[Tasknova] Failed to load Pusher config:', err);
