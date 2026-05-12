@@ -1,0 +1,31 @@
+store_id,store_name,city,pincode,store_type,size_sqft,online_enabled,delivery_radius_km,opened_date
+WF-001,Wellness Forever Mumbai NEI-1,Mumbai,400097,Neighborhood,1181,False,0,2023-04-28
+WF-002,Wellness Forever Mumbai STA-2,Mumbai,400053,Standard,2457,True,10,2021-07-25
+WF-003,Wellness Forever Mumbai NEI-3,Mumbai,400053,Neighborhood,1004,False,0,2022-01-26
+WF-004,Wellness Forever Mumbai STA-4,Mumbai,400080,Standard,1520,True,10,2022-03-13
+WF-005,Wellness Forever Mumbai STA-5,Mumbai,400050,Standard,1815,True,5,2022-04-18
+WF-006,Wellness Forever Mumbai STA-6,Mumbai,400058,Standard,2397,True,10,2019-10-17
+WF-007,Wellness Forever Mumbai NEI-7,Mumbai,400076,Neighborhood,927,True,5,2020-10-25
+WF-008,Wellness Forever Mumbai NEI-8,Mumbai,400076,Neighborhood,1061,False,0,2021-01-16
+WF-009,Wellness Forever Mumbai STA-9,Mumbai,400069,Standard,2913,True,5,2019-09-25
+WF-010,Wellness Forever Mumbai FLA-10,Mumbai,400050,Flagship,4702,True,5,2019-07-08
+WF-011,Wellness Forever Mumbai FLA-11,Mumbai,400086,Flagship,4161,True,5,2021-02-11
+WF-012,Wellness Forever Mumbai STA-12,Mumbai,400076,Standard,1769,True,10,2021-01-21
+WF-013,Wellness Forever Pune STA-13,Pune,411038,Standard,3225,True,5,2021-06-08
+WF-014,Wellness Forever Pune STA-14,Pune,411004,Standard,2576,False,0,2023-04-30
+WF-015,Wellness Forever Pune STA-15,Pune,411038,Standard,1879,True,7,2023-08-31
+WF-016,Wellness Forever Pune STA-16,Pune,411001,Standard,3380,False,0,2022-01-25
+WF-017,Wellness Forever Pune FLA-17,Pune,411014,Flagship,5495,True,7,2022-03-21
+WF-018,Wellness Forever Pune FLA-18,Pune,411014,Flagship,4391,True,7,2023-01-19
+WF-019,Wellness Forever Thane NEI-19,Thane,400601,Neighborhood,878,False,0,2021-01-20
+WF-020,Wellness Forever Thane FLA-20,Thane,400610,Flagship,4040,True,7,2023-04-17
+WF-021,Wellness Forever Thane STA-21,Thane,400610,Standard,3363,True,10,2022-06-19
+WF-022,Wellness Forever Thane NEI-22,Thane,400602,Neighborhood,906,True,7,2021-12-20
+WF-023,Wellness Forever Navi Mumbai STA-23,Navi Mumbai,400706,Standard,3395,False,0,2021-03-18
+WF-024,Wellness Forever Navi Mumbai NEI-24,Navi Mumbai,400709,Neighborhood,1112,False,0,2021-01-09
+WF-025,Wellness Forever Navi Mumbai STA-25,Navi Mumbai,400709,Standard,2741,False,0,2021-06-16
+WF-026,Wellness Forever Nashik STA-26,Nashik,422001,Standard,2294,False,0,2019-07-10
+WF-027,Wellness Forever Nashik STA-27,Nashik,422001,Standard,2391,True,10,2021-10-22
+WF-028,Wellness Forever Goa STA-28,Goa,403001,Standard,2764,True,10,2022-07-07
+WF-029,Wellness Forever Bengaluru STA-29,Bengaluru,560001,Standard,2930,True,7,2022-05-12
+WF-030,Wellness Forever Bengaluru STA-30,Bengaluru,560001,Standard,2559,True,7,2020-05-16

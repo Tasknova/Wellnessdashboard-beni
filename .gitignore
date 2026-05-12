@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.claude/
+chatbot_query.txt
+chatbot_response.txt
+*.egg-info/
+.env

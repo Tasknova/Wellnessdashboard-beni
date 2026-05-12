@@ -1,0 +1,1785 @@
+{
+  "descriptive": {
+    "monthly_revenue": [
+      {
+        "period": "2024-05",
+        "revenue": 30150458.45,
+        "growth_pct": NaN
+      },
+      {
+        "period": "2024-06",
+        "revenue": 26957976.3,
+        "growth_pct": -10.588502842483305
+      },
+      {
+        "period": "2024-07",
+        "revenue": 25736285.75,
+        "growth_pct": -4.53183331124154
+      },
+      {
+        "period": "2024-08",
+        "revenue": 27016102.33,
+        "growth_pct": 4.9728099556867855
+      },
+      {
+        "period": "2024-09",
+        "revenue": 27869290.13,
+        "growth_pct": 3.1580713960080775
+      },
+      {
+        "period": "2024-10",
+        "revenue": 41196914.23,
+        "growth_pct": 47.821900155445384
+      },
+      {
+        "period": "2024-11",
+        "revenue": 41410047.72,
+        "growth_pct": 0.5173530444782637
+      },
+      {
+        "period": "2024-12",
+        "revenue": 33770382.4,
+        "growth_pct": -18.448820372429164
+      },
+      {
+        "period": "2025-01",
+        "revenue": 31887226.02,
+        "growth_pct": -5.5763549186224175
+      },
+      {
+        "period": "2025-02",
+        "revenue": 25911442.62,
+        "growth_pct": -18.74036768282047
+      },
+      {
+        "period": "2025-03",
+        "revenue": 30428730.69,
+        "growth_pct": 17.433564530726997
+      },
+      {
+        "period": "2025-04",
+        "revenue": 30419687.1,
+        "growth_pct": -0.029720562754109725
+      },
+      {
+        "period": "2025-05",
+        "revenue": 33640641.64,
+        "growth_pct": 10.588388136313199
+      },
+      {
+        "period": "2025-06",
+        "revenue": 29684064.18,
+        "growth_pct": -11.761302005891228
+      },
+      {
+        "period": "2025-07",
+        "revenue": 29124006.26,
+        "growth_pct": -1.8867292450382989
+      },
+      {
+        "period": "2025-08",
+        "revenue": 30856587.94,
+        "growth_pct": 5.948981278649135
+      },
+      {
+        "period": "2025-09",
+        "revenue": 30745830.97,
+        "growth_pct": -0.358941079990327
+      },
+      {
+        "period": "2025-10",
+        "revenue": 45644154.66,
+        "growth_pct": 48.45640277062904
+      },
+      {
+        "period": "2025-11",
+        "revenue": 45292773.66,
+        "growth_pct": -0.7698269419543657
+      },
+      {
+        "period": "2025-12",
+        "revenue": 36965344.09,
+        "growth_pct": -18.385779666557067
+      },
+      {
+        "period": "2026-01",
+        "revenue": 35495879.48,
+        "growth_pct": -3.975249375258838
+      },
+      {
+        "period": "2026-02",
+        "revenue": 29390768.73,
+        "growth_pct": -17.19949143235032
+      },
+      {
+        "period": "2026-03",
+        "revenue": 33875375.35,
+        "growth_pct": 15.258555028614929
+      },
+      {
+        "period": "2026-04",
+        "revenue": 33227355.43,
+        "growth_pct": -1.912952737215945
+      }
+    ],
+    "revenue_summary": {
+      "total_revenue": 786697326.13,
+      "fy25_revenue": 372754543.74,
+      "fy26_revenue": 413942782.39,
+      "yoy_growth_pct": 11.049694589029391,
+      "total_delivered_orders": 48211,
+      "aov": 16317.797310364855
+    },
+    "category_analysis": [
+      {
+        "category": "Rx Medicines",
+        "revenue": 384885268.5,
+        "orders": 26273,
+        "items": 59193,
+        "margin": 70815520.14,
+        "revenue_pct": 48.92418668732053,
+        "margin_pct": 18.39912460562257
+      },
+      {
+        "category": "Wellness",
+        "revenue": 169548555.02,
+        "orders": 10680,
+        "items": 21263,
+        "margin": 58152845.34,
+        "revenue_pct": 21.55194245467443,
+        "margin_pct": 34.29863812943748
+      },
+      {
+        "category": "OTC Medicines",
+        "revenue": 112564362.91,
+        "orders": 15714,
+        "items": 32312,
+        "margin": 34248125.96,
+        "revenue_pct": 14.308471526621025,
+        "margin_pct": 30.425371826945653
+      },
+      {
+        "category": "Beauty & Personal Care",
+        "revenue": 95576124.44,
+        "orders": 8521,
+        "items": 16770,
+        "margin": 32491810.84,
+        "revenue_pct": 12.149033848909543,
+        "margin_pct": 33.99574007669399
+      },
+      {
+        "category": "FMCG",
+        "revenue": 24123015.26,
+        "orders": 5802,
+        "items": 11033,
+        "margin": 3933081.81,
+        "revenue_pct": 3.0663654824744793,
+        "margin_pct": 16.30427111871752
+      }
+    ],
+    "product_pareto": {
+      "n_80": 131,
+      "pct_80": 13.100000000000001,
+      "total_products": 1000
+    },
+    "top_brands": [
+      {
+        "brand": "Sun Pharma",
+        "revenue": 103507500.33
+      },
+      {
+        "brand": "Ipca",
+        "revenue": 37859120.97
+      },
+      {
+        "brand": "Herbalife",
+        "revenue": 35880815.2
+      },
+      {
+        "brand": "Aurobindo",
+        "revenue": 32721229.75
+      },
+      {
+        "brand": "Dettol",
+        "revenue": 29057989.189999998
+      },
+      {
+        "brand": "HealthKart",
+        "revenue": 28248565.23
+      },
+      {
+        "brand": "Lupin",
+        "revenue": 23945438.400000002
+      },
+      {
+        "brand": "Patanjali",
+        "revenue": 23469090.35
+      },
+      {
+        "brand": "Burnol",
+        "revenue": 23345832.66
+      },
+      {
+        "brand": "Plum",
+        "revenue": 22916632.92
+      },
+      {
+        "brand": "Amway",
+        "revenue": 20378330.75
+      },
+      {
+        "brand": "Macleods",
+        "revenue": 20273118.11
+      },
+      {
+        "brand": "Abbott India",
+        "revenue": 19667788.89
+      },
+      {
+        "brand": "Torrent Pharma",
+        "revenue": 18694826.16
+      },
+      {
+        "brand": "Himalaya",
+        "revenue": 18423338.4
+      }
+    ],
+    "store_performance": [
+      {
+        "store_id": "WF-022",
+        "revenue": 31544505.84,
+        "orders": 1936,
+        "margin": 8042625.78,
+        "store_name": "Wellness Forever Thane NEI-22",
+        "city": "Thane",
+        "store_type": "Neighborhood",
+        "margin_pct": 25.496122274965394
+      },
+      {
+        "store_id": "WF-029",
+        "revenue": 31412535.71,
+        "orders": 1857,
+        "margin": 7905661.28,
+        "store_name": "Wellness Forever Bengaluru STA-29",
+        "city": "Bengaluru",
+        "store_type": "Standard",
+        "margin_pct": 25.167217804334328
+      },
+      {
+        "store_id": "WF-027",
+        "revenue": 31078958.03,
+        "orders": 1906,
+        "margin": 7928744.49,
+        "store_name": "Wellness Forever Nashik STA-27",
+        "city": "Nashik",
+        "store_type": "Standard",
+        "margin_pct": 25.511616194939723
+      },
+      {
+        "store_id": "WF-013",
+        "revenue": 30948083.64,
+        "orders": 1909,
+        "margin": 7778870.33,
+        "store_name": "Wellness Forever Pune STA-13",
+        "city": "Pune",
+        "store_type": "Standard",
+        "margin_pct": 25.135224592536353
+      },
+      {
+        "store_id": "WF-021",
+        "revenue": 30774175.71,
+        "orders": 1879,
+        "margin": 7824694.34,
+        "store_name": "Wellness Forever Thane STA-21",
+        "city": "Thane",
+        "store_type": "Standard",
+        "margin_pct": 25.426170350542915
+      },
+      {
+        "store_id": "WF-015",
+        "revenue": 30577461.68,
+        "orders": 1859,
+        "margin": 7722007.96,
+        "store_name": "Wellness Forever Pune STA-15",
+        "city": "Pune",
+        "store_type": "Standard",
+        "margin_pct": 25.253920815313407
+      },
+      {
+        "store_id": "WF-007",
+        "revenue": 30409724.6,
+        "orders": 1831,
+        "margin": 7792018.94,
+        "store_name": "Wellness Forever Mumbai NEI-7",
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "margin_pct": 25.623444613503672
+      },
+      {
+        "store_id": "WF-005",
+        "revenue": 30397405.76,
+        "orders": 1798,
+        "margin": 7744879.26,
+        "store_name": "Wellness Forever Mumbai STA-5",
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.478750789291038
+      },
+      {
+        "store_id": "WF-012",
+        "revenue": 30279846.56,
+        "orders": 1847,
+        "margin": 7732713.18,
+        "store_name": "Wellness Forever Mumbai STA-12",
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.53749129698364
+      },
+      {
+        "store_id": "WF-017",
+        "revenue": 30275822.0,
+        "orders": 1842,
+        "margin": 7615605.55,
+        "store_name": "Wellness Forever Pune FLA-17",
+        "city": "Pune",
+        "store_type": "Flagship",
+        "margin_pct": 25.154083512579774
+      },
+      {
+        "store_id": "WF-009",
+        "revenue": 30222734.49,
+        "orders": 1895,
+        "margin": 7603852.86,
+        "store_name": "Wellness Forever Mumbai STA-9",
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.15938080492332
+      },
+      {
+        "store_id": "WF-020",
+        "revenue": 30059781.09,
+        "orders": 1849,
+        "margin": 7603829.41,
+        "store_name": "Wellness Forever Thane FLA-20",
+        "city": "Thane",
+        "store_type": "Flagship",
+        "margin_pct": 25.295691233525215
+      },
+      {
+        "store_id": "WF-002",
+        "revenue": 29966352.0,
+        "orders": 1838,
+        "margin": 7530434.11,
+        "store_name": "Wellness Forever Mumbai STA-2",
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.129632429065772
+      },
+      {
+        "store_id": "WF-011",
+        "revenue": 29617956.91,
+        "orders": 1838,
+        "margin": 7518613.19,
+        "store_name": "Wellness Forever Mumbai FLA-11",
+        "city": "Mumbai",
+        "store_type": "Flagship",
+        "margin_pct": 25.38532017197131
+      },
+      {
+        "store_id": "WF-006",
+        "revenue": 29588031.25,
+        "orders": 1851,
+        "margin": 7517190.7700000005,
+        "store_name": "Wellness Forever Mumbai STA-6",
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.406187746945818
+      },
+      {
+        "store_id": "WF-028",
+        "revenue": 29519067.52,
+        "orders": 1828,
+        "margin": 7523680.9,
+        "store_name": "Wellness Forever Goa STA-28",
+        "city": "Goa",
+        "store_type": "Standard",
+        "margin_pct": 25.487529017989797
+      },
+      {
+        "store_id": "WF-030",
+        "revenue": 29470090.57,
+        "orders": 1817,
+        "margin": 7427685.5200000005,
+        "store_name": "Wellness Forever Bengaluru STA-30",
+        "city": "Bengaluru",
+        "store_type": "Standard",
+        "margin_pct": 25.204148939946748
+      },
+      {
+        "store_id": "WF-004",
+        "revenue": 29449156.01,
+        "orders": 1819,
+        "margin": 7483854.21,
+        "store_name": "Wellness Forever Mumbai STA-4",
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.41279691499043
+      },
+      {
+        "store_id": "WF-010",
+        "revenue": 29290020.16,
+        "orders": 1832,
+        "margin": 7407520.0,
+        "store_name": "Wellness Forever Mumbai FLA-10",
+        "city": "Mumbai",
+        "store_type": "Flagship",
+        "margin_pct": 25.29025230961125
+      },
+      {
+        "store_id": "WF-018",
+        "revenue": 28726404.39,
+        "orders": 1754,
+        "margin": 7304855.8,
+        "store_name": "Wellness Forever Pune FLA-18",
+        "city": "Pune",
+        "store_type": "Flagship",
+        "margin_pct": 25.429064148880766
+      },
+      {
+        "store_id": "WF-016",
+        "revenue": 19116826.82,
+        "orders": 1166,
+        "margin": 4900702.6,
+        "store_name": "Wellness Forever Pune STA-16",
+        "city": "Pune",
+        "store_type": "Standard",
+        "margin_pct": 25.63554425713001
+      },
+      {
+        "store_id": "WF-026",
+        "revenue": 18905611.45,
+        "orders": 1157,
+        "margin": 4827653.41,
+        "store_name": "Wellness Forever Nashik STA-26",
+        "city": "Nashik",
+        "store_type": "Standard",
+        "margin_pct": 25.535558174184313
+      },
+      {
+        "store_id": "WF-014",
+        "revenue": 18805819.06,
+        "orders": 1105,
+        "margin": 4781951.13,
+        "store_name": "Wellness Forever Pune STA-14",
+        "city": "Pune",
+        "store_type": "Standard",
+        "margin_pct": 25.428039665505537
+      },
+      {
+        "store_id": "WF-025",
+        "revenue": 18717966.14,
+        "orders": 1127,
+        "margin": 4841485.45,
+        "store_name": "Wellness Forever Navi Mumbai STA-25",
+        "city": "Navi Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.865446137621873
+      },
+      {
+        "store_id": "WF-008",
+        "revenue": 18377715.07,
+        "orders": 1088,
+        "margin": 4648720.06,
+        "store_name": "Wellness Forever Mumbai NEI-8",
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "margin_pct": 25.29541916551218
+      },
+      {
+        "store_id": "WF-001",
+        "revenue": 18344398.04,
+        "orders": 1126,
+        "margin": 4647764.42,
+        "store_name": "Wellness Forever Mumbai NEI-1",
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "margin_pct": 25.336151177408713
+      },
+      {
+        "store_id": "WF-023",
+        "revenue": 18039526.98,
+        "orders": 1138,
+        "margin": 4619129.32,
+        "store_name": "Wellness Forever Navi Mumbai STA-23",
+        "city": "Navi Mumbai",
+        "store_type": "Standard",
+        "margin_pct": 25.605601106509724
+      },
+      {
+        "store_id": "WF-024",
+        "revenue": 17899936.04,
+        "orders": 1118,
+        "margin": 4473358.19,
+        "store_name": "Wellness Forever Navi Mumbai NEI-24",
+        "city": "Navi Mumbai",
+        "store_type": "Neighborhood",
+        "margin_pct": 24.9909171742493
+      },
+      {
+        "store_id": "WF-003",
+        "revenue": 17568894.27,
+        "orders": 1126,
+        "margin": 4463851.23,
+        "store_name": "Wellness Forever Mumbai NEI-3",
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "margin_pct": 25.407695905042292
+      },
+      {
+        "store_id": "WF-019",
+        "revenue": 17312518.34,
+        "orders": 1075,
+        "margin": 4427430.4,
+        "store_name": "Wellness Forever Thane NEI-19",
+        "city": "Thane",
+        "store_type": "Neighborhood",
+        "margin_pct": 25.573578107181376
+      }
+    ],
+    "city_revenue": [
+      {
+        "city": "Mumbai",
+        "revenue": 323512235.12,
+        "stores": 12,
+        "rev_per_store": 26959352.926666666
+      },
+      {
+        "city": "Pune",
+        "revenue": 158450417.59,
+        "stores": 6,
+        "rev_per_store": 26408402.93166667
+      },
+      {
+        "city": "Thane",
+        "revenue": 109690980.98,
+        "stores": 4,
+        "rev_per_store": 27422745.245
+      },
+      {
+        "city": "Bengaluru",
+        "revenue": 60882626.28,
+        "stores": 2,
+        "rev_per_store": 30441313.14
+      },
+      {
+        "city": "Navi Mumbai",
+        "revenue": 54657429.16,
+        "stores": 3,
+        "rev_per_store": 18219143.05333333
+      },
+      {
+        "city": "Nashik",
+        "revenue": 49984569.480000004,
+        "stores": 2,
+        "rev_per_store": 24992284.740000002
+      },
+      {
+        "city": "Goa",
+        "revenue": 29519067.52,
+        "stores": 1,
+        "rev_per_store": 29519067.52
+      }
+    ],
+    "store_type_comparison": [
+      {
+        "store_type": "Flagship",
+        "revenue": 147969984.55,
+        "stores": 5,
+        "margin_pct": 25.310882275313663,
+        "rev_per_store": 29593996.910000004
+      },
+      {
+        "store_type": "Neighborhood",
+        "revenue": 151457692.2,
+        "stores": 7,
+        "margin_pct": 25.38904691683756,
+        "rev_per_store": 21636813.17142857
+      },
+      {
+        "store_type": "Standard",
+        "revenue": 487269649.38,
+        "stores": 18,
+        "margin_pct": 25.41001427993082,
+        "rev_per_store": 27070536.076666668
+      }
+    ],
+    "channel_mix": {
+      "online_revenue": 237432555.85999998,
+      "offline_revenue": 549264770.27,
+      "online_share_pct": 30.180928290172528
+    },
+    "channel_trend": [
+      {
+        "order_month": "2024-05",
+        "Offline": 20958840.45,
+        "Online": 9191618.0,
+        "online_pct": 30.485831634178684
+      },
+      {
+        "order_month": "2024-06",
+        "Offline": 18841799.18,
+        "Online": 8116177.12,
+        "online_pct": 30.10677444656704
+      },
+      {
+        "order_month": "2024-07",
+        "Offline": 17773349.33,
+        "Online": 7962936.42,
+        "online_pct": 30.940503603943704
+      },
+      {
+        "order_month": "2024-08",
+        "Offline": 19158612.18,
+        "Online": 7857490.15,
+        "online_pct": 29.084469898807942
+      },
+      {
+        "order_month": "2024-09",
+        "Offline": 20296121.86,
+        "Online": 7573168.27,
+        "online_pct": 27.173882917985896
+      },
+      {
+        "order_month": "2024-10",
+        "Offline": 28416461.91,
+        "Online": 12780452.32,
+        "online_pct": 31.02283886760904
+      },
+      {
+        "order_month": "2024-11",
+        "Offline": 28319775.21,
+        "Online": 13090272.51,
+        "online_pct": 31.61134369733588
+      },
+      {
+        "order_month": "2024-12",
+        "Offline": 24100676.97,
+        "Online": 9669705.43,
+        "online_pct": 28.633686511053547
+      },
+      {
+        "order_month": "2025-01",
+        "Offline": 22697807.65,
+        "Online": 9189418.37,
+        "online_pct": 28.818494165144067
+      },
+      {
+        "order_month": "2025-02",
+        "Offline": 18189241.68,
+        "Online": 7722200.94,
+        "online_pct": 29.80228099704315
+      },
+      {
+        "order_month": "2025-03",
+        "Offline": 20674399.88,
+        "Online": 9754330.81,
+        "online_pct": 32.05631844908218
+      },
+      {
+        "order_month": "2025-04",
+        "Offline": 20787988.24,
+        "Online": 9631698.86,
+        "online_pct": 31.662715097421234
+      },
+      {
+        "order_month": "2025-05",
+        "Offline": 23241217.92,
+        "Online": 10399423.72,
+        "online_pct": 30.913273983557705
+      },
+      {
+        "order_month": "2025-06",
+        "Offline": 20444824.1,
+        "Online": 9239240.08,
+        "online_pct": 31.12525301109223
+      },
+      {
+        "order_month": "2025-07",
+        "Offline": 20628419.03,
+        "Online": 8495587.23,
+        "online_pct": 29.170393503410818
+      },
+      {
+        "order_month": "2025-08",
+        "Offline": 22298747.48,
+        "Online": 8557840.459999999,
+        "online_pct": 27.734240988149907
+      },
+      {
+        "order_month": "2025-09",
+        "Offline": 20891309.05,
+        "Online": 9854521.92,
+        "online_pct": 32.05157125079973
+      },
+      {
+        "order_month": "2025-10",
+        "Offline": 31293744.98,
+        "Online": 14350409.68,
+        "online_pct": 31.43975342931677
+      },
+      {
+        "order_month": "2025-11",
+        "Offline": 32411622.96,
+        "Online": 12881150.7,
+        "online_pct": 28.439748019618193
+      },
+      {
+        "order_month": "2025-12",
+        "Offline": 25665693.28,
+        "Online": 11299650.81,
+        "online_pct": 30.568228399250373
+      },
+      {
+        "order_month": "2026-01",
+        "Offline": 24259888.09,
+        "Online": 11235991.39,
+        "online_pct": 31.65435412392267
+      },
+      {
+        "order_month": "2026-02",
+        "Offline": 20353915.01,
+        "Online": 9036853.72,
+        "online_pct": 30.747251979074044
+      },
+      {
+        "order_month": "2026-03",
+        "Offline": 23662411.29,
+        "Online": 10212964.06,
+        "online_pct": 30.14863733458233
+      },
+      {
+        "order_month": "2026-04",
+        "Offline": 23897902.54,
+        "Online": 9329452.89,
+        "online_pct": 28.077626910917843
+      }
+    ],
+    "payment_modes": [
+      {
+        "mode": "UPI",
+        "count": 16902
+      },
+      {
+        "mode": "Cash",
+        "count": 14729
+      },
+      {
+        "mode": "Credit Card",
+        "count": 7126
+      },
+      {
+        "mode": "Debit Card",
+        "count": 5921
+      },
+      {
+        "mode": "Wallet",
+        "count": 2383
+      },
+      {
+        "mode": "Net Banking",
+        "count": 1150
+      }
+    ],
+    "rx_vs_otc": {
+      "rx_revenue": 384885268.5,
+      "non_rx_revenue": 401812057.63,
+      "rx_share_pct": 48.92418668732053
+    },
+    "generic_vs_branded": {
+      "generic_revenue": 126731897.00999999,
+      "branded_revenue": 659965429.1199999,
+      "generic_margin_pct": 18.706980499257657,
+      "branded_margin_pct": 26.658013445430097
+    }
+  },
+  "predictive": {
+    "rfm_segments": {
+      "Lost": {
+        "count": 1228,
+        "pct": 24.56491298259652
+      },
+      "Loyal": {
+        "count": 944,
+        "pct": 18.88377675535107
+      },
+      "New Customers": {
+        "count": 835,
+        "pct": 16.703340668133627
+      },
+      "At Risk": {
+        "count": 760,
+        "pct": 15.203040608121624
+      },
+      "Champions": {
+        "count": 758,
+        "pct": 15.163032606521304
+      },
+      "Needs Attention": {
+        "count": 474,
+        "pct": 9.481896379275854
+      }
+    },
+    "clv_by_segment": [
+      {
+        "segment": "At Risk",
+        "mean": 190995.91338157892,
+        "median": 185590.22499999998,
+        "sum": 145156894.17
+      },
+      {
+        "segment": "Champions",
+        "mean": 229516.50502638522,
+        "median": 222854.045,
+        "sum": 173973510.81
+      },
+      {
+        "segment": "Lost",
+        "mean": 110752.94570032573,
+        "median": 108323.29999999999,
+        "sum": 136004617.32
+      },
+      {
+        "segment": "Loyal",
+        "mean": 180909.9465148305,
+        "median": 167930.995,
+        "sum": 170778989.51
+      },
+      {
+        "segment": "Needs Attention",
+        "mean": 120442.4258649789,
+        "median": 119997.875,
+        "sum": 57089709.86
+      },
+      {
+        "segment": "New Customers",
+        "mean": 124183.95743712575,
+        "median": 121839.28,
+        "sum": 103693604.46
+      }
+    ],
+    "churn_signals": {
+      "at_risk_customers": 1538,
+      "churn_rate_pct": 30.766153230646132,
+      "at_risk_revenue": 212074603.63
+    },
+    "retention_cohorts": {
+      "cohorts": [
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04"
+      ],
+      "periods": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "rates": [
+        [
+          100.0,
+          27.39018087855297,
+          27.002583979328165,
+          29.069767441860467,
+          28.617571059431523,
+          38.95348837209303,
+          40.116279069767444,
+          33.4625322997416,
+          33.13953488372093,
+          29.134366925064597,
+          31.976744186046513,
+          33.0749354005168
+        ],
+        [
+          100.0,
+          26.632653061224488,
+          27.857142857142858,
+          31.83673469387755,
+          36.224489795918366,
+          37.6530612244898,
+          33.6734693877551,
+          29.591836734693878,
+          26.632653061224488,
+          30.408163265306122,
+          31.53061224489796,
+          33.16326530612245
+        ],
+        [
+          100.0,
+          27.694610778443113,
+          26.94610778443114,
+          41.467065868263475,
+          39.970059880239525,
+          34.4311377245509,
+          31.736526946107784,
+          28.74251497005988,
+          32.93413173652694,
+          29.191616766467064,
+          33.532934131736525,
+          28.74251497005988
+        ],
+        [
+          100.0,
+          31.163708086785007,
+          39.8422090729783,
+          41.61735700197239,
+          30.96646942800789,
+          30.76923076923077,
+          26.232741617357004,
+          29.78303747534517,
+          32.149901380670606,
+          35.50295857988166,
+          30.57199211045365,
+          29.388560157790927
+        ],
+        [
+          100.0,
+          44.24778761061947,
+          41.88790560471977,
+          34.21828908554572,
+          30.678466076696164,
+          30.678466076696164,
+          36.87315634218289,
+          28.023598820058996,
+          35.693215339233035,
+          30.973451327433626,
+          23.59882005899705,
+          32.743362831858406
+        ],
+        [
+          100.0,
+          35.35911602209944,
+          35.0828729281768,
+          34.530386740331494,
+          26.795580110497237,
+          27.900552486187845,
+          27.071823204419886,
+          31.215469613259668,
+          28.7292817679558,
+          31.491712707182316,
+          36.46408839779006,
+          28.176795580110497
+        ],
+        [
+          100.0,
+          33.60995850622407,
+          35.26970954356847,
+          27.385892116182575,
+          33.60995850622407,
+          29.460580912863072,
+          33.60995850622407,
+          29.87551867219917,
+          33.60995850622407,
+          28.63070539419087,
+          33.19502074688796,
+          46.058091286307054
+        ],
+        [
+          100.0,
+          34.67741935483871,
+          20.967741935483872,
+          36.29032258064516,
+          19.35483870967742,
+          36.29032258064516,
+          27.419354838709676,
+          30.64516129032258,
+          25.806451612903224,
+          25.806451612903224,
+          42.74193548387097,
+          43.54838709677419
+        ],
+        [
+          100.0,
+          26.027397260273972,
+          31.506849315068493,
+          24.65753424657534,
+          35.61643835616438,
+          41.0958904109589,
+          35.61643835616438,
+          26.027397260273972,
+          24.65753424657534,
+          36.986301369863014,
+          42.465753424657535,
+          31.506849315068493
+        ],
+        [
+          100.0,
+          30.952380952380953,
+          42.857142857142854,
+          35.714285714285715,
+          35.714285714285715,
+          19.047619047619047,
+          35.714285714285715,
+          35.714285714285715,
+          47.61904761904761,
+          40.476190476190474,
+          23.809523809523807,
+          30.952380952380953
+        ],
+        [
+          100.0,
+          22.857142857142858,
+          34.285714285714285,
+          45.714285714285715,
+          22.857142857142858,
+          37.142857142857146,
+          51.42857142857142,
+          51.42857142857142,
+          37.142857142857146,
+          40.0,
+          45.714285714285715,
+          28.57142857142857
+        ],
+        [
+          100.0,
+          38.88888888888889,
+          33.33333333333333,
+          30.555555555555557,
+          44.44444444444444,
+          30.555555555555557,
+          38.88888888888889,
+          58.333333333333336,
+          47.22222222222222,
+          22.22222222222222,
+          41.66666666666667,
+          30.555555555555557
+        ]
+      ]
+    },
+    "subscription_stats": {
+      "rx_upload_customers": 726,
+      "subscription_customers": 397,
+      "rx_upload_pct": 14.52,
+      "subscription_pct": 7.9399999999999995
+    },
+    "revenue_anomalies": [
+      {
+        "month": "2025-10",
+        "revenue": 45644154.66
+      },
+      {
+        "month": "2025-11",
+        "revenue": 45292773.66
+      }
+    ],
+    "customer_pareto": {
+      "n_80": 3304,
+      "pct_80": 66.09321864372875,
+      "total_customers": 4999
+    }
+  },
+  "strategic": {
+    "revenue_leakage": {
+      "gross_potential": 880065444.8593731,
+      "delivered_revenue": 786697326.13,
+      "cancellation_loss": 41016304.05,
+      "return_loss": 26571961.22,
+      "stockout_loss": 24175813.98376423,
+      "delay_loss": 1604039.4756088653,
+      "total_leakage": 93368118.7293731,
+      "leakage_pct": 10.609224492877631
+    },
+    "cancellation_reasons": [
+      {
+        "reason": "Wrong item ordered",
+        "count": 450
+      },
+      {
+        "reason": "Delivery delay",
+        "count": 446
+      },
+      {
+        "reason": "Product unavailable",
+        "count": 443
+      },
+      {
+        "reason": "Duplicate order",
+        "count": 431
+      },
+      {
+        "reason": "Price issue",
+        "count": 416
+      },
+      {
+        "reason": "Customer changed mind",
+        "count": 406
+      }
+    ],
+    "return_reasons": [
+      {
+        "reason": "Wrong item received",
+        "count": 290
+      },
+      {
+        "reason": "Expired product",
+        "count": 281
+      },
+      {
+        "reason": "Allergic reaction",
+        "count": 274
+      },
+      {
+        "reason": "Changed mind",
+        "count": 270
+      },
+      {
+        "reason": "Damaged product",
+        "count": 259
+      },
+      {
+        "reason": "Quality issue",
+        "count": 257
+      }
+    ],
+    "margin_optimization": {
+      "overall_margin_pct": 25.377152998866265,
+      "total_margin": 199641384.09,
+      "branded_rx_margin_pct": 18.24799289201799,
+      "generic_rx_margin_pct": 18.706980499257657,
+      "generic_substitution_opportunity": 118489.198281048
+    },
+    "top_stockout_products": [
+      {
+        "product_id": "P-00074",
+        "oos_rate": 0.09487179487179487,
+        "avg_days_oos": 0.6461538461538462,
+        "product_name": "Natco Suspension 321",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00041",
+        "oos_rate": 0.09230769230769231,
+        "avg_days_oos": 0.5897435897435898,
+        "product_name": "Intas Injection 454",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00141",
+        "oos_rate": 0.09230769230769231,
+        "avg_days_oos": 0.6076923076923076,
+        "product_name": "Generic Torrent Pharma Ointment 762",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00118",
+        "oos_rate": 0.08974358974358974,
+        "avg_days_oos": 0.6051282051282051,
+        "product_name": "Cadila Injection 162",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00170",
+        "oos_rate": 0.08974358974358974,
+        "avg_days_oos": 0.6743589743589744,
+        "product_name": "Macleods Suspension 327",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00120",
+        "oos_rate": 0.08717948717948718,
+        "avg_days_oos": 0.5897435897435898,
+        "product_name": "Biocon Tablet 567",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00082",
+        "oos_rate": 0.08461538461538462,
+        "avg_days_oos": 0.5794871794871795,
+        "product_name": "Generic Ipca Injection 513",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00124",
+        "oos_rate": 0.08461538461538462,
+        "avg_days_oos": 0.6358974358974359,
+        "product_name": "Sun Pharma Powder 305",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00017",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.6025641025641025,
+        "product_name": "Alkem Capsule 838",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00053",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.5512820512820513,
+        "product_name": "Generic Macleods Powder 665",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00104",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.5743589743589743,
+        "product_name": "Generic Ipca Drops 976",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00121",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.6512820512820513,
+        "product_name": "Generic Ipca Tablet 196",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00128",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.6205128205128205,
+        "product_name": "Cadila Inhaler 259",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00146",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.5512820512820513,
+        "product_name": "Generic Zydus Tablet 358",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00151",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.5846153846153846,
+        "product_name": "Biocon Tablet 684",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00171",
+        "oos_rate": 0.08205128205128205,
+        "avg_days_oos": 0.5487179487179488,
+        "product_name": "Mankind Injection 818",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00013",
+        "oos_rate": 0.07948717948717948,
+        "avg_days_oos": 0.5641025641025641,
+        "product_name": "Generic Ipca Tablet 482",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00050",
+        "oos_rate": 0.07948717948717948,
+        "avg_days_oos": 0.5205128205128206,
+        "product_name": "Alkem Powder 199",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00079",
+        "oos_rate": 0.07948717948717948,
+        "avg_days_oos": 0.6307692307692307,
+        "product_name": "Sun Pharma Suspension 719",
+        "category": "Rx Medicines"
+      },
+      {
+        "product_id": "P-00161",
+        "oos_rate": 0.07948717948717948,
+        "avg_days_oos": 0.5102564102564102,
+        "product_name": "Natco Capsule 387",
+        "category": "Rx Medicines"
+      }
+    ],
+    "oos_by_store": [
+      {
+        "store_id": "WF-028",
+        "oos_rate": 0.07384615384615385,
+        "store_name": "Wellness Forever Goa STA-28",
+        "city": "Goa"
+      },
+      {
+        "store_id": "WF-012",
+        "oos_rate": 0.07192307692307692,
+        "store_name": "Wellness Forever Mumbai STA-12",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-004",
+        "oos_rate": 0.07076923076923076,
+        "store_name": "Wellness Forever Mumbai STA-4",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-024",
+        "oos_rate": 0.06807692307692308,
+        "store_name": "Wellness Forever Navi Mumbai NEI-24",
+        "city": "Navi Mumbai"
+      },
+      {
+        "store_id": "WF-005",
+        "oos_rate": 0.06769230769230769,
+        "store_name": "Wellness Forever Mumbai STA-5",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-013",
+        "oos_rate": 0.0673076923076923,
+        "store_name": "Wellness Forever Pune STA-13",
+        "city": "Pune"
+      },
+      {
+        "store_id": "WF-017",
+        "oos_rate": 0.06692307692307692,
+        "store_name": "Wellness Forever Pune FLA-17",
+        "city": "Pune"
+      },
+      {
+        "store_id": "WF-001",
+        "oos_rate": 0.06615384615384616,
+        "store_name": "Wellness Forever Mumbai NEI-1",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-009",
+        "oos_rate": 0.06423076923076923,
+        "store_name": "Wellness Forever Mumbai STA-9",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-006",
+        "oos_rate": 0.06384615384615384,
+        "store_name": "Wellness Forever Mumbai STA-6",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-022",
+        "oos_rate": 0.06346153846153846,
+        "store_name": "Wellness Forever Thane NEI-22",
+        "city": "Thane"
+      },
+      {
+        "store_id": "WF-008",
+        "oos_rate": 0.06346153846153846,
+        "store_name": "Wellness Forever Mumbai NEI-8",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-002",
+        "oos_rate": 0.06230769230769231,
+        "store_name": "Wellness Forever Mumbai STA-2",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-007",
+        "oos_rate": 0.06192307692307692,
+        "store_name": "Wellness Forever Mumbai NEI-7",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-020",
+        "oos_rate": 0.06153846153846154,
+        "store_name": "Wellness Forever Thane FLA-20",
+        "city": "Thane"
+      },
+      {
+        "store_id": "WF-025",
+        "oos_rate": 0.061153846153846156,
+        "store_name": "Wellness Forever Navi Mumbai STA-25",
+        "city": "Navi Mumbai"
+      },
+      {
+        "store_id": "WF-015",
+        "oos_rate": 0.061153846153846156,
+        "store_name": "Wellness Forever Pune STA-15",
+        "city": "Pune"
+      },
+      {
+        "store_id": "WF-019",
+        "oos_rate": 0.06,
+        "store_name": "Wellness Forever Thane NEI-19",
+        "city": "Thane"
+      },
+      {
+        "store_id": "WF-010",
+        "oos_rate": 0.05961538461538462,
+        "store_name": "Wellness Forever Mumbai FLA-10",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-014",
+        "oos_rate": 0.05884615384615385,
+        "store_name": "Wellness Forever Pune STA-14",
+        "city": "Pune"
+      },
+      {
+        "store_id": "WF-011",
+        "oos_rate": 0.05846153846153846,
+        "store_name": "Wellness Forever Mumbai FLA-11",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-016",
+        "oos_rate": 0.057692307692307696,
+        "store_name": "Wellness Forever Pune STA-16",
+        "city": "Pune"
+      },
+      {
+        "store_id": "WF-003",
+        "oos_rate": 0.05615384615384615,
+        "store_name": "Wellness Forever Mumbai NEI-3",
+        "city": "Mumbai"
+      },
+      {
+        "store_id": "WF-029",
+        "oos_rate": 0.05576923076923077,
+        "store_name": "Wellness Forever Bengaluru STA-29",
+        "city": "Bengaluru"
+      },
+      {
+        "store_id": "WF-026",
+        "oos_rate": 0.054615384615384614,
+        "store_name": "Wellness Forever Nashik STA-26",
+        "city": "Nashik"
+      },
+      {
+        "store_id": "WF-023",
+        "oos_rate": 0.054615384615384614,
+        "store_name": "Wellness Forever Navi Mumbai STA-23",
+        "city": "Navi Mumbai"
+      },
+      {
+        "store_id": "WF-027",
+        "oos_rate": 0.054615384615384614,
+        "store_name": "Wellness Forever Nashik STA-27",
+        "city": "Nashik"
+      },
+      {
+        "store_id": "WF-021",
+        "oos_rate": 0.05423076923076923,
+        "store_name": "Wellness Forever Thane STA-21",
+        "city": "Thane"
+      },
+      {
+        "store_id": "WF-030",
+        "oos_rate": 0.052307692307692305,
+        "store_name": "Wellness Forever Bengaluru STA-30",
+        "city": "Bengaluru"
+      },
+      {
+        "store_id": "WF-018",
+        "oos_rate": 0.051153846153846154,
+        "store_name": "Wellness Forever Pune FLA-18",
+        "city": "Pune"
+      }
+    ],
+    "oos_trend": [
+      {
+        "month": "2026-02",
+        "oos_rate": 6.016666666666667
+      },
+      {
+        "month": "2026-03",
+        "oos_rate": 6.241666666666667
+      },
+      {
+        "month": "2026-04",
+        "oos_rate": 6.173333333333334
+      }
+    ],
+    "store_expansion": [
+      {
+        "store_id": "WF-022",
+        "revenue": 31544505.84,
+        "city": "Thane",
+        "store_type": "Neighborhood",
+        "size_sqft": 906,
+        "rev_per_sqft": 34817.33536423841
+      },
+      {
+        "store_id": "WF-007",
+        "revenue": 30409724.6,
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "size_sqft": 927,
+        "rev_per_sqft": 32804.44940668824
+      },
+      {
+        "store_id": "WF-019",
+        "revenue": 17312518.34,
+        "city": "Thane",
+        "store_type": "Neighborhood",
+        "size_sqft": 878,
+        "rev_per_sqft": 19718.130227790432
+      },
+      {
+        "store_id": "WF-004",
+        "revenue": 29449156.01,
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 1520,
+        "rev_per_sqft": 19374.444743421052
+      },
+      {
+        "store_id": "WF-003",
+        "revenue": 17568894.27,
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "size_sqft": 1004,
+        "rev_per_sqft": 17498.898675298806
+      },
+      {
+        "store_id": "WF-008",
+        "revenue": 18377715.07,
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "size_sqft": 1061,
+        "rev_per_sqft": 17321.126361922714
+      },
+      {
+        "store_id": "WF-012",
+        "revenue": 30279846.56,
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 1769,
+        "rev_per_sqft": 17116.928524590163
+      },
+      {
+        "store_id": "WF-005",
+        "revenue": 30397405.76,
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 1815,
+        "rev_per_sqft": 16747.881961432508
+      },
+      {
+        "store_id": "WF-015",
+        "revenue": 30577461.68,
+        "city": "Pune",
+        "store_type": "Standard",
+        "size_sqft": 1879,
+        "rev_per_sqft": 16273.263267695582
+      },
+      {
+        "store_id": "WF-024",
+        "revenue": 17899936.04,
+        "city": "Navi Mumbai",
+        "store_type": "Neighborhood",
+        "size_sqft": 1112,
+        "rev_per_sqft": 16097.06478417266
+      },
+      {
+        "store_id": "WF-001",
+        "revenue": 18344398.04,
+        "city": "Mumbai",
+        "store_type": "Neighborhood",
+        "size_sqft": 1181,
+        "rev_per_sqft": 15532.936528365792
+      },
+      {
+        "store_id": "WF-027",
+        "revenue": 31078958.03,
+        "city": "Nashik",
+        "store_type": "Standard",
+        "size_sqft": 2391,
+        "rev_per_sqft": 12998.309506482643
+      },
+      {
+        "store_id": "WF-006",
+        "revenue": 29588031.25,
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 2397,
+        "rev_per_sqft": 12343.776074259491
+      },
+      {
+        "store_id": "WF-002",
+        "revenue": 29966352.0,
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 2457,
+        "rev_per_sqft": 12196.317460317461
+      },
+      {
+        "store_id": "WF-030",
+        "revenue": 29470090.57,
+        "city": "Bengaluru",
+        "store_type": "Standard",
+        "size_sqft": 2559,
+        "rev_per_sqft": 11516.252665103557
+      },
+      {
+        "store_id": "WF-029",
+        "revenue": 31412535.71,
+        "city": "Bengaluru",
+        "store_type": "Standard",
+        "size_sqft": 2930,
+        "rev_per_sqft": 10721.00194880546
+      },
+      {
+        "store_id": "WF-028",
+        "revenue": 29519067.52,
+        "city": "Goa",
+        "store_type": "Standard",
+        "size_sqft": 2764,
+        "rev_per_sqft": 10679.836295224313
+      },
+      {
+        "store_id": "WF-009",
+        "revenue": 30222734.49,
+        "city": "Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 2913,
+        "rev_per_sqft": 10375.123408856847
+      },
+      {
+        "store_id": "WF-013",
+        "revenue": 30948083.64,
+        "city": "Pune",
+        "store_type": "Standard",
+        "size_sqft": 3225,
+        "rev_per_sqft": 9596.305004651163
+      },
+      {
+        "store_id": "WF-021",
+        "revenue": 30774175.71,
+        "city": "Thane",
+        "store_type": "Standard",
+        "size_sqft": 3363,
+        "rev_per_sqft": 9150.81049955397
+      },
+      {
+        "store_id": "WF-026",
+        "revenue": 18905611.45,
+        "city": "Nashik",
+        "store_type": "Standard",
+        "size_sqft": 2294,
+        "rev_per_sqft": 8241.33018744551
+      },
+      {
+        "store_id": "WF-020",
+        "revenue": 30059781.09,
+        "city": "Thane",
+        "store_type": "Flagship",
+        "size_sqft": 4040,
+        "rev_per_sqft": 7440.539873762376
+      },
+      {
+        "store_id": "WF-014",
+        "revenue": 18805819.06,
+        "city": "Pune",
+        "store_type": "Standard",
+        "size_sqft": 2576,
+        "rev_per_sqft": 7300.3955978260865
+      },
+      {
+        "store_id": "WF-011",
+        "revenue": 29617956.91,
+        "city": "Mumbai",
+        "store_type": "Flagship",
+        "size_sqft": 4161,
+        "rev_per_sqft": 7117.990124969959
+      },
+      {
+        "store_id": "WF-025",
+        "revenue": 18717966.14,
+        "city": "Navi Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 2741,
+        "rev_per_sqft": 6828.882210871945
+      },
+      {
+        "store_id": "WF-018",
+        "revenue": 28726404.39,
+        "city": "Pune",
+        "store_type": "Flagship",
+        "size_sqft": 4391,
+        "rev_per_sqft": 6542.109858802095
+      },
+      {
+        "store_id": "WF-010",
+        "revenue": 29290020.16,
+        "city": "Mumbai",
+        "store_type": "Flagship",
+        "size_sqft": 4702,
+        "rev_per_sqft": 6229.268430455126
+      },
+      {
+        "store_id": "WF-016",
+        "revenue": 19116826.82,
+        "city": "Pune",
+        "store_type": "Standard",
+        "size_sqft": 3380,
+        "rev_per_sqft": 5655.8659230769235
+      },
+      {
+        "store_id": "WF-017",
+        "revenue": 30275822.0,
+        "city": "Pune",
+        "store_type": "Flagship",
+        "size_sqft": 5495,
+        "rev_per_sqft": 5509.7037306642405
+      },
+      {
+        "store_id": "WF-023",
+        "revenue": 18039526.98,
+        "city": "Navi Mumbai",
+        "store_type": "Standard",
+        "size_sqft": 3395,
+        "rev_per_sqft": 5313.557284241532
+      }
+    ],
+    "delivery_sla": {
+      "sla_compliance_pct": 93.26112291766641,
+      "avg_delivery_days": 1.0604647974223624,
+      "delayed_orders": 983,
+      "total_online_delivered": 14587
+    },
+    "day_of_week": [
+      {
+        "day": "Monday",
+        "revenue": 107186277.74
+      },
+      {
+        "day": "Tuesday",
+        "revenue": 107570537.52
+      },
+      {
+        "day": "Wednesday",
+        "revenue": 110511739.74
+      },
+      {
+        "day": "Thursday",
+        "revenue": 109419512.22
+      },
+      {
+        "day": "Friday",
+        "revenue": 109042793.24
+      },
+      {
+        "day": "Saturday",
+        "revenue": 120707037.16
+      },
+      {
+        "day": "Sunday",
+        "revenue": 122259428.51
+      }
+    ]
+  },
+  "generated_at": "2026-05-09T11:49:27.362039"
+}
