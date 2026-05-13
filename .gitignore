@@ -1,0 +1,55 @@
+# Secrets
+.env
+vercel-env-import.env
+
+# Generated data (regenerate with: python data/generate_synthetic_data.py)
+data/*.csv
+data/*.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated HTML showcases (rebuild with _build_*.py / _generate_*.py)
+*.html
+*.zip
+
+# Generated chart data
+_all_charts.json
+_exec_charts.json
+_chart_data.json
+_charts_index.json
+_embed_cache.json
+
+# Logs and temp files
+_ws_log.txt
+_question_log.txt
+_top_questions.txt
+_test_*.txt
+_test_*.py
+chatbot_response.txt
+inventory-intelligence-report.txt
+analysis/_chatbot.log
+analysis/_prompt.txt
+analysis/_sys_prompt.txt
+analysis/_query_results.json
+analysis/_run_mismatch.py
+analysis/_pending_question.json
+analysis/_pending_answer.json
+analysis/conversation_log.jsonl
+analysis/mismatch_analysis.txt
+analysis/response_cache.json
+
+# Large binaries
+*.pdf
+*.zip
+NUL
+
+# IDE / tools
+.claude/settings*
+.claude/projects/
+.claude/memory/
+
+# OS
+rossmann-assets/
+wf-intelligence-hub/

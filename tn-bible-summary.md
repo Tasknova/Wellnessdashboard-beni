@@ -1,7 +1,7 @@
 # Tasknova Bible — Summary: Overall Model, Strengths & Weaknesses
 
-> Source document: `TN bible Revenue 101.pdf` (260 pages, 11 sections, ~81 numbered questions)
-> Summarized: April 2026
+> Source document: `Tn Bible 2026 v3.pdf` (300 pages, 11 sections, ~87 numbered questions)
+> Updated: April 2026 (v3)
 
 ---
 
@@ -63,28 +63,34 @@ Layer 4 — STRATEGIC INTELLIGENCE (Phase 3)
 | Managers | Sales & Action | Who do I coach today? Which deal needs intervention now? |
 | Reps / Frontline | Action & Interaction | What's my next move? What did I miss in that last call? |
 | QA / Enablement | Sales Intelligence | Which interactions fail? How do we standardize? |
+| CS / Onboarding / Support | Customer & Journey | What was promised? Where is continuity breaking? |
 
 ### Target Market
 - **Geography**: India-first (BPO, Real Estate, EdTech, SaaS, BFSI, Healthcare), then SEA + GCC + Global
 - **Company size**: SMB to Mid-Market first (10–200 reps), Enterprise later
 - **Stage**: Series A → Enterprise
-- **Vertical fit**: Any company with high-volume human customer interactions (B2B SaaS, Real Estate, EdTech, BPO, Financial Services, HealthTech)
+- **Vertical fit**: Any company with high-volume human customer interactions (B2B SaaS, Real Estate, EdTech, BPO, Financial Services, HealthTech, D2C, Logistics, Hospitality, IT Services/Consulting)
 
 ---
 
 ## MVP Module Stack
 
-### Ships in MVP (Phase 1)
+### Ships in MVP (Phase 1) — 15 Features
+- Multi-Channel Interaction Capture (calls, demos, chat, email, WhatsApp, Telegram, Discord)
 - Account Memory & Lead Timeline
-- Multi-Channel Interaction Intelligence (calls, demos, email, WhatsApp, chat)
-- Account & Stakeholder Intelligence Layer
-- Revenue Signal Engine
-- Full Journey Continuity Layer
+- Company Interaction Profile
+- Stakeholder Interaction Profile
+- Customer Intelligence Layer
+- Sales Intelligence Layer
 - Revenue & Customer Journey Reports
 - Manager Intervention Dashboard
-- Executive & RevOps Intelligence Layer
+- Executive & RevOps Intelligence Dashboard
 - Rep Action Layer
 - Weekly Improvement Engine
+- Account & Stakeholder Intelligence Layer
+- Role-Based Access
+- Redaction & Governance Controls
+- Basic Trust / Communication Quality Signals
 
 ### Phase 2
 - Forecast Confidence Engine
@@ -93,16 +99,19 @@ Layer 4 — STRATEGIC INTELLIGENCE (Phase 3)
 - Dynamic LMS
 - Cross-Team Shared Learning
 - Manager Coaching AI
+- Advanced Trust Engine
+- Handoff & Continuity Intelligence
+- Promise vs. Delivery Tracking
 - CRM API sync (HubSpot, Zoho, Salesforce)
 - Slack, Teams, Intercom, Zendesk integrations
 
 ### Phase 3
-- Company-Wide Revenue Graph
-- Predictive Win/Churn/Expansion Models
+- Customer Journey Intelligence Across Departments
 - Real-Time Next Best Action Engine
-- Strategic Scenario Simulation
-- AI Bot Evaluation
-- Competency Maps & Automation
+- Predictive Win/Churn/Expansion Models
+- Strategic Intelligence / Simulation Layer
+- Company-Wide Knowledge Graph
+- Competency Maps & Workflow Automation
 
 ---
 
@@ -142,6 +151,15 @@ Explicitly designed to avoid "surveillance system" perception. The product posit
 ### 10. Well-Sequenced Build Roadmap
 The module dependency tree, phased ship plan, and clear MVP boundary are well-thought-out. The document distinguishes what can ship independently (call analysis, email analysis, manager dashboard) from what requires foundational layers first (dynamic LMS, predictive models) — preventing over-engineering at launch.
 
+### 11. Deep Post-Sale & Continuity Value Story (New in v3)
+v3 adds dedicated anecdotes proving continuity, retention, account reassignment, and revenue truth value (NorthBridge ERP, CarePulse Health, Axis Prime Realty, FinCore Advisory). This makes the full-lifecycle value proposition concrete rather than aspirational, with specific company stories showing handoff quality analysis, renewal risk detection, and account memory across rep changes.
+
+### 12. Comprehensive ROI & Business Value Framework (New in v3)
+Section 11 expanded from 8 to 14 questions with detailed sub-sections. Now covers: rep value (4 categories), manager value (7 mechanisms + 7 decision types), CS/onboarding/support value (6 areas), RevOps value (6 areas), revenue uplift by category, cost savings (6 types), continuity value (5 areas), cultural impact (6 transformations), leadership visibility (5 categories), forecasting improvement (5 mechanisms), strategy de-risking (6 mechanisms), and long-term strategic value (5 assets). This makes Tasknova sellable at multiple organizational levels.
+
+### 13. Derived Intelligence Governance (New in v3)
+Section 7 now explicitly addresses governance of derived intelligence (account memory, stakeholder profiles, risk scores, continuity summaries) — not just raw recordings. This is a meaningful compliance maturity step that most competitors haven't addressed.
+
 ---
 
 ## Weaknesses
@@ -161,11 +179,11 @@ WER < 18% for Hindi-English code-switching, < 12% for pure English (Indian accen
 ### 5. Non-Hindi Indian Language Support Deferred
 Hindi-English is Phase 1. Marathi, Gujarati, and other regional language fine-tuning is Phase 2. Indian SMBs in Gujarat or Maharashtra may have significant Marathi/Gujarati code-switching not adequately handled at launch.
 
-### 6. GTM & Pricing Section is Underdeveloped in the Bible
-Section 6 (Go-to-Market & Pricing) is largely missing from the document — it jumps directly into Section 7 (Risks & Compliance). The only pricing reference in the document is a "$99/rep plan" mentioned in Section 8's MVP features list. There are no pricing tiers, competitive pricing comparisons, discount logic, or ICP qualification criteria beyond the SMB-first guidance. This is a meaningful gap.
+### 6. Sections 5 & 6 Removed — UX/UI and GTM Gaps
+v3 removes Section 5 (UX/UI, Sprint Planning & Engineering) and Section 6 (GTM & Pricing) entirely. The 12-screen MVP spec, route map, design rules, and product surfaces from v1 are no longer in the Bible. There is still no pricing tier structure, competitive pricing comparison, or GTM playbook. These are meaningful gaps for engineering and commercial teams.
 
 ### 7. Strategic Intelligence Layer is Highly Aspirational
-Phase 3 features — "Miro Fish and swarmagent simulation logic," scenario simulation, Company-Wide Revenue Graph, predictive churn models — are described at a concept level with no technical grounding. The gap between MVP and Phase 3 is large enough to represent a separate product requiring fundamentally different engineering.
+Phase 3 features — "Miro Fish and swarmagent simulation logic," scenario simulation, Company-Wide Knowledge Graph, predictive churn models — are described at a concept level with no technical grounding. The gap between MVP and Phase 3 is large enough to represent a separate product requiring fundamentally different engineering.
 
 ### 8. Adoption / Change Management Risk is a Real Barrier
 The document explicitly acknowledges manager resistance (feel threatened), rep fear (surveillance), and the need for a coaching-first narrative. These are implementation failure modes that the technology alone cannot solve. This is especially acute in BPO environments where agents are measured harshly and managers are accustomed to manual QA.
@@ -173,11 +191,11 @@ The document explicitly acknowledges manager resistance (feel threatened), rep f
 ### 9. Third-Party Platform Dependency Risk
 Exotel/Twilio downtime impacts ingestion. The mitigation (fallback queue + status alerts) is sensible but any outage means data gaps in the account memory — degrading the platform's core value proposition. A fallback recording mechanism is not mentioned.
 
-### 10. Inconsistent Document Structure
-Sections F through J appear mid-document as sub-sections of Section 3, disrupting the numbered flow. Question numbering restarts and overlaps (26A through 26W as sub-items within the broader Q26 answer). Section 6 (GTM) has almost no content. This creates navigability issues in the document itself — which is why an index was needed.
-
-### 11. No CRM — Integration-Only Model
+### 10. No CRM — Integration-Only Model
 Tasknova explicitly says it is "NOT a CRM" and integrates rather than replaces. This is the right positioning, but it means Tasknova's intelligence quality is permanently dependent on the client's CRM data quality. The document acknowledges "tools break down when underlying CRM data is poor" as an industry gap — but doesn't fully resolve how Tasknova compensates for this in practice.
+
+### 11. No UX/Screen Specification in v3
+The removal of Section 5 means the Bible no longer contains MVP screen definitions, route maps, or UX design rules. Engineering teams will need a separate UX specification document. This could create misalignment between product vision and implementation.
 
 ---
 
@@ -188,9 +206,11 @@ Tasknova explicitly says it is "NOT a CRM" and integrates rather than replaces. 
 | Full lifecycle | Pre-sale + post-sale (Phase 2) | Gong/Outreach are pre-sale only |
 | Multi-channel | 9+ channels Day 1 | Most tools are call-only |
 | India fit | Hindi/Hinglish ASR, Exotel, TRAI | Western tools have poor India accuracy |
-| Price point | SMB accessible ($99/rep mentioned) | Gong = $50K platform fee + $250+/user |
+| Price point | SMB accessible (pricing not specified in v3) | Gong = $50K platform fee + $250+/user |
 | Intelligence depth | Account memory + behavioral handling | Gong scores calls; doesn't learn how to handle the account |
 | Action orientation | Weekly improvement plans, next best action | Analytics-first tools don't close the action loop |
+| Derived intelligence governance | Explicit governance for account memory, profiles, risk scores | Most tools only govern raw recordings |
+| Post-sale continuity | Handoff quality, promise vs delivery, renewal risk | Competitors don't track the full journey |
 
 ---
 
@@ -198,6 +218,25 @@ Tasknova explicitly says it is "NOT a CRM" and integrates rather than replaces. 
 
 **The model is architecturally well-designed and meaningfully differentiated**, particularly in full-journey coverage, behavioral memory, India market depth, and the link from interaction signals to revenue intelligence. The four-layer intelligence architecture is coherent and defensible.
 
-The core risks are **execution sequence** (most differentiated features are Phase 2+), **CRM dependency** (CSV-only in MVP), and **a missing GTM/pricing section** that leaves commercial questions unanswered. The cold-start problem — where the platform looks like basic call analytics until foundational layers are populated — will be the main sales/adoption challenge in early months.
+v3 significantly strengthens the value articulation with comprehensive ROI framing (Q74–Q87), four new real-world stories proving continuity/retention/account-reassignment/revenue-truth value, complete 10-industry fit profiles, expanded coaching workflows, and derived intelligence governance. The business case is now much more concrete and multi-level.
+
+The core risks remain **execution sequence** (most differentiated features are Phase 2+), **CRM dependency** (CSV-only in MVP), and the **removal of UX/GTM sections** which leaves engineering and commercial gaps unaddressed in the Bible. The cold-start problem — where the platform looks like basic call analytics until foundational layers are populated — will be the main sales/adoption challenge in early months.
 
 If the team executes Phases 1 and 2 cleanly, Tasknova can occupy a genuine white space: a full-lifecycle revenue intelligence platform built natively for India and SMB/mid-market pricing, at a time when the market leaders are consolidating at the enterprise end and pricing out smaller companies.
+
+---
+
+## What Changed: v1 (260 pages) → v3 (300 pages)
+
+| Area | v1 | v3 |
+|---|---|---|
+| Total pages | 260 | 300 |
+| Total questions | ~81 | ~87 |
+| Section 4 (Coaching) | Q35–Q42 | Q35–Q45 (added Q43 evidence, Q44 manager workflow, Q45 rep workflow) |
+| Sections 5 & 6 | Present (UX/UI, GTM/Pricing) | Removed entirely |
+| Section 7 | p.194–203 | p.139–171 (expanded, added derived intelligence governance) |
+| Section 8 | p.204–217, 8.1–8.5 | p.171–196, 8.1–8.8 (added USPs, user love, company-size impact) |
+| Section 9 | 3 stories | 7 stories (added NorthBridge, CarePulse, Axis Prime, FinCore) |
+| Section 10 | Partially documented | All 10 industries fully documented |
+| Section 11 | Q74–Q81 | Q74–Q87 with A–G sub-sections per question |
+| MVP features | 12 | 15 (added Company/Stakeholder Profiles, Role-Based Access, Redaction, Trust Signals) |

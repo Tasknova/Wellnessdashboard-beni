@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "query": "Generic vs branded margin",
+    "timestamp": "2026-05-09T19:00:00",
+    "sql": [
+      "SELECT CASE WHEN p.is_generic = 1 THEN 'Generic' ELSE 'Branded' END as type, COUNT(DISTINCT p.product_id) as products, SUM(li.line_total) as revenue, SUM(li.margin_amount) as margin, SUM(li.margin_amount)*100.0/SUM(li.line_total) as margin_pct FROM order_line_items li JOIN orders o ON li.order_id = o.order_id JOIN products p ON li.product_id = p.product_id WHERE o.status = 'Delivered' GROUP BY type",
+      "SELECT CASE WHEN p.is_generic = 1 THEN 'Generic' ELSE 'Branded' END as type, p.category, SUM(li.line_total) as revenue, SUM(li.margin_amount)*100.0/SUM(li.line_total) as margin_pct FROM order_line_items li JOIN orders o ON li.order_id = o.order_id JOIN products p ON li.product_id = p.product_id WHERE o.status = 'Delivered' GROUP BY type, p.category ORDER BY type, revenue DESC"
+    ],
+    "findings": "Branded 26.7% margin vs Generic 18.7% — opposite of industry norm. Generics only in Rx category, no presence in Wellness/OTC/Beauty.",
+    "action": "Push generic/private label into OTC and Wellness categories. Investigate supplier pricing for generics."
+  },
+  {
+    "id": 2,
+    "query": "Medicines that were fast moving earlier but have no movement now",
+    "timestamp": "2026-05-09T19:05:00",
+    "sql": [
+      "WITH early AS (SELECT li.product_id, SUM(li.line_total) as early_rev, COUNT(DISTINCT o.order_id) as early_orders FROM order_line_items li JOIN orders o ON li.order_id = o.order_id WHERE o.status = 'Delivered' AND o.order_date < '2025-05-01' GROUP BY li.product_id HAVING early_orders >= 10), recent AS (SELECT li.product_id, SUM(li.line_total) as recent_rev, COUNT(DISTINCT o.order_id) as recent_orders FROM order_line_items li JOIN orders o ON li.order_id = o.order_id WHERE o.status = 'Delivered' AND o.order_date >= '2025-11-01' GROUP BY li.product_id) SELECT p.product_name, p.brand, p.category, p.therapeutic_area, e.early_orders, COALESCE(r.recent_orders, 0) as recent_orders, ROUND(e.early_rev, 0) as early_rev, ROUND(COALESCE(r.recent_rev, 0), 0) as recent_rev, ROUND((COALESCE(r.recent_rev, 0) - e.early_rev) * 100.0 / e.early_rev, 1) as pct_change FROM early e LEFT JOIN recent r ON e.product_id = r.product_id JOIN products p ON e.product_id = p.product_id WHERE COALESCE(r.recent_orders, 0) <= 3 ORDER BY e.early_rev DESC LIMIT 15"
+    ],
+    "findings": "Abbott India Tablet 737 dropped to 0 orders (-100%). Plum brand (Sunscreen+FaceWash) both -87%. Patanjali (Oil+Protein Bar) crashed. 3 Gastrointestinal products stalled.",
+    "action": "Check if these are stockouts disguised as demand drops. Verify with prescribers for Rx products. Check competitor shelf space for Plum/Patanjali."
+  },
+  {
+    "id": 3,
+    "query": "How are we doing compared to competitors",
+    "timestamp": "2026-05-09T19:10:00",
+    "sql": [
+      "SELECT channel, SUM(li.line_total) as rev, COUNT(DISTINCT o.order_id) as orders FROM order_line_items li JOIN orders o ON li.order_id = o.order_id WHERE o.status='Delivered' GROUP BY channel",
+      "SELECT strftime('%Y', o.order_date) as yr, SUM(li.line_total) as rev FROM order_line_items li JOIN orders o ON li.order_id = o.order_id WHERE o.status='Delivered' GROUP BY yr"
+    ],
+    "findings": "WF wins on margin (25.4% vs Apollo 21-23%), online share (30.2% vs industry 25%), growth (11% vs avg 8-10%). Lags on scale (430 vs Apollo 6360 stores), private label (13% vs MedPlus 22%), leakage (10.6% vs target <5%).",
+    "action": "Push private label to 20%+. Plug 10.6% revenue leakage. Build subscription/auto-refill before quick commerce players do."
+  },
+  {
+    "id": 4,
+    "query": "SKU with sharp sale rise before going out of stock",
+    "timestamp": "2026-05-09T19:15:00",
+    "sql": [
+      "WITH monthly AS (SELECT li.product_id, strftime('%Y-%m', o.order_date) as month, SUM(li.line_total) as rev, SUM(li.quantity) as qty FROM order_line_items li JOIN orders o ON li.order_id = o.order_id WHERE o.status = 'Delivered' GROUP BY li.product_id, month), with_prev AS (SELECT m1.product_id, m1.month, m1.rev, m1.qty, LAG(m1.rev) OVER (PARTITION BY m1.product_id ORDER BY m1.month) as prev_rev, LEAD(m1.rev) OVER (PARTITION BY m1.product_id ORDER BY m1.month) as next_rev FROM monthly m1), spikes AS (SELECT product_id, month as spike_month, rev as spike_rev, prev_rev, COALESCE(next_rev, 0) as after_rev, ROUND(rev / NULLIF(prev_rev, 0), 1) as spike_ratio FROM with_prev WHERE prev_rev > 0 AND rev > prev_rev * 2.0 AND COALESCE(next_rev, 0) < rev * 0.4), oos_info AS (SELECT product_id, AVG(is_out_of_stock)*100 as oos_rate, MAX(days_out_of_stock) as max_days_oos FROM inventory GROUP BY product_id) SELECT p.product_name, p.brand, p.category, p.therapeutic_area, s.spike_month, ROUND(s.prev_rev,0) as before, ROUND(s.spike_rev,0) as spike, ROUND(s.after_rev,0) as after, s.spike_ratio, ROUND(COALESCE(o.oos_rate,0),1) as oos_pct, COALESCE(o.max_days_oos,0) as max_oos_days FROM spikes s JOIN products p ON s.product_id = p.product_id LEFT JOIN oos_info o ON s.product_id = o.product_id ORDER BY s.spike_rev DESC LIMIT 15"
+    ],
+    "findings": "Aurobindo Capsule 60 (Respiratory) 3x spike Apr-2026 then ₹0 — stockout. Macleods Powder 665 (Anti-viral) 4.2x spike then ₹0. Alkem Gel 526 (Hormonal) 3.1x spike then 94% crash. Most are Rx with chronic patient bases.",
+    "action": "Restock Aurobindo Capsule 60 and Macleods Powder 665 immediately. Set up spike-detection alerts (>2x moving average = auto-reorder). Never let chronic medicines stockout."
+  },
+  {
+    "id": 5,
+    "query": "Products at old MRP vs market re-release at higher cost",
+    "timestamp": "2026-05-09T19:20:00",
+    "sql": [
+      "SELECT p.product_name, p.brand, p.category, p.therapeutic_area, p.mrp, p.cost_price, p.margin_pct, SUM(li.quantity) as qty, ROUND(SUM(li.line_total),0) as revenue FROM products p JOIN order_line_items li ON p.product_id = li.product_id JOIN orders o ON li.order_id = o.order_id WHERE o.status = 'Delivered' GROUP BY p.product_id ORDER BY p.margin_pct ASC LIMIT 15",
+      "SELECT p.product_name, p.brand, p.category, p.therapeutic_area, p.mrp, p.cost_price, p.margin_pct, ROUND(AVG(i.stock_on_hand),0) as avg_stock, SUM(li.quantity) as qty_sold, ROUND(SUM(li.line_total),0) as revenue FROM products p JOIN order_line_items li ON p.product_id = li.product_id JOIN orders o ON li.order_id = o.order_id JOIN inventory i ON p.product_id = i.product_id WHERE o.status = 'Delivered' GROUP BY p.product_id HAVING avg_stock > 30 ORDER BY p.margin_pct ASC LIMIT 12"
+    ],
+    "findings": "FMCG products at 15-16% margin (Lifebuoy, Band-Aid, Moov, Huggies, Dettol) — any supplier price increase makes them unprofitable. High-volume Rx at 18% margin with 40-50 units avg stock (Abbott Ointment 893, Glenmark Gel 258, Glenmark Tablet 224).",
+    "action": "Run cost price audit — compare last 3 months invoices vs catalog cost_price. Check NPPA circulars for ceiling price revisions. Flag products where invoice cost > 95% of MRP."
+  },
+  {
+    "id": 6,
+    "query": "Medicines at old MRP while parent company hiked prices - unrealized gains",
+    "timestamp": "2026-05-09T19:07:26",
+    "sql": [
+      "SELECT p.product_name, p.brand, p.category, p.therapeutic_area, p.mrp, p.cost_price, ROUND(p.margin_pct, 1) as current_margin_pct, ROUND(p.mrp - p.cost_price, 2) as margin_per_unit, ROUND(AVG(i.stock_on_hand), 0) as avg_stock_on_hand, SUM(li.quantity) as total_qty_sold, ROUND(SUM(li.line_total), 0) as total_revenue FROM products p JOIN inventory i ON p.product_id = i.product_id JOIN order_line_items li ON p.product_id = li.product_id JOIN orders o ON li.order_id = o.order_id WHERE o.status = 'Delivered' AND i.stock_on_hand > 0 GROUP BY p.product_id HAVING avg_stock_on_hand >= 20 AND current_margin_pct < 20 ORDER BY (avg_stock_on_hand * p.mrp) DESC LIMIT 20",
+      "SELECT p.product_name, p.brand, p.therapeutic_area, p.mrp, p.cost_price, ROUND(p.margin_pct, 1) as current_margin, ROUND(AVG(i.stock_on_hand), 0) as stock_units, ROUND(AVG(i.stock_on_hand) * p.mrp, 0) as stock_value_at_mrp, ROUND(AVG(i.stock_on_hand) * p.cost_price / (1 - 0.25), 0) as stock_value_at_25pct_margin, ROUND(AVG(i.stock_on_hand) * (p.cost_price / (1 - 0.25) - p.mrp), 0) as unrealized_per_batch FROM products p JOIN inventory i ON p.product_id = i.product_id WHERE i.stock_on_hand > 0 AND p.margin_pct < 20 GROUP BY p.product_id HAVING stock_units >= 20 ORDER BY unrealized_per_batch DESC LIMIT 12"
+    ],
+    "findings": "9 products with 18-19% margin (vs 25% industry target). Glenmark appears 3x. ~27K unrealized margin per store per batch, ~8.1L across 30 stores per cycle. All Rx chronic therapeutic areas.",
+    "action": "Pull latest invoices to compare MRP. Check NPPA April 2026 ceiling revision. Set up automated MRP reconciliation flag."
+  },
+  {
+    "id": 7,
+    "query": "Store-wise and warehouse stock of flagged low-margin medicines",
+    "timestamp": "2026-05-09T19:11:23",
+    "sql": [
+      "SELECT p.product_name, p.brand, p.mrp, s.city, COUNT(DISTINCT s.store_id) as stores_with_stock, SUM(i.stock_on_hand) as total_stock, ROUND(SUM(i.stock_on_hand) * p.mrp, 0) as stock_value FROM inventory i JOIN products p ON i.product_id = p.product_id JOIN stores s ON i.store_id = s.store_id WHERE p.product_name IN (...flagged...) AND i.stock_on_hand > 0 GROUP BY p.product_name, s.city ORDER BY p.product_name, total_stock DESC",
+      "SELECT p.product_name, p.brand, p.mrp, p.margin_pct, COUNT(DISTINCT s.store_id) as stores, SUM(i.stock_on_hand) as total_units, ROUND(SUM(i.stock_on_hand) * p.mrp, 0) as total_stock_value FROM inventory i JOIN products p ON i.product_id = p.product_id JOIN stores s ON i.store_id = s.store_id WHERE p.product_name IN (...flagged...) AND i.stock_on_hand > 0 GROUP BY p.product_name ORDER BY total_stock_value DESC"
+    ],
+    "findings": "166,636 units worth 10.69 Cr sitting across 30 stores at 18-19% margin. Mumbai holds 40%. Glenmark alone has 3 products worth 4.58 Cr. Unrealized gain ~70-75L if margin updated to 25%.",
+    "action": "Verify Glenmark trade price list first. Check dual-MRP situation. Start reconciliation from Mumbai stores."
+  },
+  {
+    "id": 8,
+    "query": "Store-wise breakdown of flagged low-margin medicines (all 30 stores)",
+    "timestamp": "2026-05-09T19:13:44",
+    "sql": [
+      "SELECT s.store_name, s.city, s.store_type, COUNT(DISTINCT p.product_id) as products_carried, SUM(i.stock_on_hand) as total_units, ROUND(SUM(i.stock_on_hand * p.mrp), 0) as stock_value_mrp, ROUND(SUM(i.stock_on_hand * p.cost_price), 0) as cost_locked, ROUND(SUM(i.stock_on_hand * (p.mrp - p.cost_price)), 0) as margin_at_current_mrp, ROUND(SUM(i.stock_on_hand * (p.cost_price / 0.75 - p.mrp)), 0) as unrealized_if_25pct FROM inventory i JOIN products p ON i.product_id = p.product_id JOIN stores s ON i.store_id = s.store_id WHERE p.product_name IN (...9 flagged...) AND i.stock_on_hand > 0 GROUP BY s.store_id ORDER BY stock_value_mrp DESC"
+    ],
+    "findings": "All 30 stores carry all 9 products. 10.69 Cr total stock value. 91.5L unrealized margin. Stock evenly distributed (30-43L per store). Mumbai 12 stores hold 4.52 Cr.",
+    "action": "Print table for supply chain team. Cross-check distributor invoice MRP vs POS catalog. Start from Mumbai."
+  },
+  {
+    "id": 9,
+    "query": "Mumbai store performance",
+    "timestamp": "2026-05-09T19:16:38",
+    "sql": [
+      "SELECT s.store_name, s.store_type, s.size_sqft, SUM(CASE WHEN o.status='Delivered' THEN li.line_total ELSE 0 END) as revenue, SUM(CASE WHEN o.status='Delivered' THEN li.margin_amount ELSE 0 END) as margin, COUNT(DISTINCT CASE WHEN o.status='Delivered' THEN o.order_id END) as orders, COUNT(DISTINCT CASE WHEN o.status='Cancelled' THEN o.order_id END) as cancellations, COUNT(DISTINCT CASE WHEN o.status='Returned' THEN o.order_id END) as returns, COUNT(DISTINCT o.customer_id) as customers FROM order_line_items li JOIN orders o ON li.order_id = o.order_id JOIN stores s ON o.store_id = s.store_id WHERE s.city = ? GROUP BY o.store_id ORDER BY revenue DESC",
+      "SELECT s.store_name, ROUND(AVG(i.is_out_of_stock)*100, 1) as oos_pct FROM inventory i JOIN stores s ON i.store_id = s.store_id WHERE s.city = ? GROUP BY i.store_id ORDER BY oos_pct DESC",
+      "SELECT s.store_name, o.channel, SUM(li.line_total) as rev FROM order_line_items li JOIN orders o ON li.order_id = o.order_id JOIN stores s ON o.store_id = s.store_id WHERE s.city = ? AND o.status = 'Delivered' GROUP BY o.store_id, o.channel ORDER BY s.store_name, o.channel"
+    ],
+    "findings": "NEI-7 is star performer (927sqft, 3.04Cr, 3.28L/sqft). Flagships underperform per sqft. Bottom 3 (NEI-8,1,3) are offline-only missing ~1.1Cr each. All 12 stores exceed 5% OOS target. STA-9 has most cancellations (112).",
+    "action": "Enable online for NEI-1/3/8. Fix stockouts at STA-12 and STA-4. Replicate NEI-7 playbook. Investigate STA-9 cancellations."
+  },
+  {
+    "id": 10,
+    "query": "Comprehensive inventory intelligence across stores, SKUs, localities",
+    "timestamp": "2026-05-09T19:50:20.190766",
+    "sql": [
+      "Category profitability with stock holding costs (15 therapeutic-category combos)",
+      "Store performance with demand-supply mismatch (30 stores)",
+      "SKU 4-bucket classification: PROTECT(12), MONITOR(34), SEASONAL(138), PHASE_OUT(816)",
+      "Working capital analysis: TRAPPED(4 SKUs, Rs 3.82Cr), AT_RISK(19 SKUs, Rs 19.47Cr)",
+      "City-category demand vs inventory alignment",
+      "Store-category lost sales opportunity matrix"
+    ],
+    "findings": "12 SKUs need immediate restocking (Rs 18.99Cr revenue at risk). Rs 3.82Cr capital trapped in 4 dead SKUs. Rs 19.47Cr at risk in 19 slow-moving SKUs. Mumbai+Pune Rx structurally understocked (6.1-6.4% OOS on Rs 23.6Cr revenue). Anti-hypertensive stock 9x revenue. 816 SKUs recommended for phase-out.",
+    "action": "1) Restock 12 PROTECT SKUs immediately. 2) Liquidate 4 trapped-capital SKUs. 3) Review 19 at-risk SKUs. 4) Rebalance anti-hypertensive/anti-allergic/anti-viral inventory. 5) Increase Mumbai/Pune Rx safety stock. 6) Phase out 816 low-performing SKUs. 7) Fix Goa STA-28 supply chain."
+  }
+]

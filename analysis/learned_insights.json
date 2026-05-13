@@ -1,0 +1,65 @@
+{
+  "insights": [
+    {
+      "id": 1,
+      "topic": "GLP-1 demand gap",
+      "summary": "No GLP-1 products (semaglutide, tirzepatide) stocked despite global market exceeding USD 50Bn. Anti-diabetic category flat at -0.2% YoY. Opportunity: 100 patients on GLP-1 = ₹1.2 Cr/yr incremental revenue.",
+      "tags": [
+        "anti-diabetic",
+        "glp-1",
+        "product-gap",
+        "opportunity",
+        "drug_interest"
+      ],
+      "created": "2026-05-09T15:00:00",
+      "source": "analysis",
+      "referenced_count": 3
+    },
+    {
+      "id": 2,
+      "topic": "Generic penetration too low",
+      "summary": "WF generic share at 16.1% vs MedPlus benchmark of 22%. Each 1% shift from branded to generic adds ₹20-30L/yr in margin without revenue loss.",
+      "tags": [
+        "generics",
+        "margin",
+        "benchmark-gap",
+        "generic_branded",
+        "opportunity"
+      ],
+      "created": "2026-05-09T14:45:00",
+      "source": "analysis",
+      "referenced_count": 7
+    },
+    {
+      "id": 3,
+      "topic": "Stockout severity underestimated",
+      "summary": "Average OOS rate 8.2% across stores but top-5 worst stores exceed 15%. Stockouts on top-20 SKUs alone cost an estimated ₹45L/month in lost sales. Reorder points need recalibration.",
+      "tags": [
+        "stockouts",
+        "inventory",
+        "oos",
+        "revenue-leakage",
+        "stores_bleeding"
+      ],
+      "created": "2026-05-09T14:30:00",
+      "source": "analysis",
+      "referenced_count": 5
+    },
+    {
+      "id": 4,
+      "topic": "Online channel margin squeeze",
+      "summary": "Online orders carry 3-4% lower margin than walk-in due to delivery costs and higher return rates (8.1% vs 3.2% in-store). However, online AOV is 12% higher.",
+      "tags": [
+        "online",
+        "margin",
+        "delivery",
+        "channel",
+        "returns"
+      ],
+      "created": "2026-05-09T14:15:00",
+      "source": "analysis",
+      "referenced_count": 9
+    }
+  ],
+  "next_id": 5
+}

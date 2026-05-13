@@ -1,0 +1,3133 @@
+{
+  "total_revenue": [
+    {
+      "revenue": 786697326.13
+    }
+  ],
+  "revenue_by_category": [
+    {
+      "category": "Rx Medicines",
+      "revenue": 384885268.5,
+      "margin": 70815520.14
+    },
+    {
+      "category": "Wellness",
+      "revenue": 169548555.02,
+      "margin": 58152845.34
+    },
+    {
+      "category": "OTC Medicines",
+      "revenue": 112564362.91,
+      "margin": 34248125.96
+    },
+    {
+      "category": "Beauty & Personal Care",
+      "revenue": 95576124.44,
+      "margin": 32491810.84
+    },
+    {
+      "category": "FMCG",
+      "revenue": 24123015.26,
+      "margin": 3933081.81
+    }
+  ],
+  "generic_vs_branded": [
+    {
+      "type": "Branded",
+      "revenue": 659965429.12,
+      "margin": 175933672.83,
+      "margin_pct": 26.65801344543009
+    },
+    {
+      "type": "Generic",
+      "revenue": 126731897.01,
+      "margin": 23707711.259999998,
+      "margin_pct": 18.706980499257657
+    }
+  ],
+  "margin_by_category": [
+    {
+      "category": "Rx Medicines",
+      "margin": 70815520.14,
+      "revenue": 384885268.5,
+      "margin_pct": 18.39912460562257
+    },
+    {
+      "category": "Wellness",
+      "margin": 58152845.34,
+      "revenue": 169548555.02,
+      "margin_pct": 34.29863812943748
+    },
+    {
+      "category": "OTC Medicines",
+      "margin": 34248125.96,
+      "revenue": 112564362.91,
+      "margin_pct": 30.425371826945653
+    },
+    {
+      "category": "Beauty & Personal Care",
+      "margin": 32491810.84,
+      "revenue": 95576124.44,
+      "margin_pct": 33.99574007669399
+    },
+    {
+      "category": "FMCG",
+      "margin": 3933081.81,
+      "revenue": 24123015.26,
+      "margin_pct": 16.30427111871752
+    }
+  ],
+  "top_brands": [
+    {
+      "brand": "Sun Pharma",
+      "revenue": 103507500.33,
+      "margin": 18153400.65
+    },
+    {
+      "brand": "Ipca",
+      "revenue": 37859120.97,
+      "margin": 6809217.6899999995
+    },
+    {
+      "brand": "Herbalife",
+      "revenue": 35880815.2,
+      "margin": 11475932.27
+    },
+    {
+      "brand": "Aurobindo",
+      "revenue": 32721229.75,
+      "margin": 6307679.31
+    },
+    {
+      "brand": "Dettol",
+      "revenue": 29057989.189999998,
+      "margin": 8649667.73
+    },
+    {
+      "brand": "HealthKart",
+      "revenue": 28248565.23,
+      "margin": 10185244.93
+    },
+    {
+      "brand": "Lupin",
+      "revenue": 23945438.400000002,
+      "margin": 4742649.34
+    },
+    {
+      "brand": "Patanjali",
+      "revenue": 23469090.35,
+      "margin": 8219410.36
+    },
+    {
+      "brand": "Burnol",
+      "revenue": 23345832.66,
+      "margin": 6796213.24
+    },
+    {
+      "brand": "Plum",
+      "revenue": 22916632.92,
+      "margin": 8140412.39
+    },
+    {
+      "brand": "Amway",
+      "revenue": 20378330.75,
+      "margin": 7016076.38
+    },
+    {
+      "brand": "Macleods",
+      "revenue": 20273118.11,
+      "margin": 3808995.88
+    },
+    {
+      "brand": "Abbott India",
+      "revenue": 19667788.89,
+      "margin": 3561093.39
+    },
+    {
+      "brand": "Torrent Pharma",
+      "revenue": 18694826.16,
+      "margin": 3459461.21
+    },
+    {
+      "brand": "Himalaya",
+      "revenue": 18423338.4,
+      "margin": 5934099.67
+    }
+  ],
+  "top_products": [
+    {
+      "product_name": "Sun Pharma Gel 349",
+      "brand": "Sun Pharma",
+      "category": "Rx Medicines",
+      "revenue": 86980093.72999999
+    },
+    {
+      "product_name": "Herbalife Capsule 864",
+      "brand": "Herbalife",
+      "category": "Wellness",
+      "revenue": 28217155.669999998
+    },
+    {
+      "product_name": "Dettol Ointment 304",
+      "brand": "Dettol",
+      "category": "OTC Medicines",
+      "revenue": 25023304.45
+    },
+    {
+      "product_name": "Generic Ipca Gel 234",
+      "brand": "Ipca",
+      "category": "Rx Medicines",
+      "revenue": 25012778.92
+    },
+    {
+      "product_name": "Plum Sunscreen 914",
+      "brand": "Plum",
+      "category": "Beauty & Personal Care",
+      "revenue": 21498724.95
+    },
+    {
+      "product_name": "HealthKart Drink Mix 998",
+      "brand": "HealthKart",
+      "category": "Wellness",
+      "revenue": 20741267.73
+    },
+    {
+      "product_name": "Generic Aurobindo Drops 122",
+      "brand": "Aurobindo",
+      "category": "Rx Medicines",
+      "revenue": 20211254.36
+    },
+    {
+      "product_name": "Patanjali Oil 198",
+      "brand": "Patanjali",
+      "category": "Wellness",
+      "revenue": 15444647.0
+    },
+    {
+      "product_name": "Amway Gummies 843",
+      "brand": "Amway",
+      "category": "Wellness",
+      "revenue": 14464373.3
+    },
+    {
+      "product_name": "Crocin Balm 423",
+      "brand": "Crocin",
+      "category": "OTC Medicines",
+      "revenue": 14036761.41
+    },
+    {
+      "product_name": "Lupin Syrup 167",
+      "brand": "Lupin",
+      "category": "Rx Medicines",
+      "revenue": 12081776.66
+    },
+    {
+      "product_name": "Lakme Face Mask 717",
+      "brand": "Lakme",
+      "category": "Beauty & Personal Care",
+      "revenue": 11568359.530000001
+    },
+    {
+      "product_name": "Abbott India Inhaler 394",
+      "brand": "Abbott India",
+      "category": "Rx Medicines",
+      "revenue": 10980416.91
+    },
+    {
+      "product_name": "mCaffeine Serum 307",
+      "brand": "mCaffeine",
+      "category": "Beauty & Personal Care",
+      "revenue": 10626784.46
+    },
+    {
+      "product_name": "Sun Pharma Ointment 845",
+      "brand": "Sun Pharma",
+      "category": "Rx Medicines",
+      "revenue": 10379096.74
+    }
+  ],
+  "stores_revenue": [
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "revenue": 31544505.84,
+      "orders": 1936
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "city": "Bengaluru",
+      "revenue": 31412535.71,
+      "orders": 1857
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "city": "Nashik",
+      "revenue": 31078958.03,
+      "orders": 1906
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "revenue": 30948083.64,
+      "orders": 1909
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "revenue": 30774175.71,
+      "orders": 1879
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "revenue": 30577461.68,
+      "orders": 1859
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "revenue": 30409724.6,
+      "orders": 1831
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "revenue": 30397405.76,
+      "orders": 1798
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "revenue": 30279846.56,
+      "orders": 1847
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "revenue": 30275822.0,
+      "orders": 1842
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "revenue": 30222734.49,
+      "orders": 1895
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "revenue": 30059781.09,
+      "orders": 1849
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "revenue": 29966352.0,
+      "orders": 1838
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "revenue": 29617956.91,
+      "orders": 1838
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "revenue": 29588031.25,
+      "orders": 1851
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "revenue": 29519067.52,
+      "orders": 1828
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "city": "Bengaluru",
+      "revenue": 29470090.57,
+      "orders": 1817
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "revenue": 29449156.01,
+      "orders": 1819
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "revenue": 29290020.16,
+      "orders": 1832
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "revenue": 28726404.39,
+      "orders": 1754
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "revenue": 19116826.82,
+      "orders": 1166
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "city": "Nashik",
+      "revenue": 18905611.45,
+      "orders": 1157
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "city": "Pune",
+      "revenue": 18805819.06,
+      "orders": 1105
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "revenue": 18717966.14,
+      "orders": 1127
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "city": "Mumbai",
+      "revenue": 18377715.07,
+      "orders": 1088
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "revenue": 18344398.04,
+      "orders": 1126
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "revenue": 18039526.98,
+      "orders": 1138
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "revenue": 17899936.04,
+      "orders": 1118
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "revenue": 17568894.27,
+      "orders": 1126
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "revenue": 17312518.34,
+      "orders": 1075
+    }
+  ],
+  "stores_cancellations": [
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "cancel_rate": 6.084867894315452,
+      "total_orders": 1249
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "cancel_rate": 5.6426332288401255,
+      "total_orders": 1276
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "cancel_rate": 5.575087895529885,
+      "total_orders": 1991
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "cancel_rate": 5.405405405405405,
+      "total_orders": 2072
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "cancel_rate": 5.370177267987487,
+      "total_orders": 1918
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "cancel_rate": 5.363075462743237,
+      "total_orders": 2107
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "cancel_rate": 5.358012664393571,
+      "total_orders": 2053
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "cancel_rate": 5.3211888782358585,
+      "total_orders": 2086
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "cancel_rate": 5.320735952262556,
+      "total_orders": 2011
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "cancel_rate": 5.2631578947368425,
+      "total_orders": 2014
+    }
+  ],
+  "city_revenue": [
+    {
+      "city": "Mumbai",
+      "stores": 12,
+      "revenue": 323512235.12
+    },
+    {
+      "city": "Pune",
+      "stores": 6,
+      "revenue": 158450417.59
+    },
+    {
+      "city": "Thane",
+      "stores": 4,
+      "revenue": 109690980.98
+    },
+    {
+      "city": "Bengaluru",
+      "stores": 2,
+      "revenue": 60882626.28
+    },
+    {
+      "city": "Navi Mumbai",
+      "stores": 3,
+      "revenue": 54657429.16
+    },
+    {
+      "city": "Nashik",
+      "stores": 2,
+      "revenue": 49984569.48
+    },
+    {
+      "city": "Goa",
+      "stores": 1,
+      "revenue": 29519067.52
+    }
+  ],
+  "monthly_revenue": [
+    {
+      "month": "2024-05",
+      "revenue": 30150458.45
+    },
+    {
+      "month": "2024-06",
+      "revenue": 26957976.3
+    },
+    {
+      "month": "2024-07",
+      "revenue": 25736285.75
+    },
+    {
+      "month": "2024-08",
+      "revenue": 27016102.33
+    },
+    {
+      "month": "2024-09",
+      "revenue": 27869290.13
+    },
+    {
+      "month": "2024-10",
+      "revenue": 41196914.23
+    },
+    {
+      "month": "2024-11",
+      "revenue": 41410047.72
+    },
+    {
+      "month": "2024-12",
+      "revenue": 33770382.4
+    },
+    {
+      "month": "2025-01",
+      "revenue": 31887226.02
+    },
+    {
+      "month": "2025-02",
+      "revenue": 25911442.62
+    },
+    {
+      "month": "2025-03",
+      "revenue": 30428730.69
+    },
+    {
+      "month": "2025-04",
+      "revenue": 30419687.1
+    },
+    {
+      "month": "2025-05",
+      "revenue": 33640641.64
+    },
+    {
+      "month": "2025-06",
+      "revenue": 29684064.18
+    },
+    {
+      "month": "2025-07",
+      "revenue": 29124006.26
+    },
+    {
+      "month": "2025-08",
+      "revenue": 30856587.94
+    },
+    {
+      "month": "2025-09",
+      "revenue": 30745830.97
+    },
+    {
+      "month": "2025-10",
+      "revenue": 45644154.66
+    },
+    {
+      "month": "2025-11",
+      "revenue": 45292773.66
+    },
+    {
+      "month": "2025-12",
+      "revenue": 36965344.09
+    },
+    {
+      "month": "2026-01",
+      "revenue": 35495879.48
+    },
+    {
+      "month": "2026-02",
+      "revenue": 29390768.73
+    },
+    {
+      "month": "2026-03",
+      "revenue": 33875375.35
+    },
+    {
+      "month": "2026-04",
+      "revenue": 33227355.43
+    }
+  ],
+  "day_of_week": [
+    {
+      "day_name": "Sunday",
+      "day_num": 0,
+      "orders": 7456,
+      "revenue": 122259428.51
+    },
+    {
+      "day_name": "Monday",
+      "day_num": 1,
+      "orders": 6646,
+      "revenue": 107186277.74
+    },
+    {
+      "day_name": "Tuesday",
+      "day_num": 2,
+      "orders": 6639,
+      "revenue": 107570537.52
+    },
+    {
+      "day_name": "Wednesday",
+      "day_num": 3,
+      "orders": 6703,
+      "revenue": 110511739.74
+    },
+    {
+      "day_name": "Thursday",
+      "day_num": 4,
+      "orders": 6705,
+      "revenue": 109419512.22
+    },
+    {
+      "day_name": "Friday",
+      "day_num": 5,
+      "orders": 6649,
+      "revenue": 109042793.24
+    },
+    {
+      "day_name": "Saturday",
+      "day_num": 6,
+      "orders": 7413,
+      "revenue": 120707037.16
+    }
+  ],
+  "channel_revenue": [
+    {
+      "channel": "Offline",
+      "revenue": 549264770.27,
+      "orders": 33624
+    },
+    {
+      "channel": "Online",
+      "revenue": 237432555.85999998,
+      "orders": 14587
+    }
+  ],
+  "payment_modes": [
+    {
+      "payment_mode": "UPI",
+      "orders": 49437,
+      "revenue": 276643137.67
+    },
+    {
+      "payment_mode": "Cash",
+      "orders": 42749,
+      "revenue": 239724049.09
+    },
+    {
+      "payment_mode": "Credit Card",
+      "orders": 20766,
+      "revenue": 117181748.61
+    },
+    {
+      "payment_mode": "Debit Card",
+      "orders": 17245,
+      "revenue": 96029617.97
+    },
+    {
+      "payment_mode": "Wallet",
+      "orders": 7017,
+      "revenue": 38639797.66
+    },
+    {
+      "payment_mode": "Net Banking",
+      "orders": 3357,
+      "revenue": 18478975.13
+    }
+  ],
+  "cancel_reasons": [
+    {
+      "cancellation_reason": "Wrong item ordered",
+      "cnt": 450
+    },
+    {
+      "cancellation_reason": "Delivery delay",
+      "cnt": 446
+    },
+    {
+      "cancellation_reason": "Product unavailable",
+      "cnt": 443
+    },
+    {
+      "cancellation_reason": "Duplicate order",
+      "cnt": 431
+    },
+    {
+      "cancellation_reason": "Price issue",
+      "cnt": 416
+    },
+    {
+      "cancellation_reason": "Customer changed mind",
+      "cnt": 406
+    }
+  ],
+  "return_reasons": [
+    {
+      "return_reason": "Wrong item received",
+      "cnt": 290
+    },
+    {
+      "return_reason": "Expired product",
+      "cnt": 281
+    },
+    {
+      "return_reason": "Allergic reaction",
+      "cnt": 274
+    },
+    {
+      "return_reason": "Changed mind",
+      "cnt": 270
+    },
+    {
+      "return_reason": "Damaged product",
+      "cnt": 259
+    },
+    {
+      "return_reason": "Quality issue",
+      "cnt": 257
+    }
+  ],
+  "oos_by_store": [
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "oos_rate": 7.384615384615385
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "oos_rate": 7.1923076923076925
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "oos_rate": 7.076923076923077
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "oos_rate": 6.8076923076923075
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "oos_rate": 6.769230769230769
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "oos_rate": 6.730769230769231
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "oos_rate": 6.692307692307692
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "oos_rate": 6.615384615384616
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "oos_rate": 6.423076923076923
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "oos_rate": 6.384615384615384
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "oos_rate": 6.346153846153846
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "oos_rate": 6.346153846153846
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "oos_rate": 6.230769230769231
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "oos_rate": 6.1923076923076925
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "oos_rate": 6.153846153846154
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "oos_rate": 6.115384615384616
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "oos_rate": 6.115384615384616
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "oos_rate": 6.0
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "oos_rate": 5.961538461538462
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "oos_rate": 5.884615384615385
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "oos_rate": 5.846153846153846
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "oos_rate": 5.769230769230769
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "oos_rate": 5.615384615384615
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "oos_rate": 5.5769230769230775
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "oos_rate": 5.461538461538462
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "oos_rate": 5.461538461538462
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "oos_rate": 5.461538461538462
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "oos_rate": 5.4230769230769225
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "oos_rate": 5.230769230769231
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "oos_rate": 5.115384615384615
+    }
+  ],
+  "delivery_stats": [
+    {
+      "delivery_days": 0,
+      "orders": 4323
+    },
+    {
+      "delivery_days": 1,
+      "orders": 6557
+    },
+    {
+      "delivery_days": 2,
+      "orders": 2724
+    },
+    {
+      "delivery_days": 3,
+      "orders": 594
+    },
+    {
+      "delivery_days": 4,
+      "orders": 263
+    },
+    {
+      "delivery_days": 5,
+      "orders": 126
+    }
+  ],
+  "delayed_by_store": [
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "delay_rate": 8.111533586818759
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "delay_rate": 7.722007722007722
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "delay_rate": 7.3979591836734695
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "delay_rate": 7.049608355091384
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "delay_rate": 6.8789808917197455
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "delay_rate": 6.753554502369668
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "delay_rate": 6.505102040816326
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "delay_rate": 6.495098039215686
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "delay_rate": 6.371911573472041
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "delay_rate": 6.022584692597239
+    }
+  ],
+  "customer_stats": [
+    {
+      "total": 5000,
+      "gold": 739,
+      "silver": 1478,
+      "bronze": 2530
+    }
+  ],
+  "top_spenders": [
+    {
+      "customer_id": "C-001510",
+      "city": "Mumbai",
+      "loyalty_tier": "Bronze",
+      "orders": 17,
+      "spend": 426840.09
+    },
+    {
+      "customer_id": "C-002960",
+      "city": "Mumbai",
+      "loyalty_tier": "Platinum",
+      "orders": 18,
+      "spend": 416075.02
+    },
+    {
+      "customer_id": "C-004051",
+      "city": "Navi Mumbai",
+      "loyalty_tier": "Bronze",
+      "orders": 16,
+      "spend": 408485.58
+    },
+    {
+      "customer_id": "C-001817",
+      "city": "Thane",
+      "loyalty_tier": "Bronze",
+      "orders": 17,
+      "spend": 406727.29
+    },
+    {
+      "customer_id": "C-002966",
+      "city": "Mumbai",
+      "loyalty_tier": "Bronze",
+      "orders": 20,
+      "spend": 391225.33
+    },
+    {
+      "customer_id": "C-001246",
+      "city": "Nashik",
+      "loyalty_tier": "Bronze",
+      "orders": 23,
+      "spend": 387518.61
+    },
+    {
+      "customer_id": "C-003843",
+      "city": "Pune",
+      "loyalty_tier": "Bronze",
+      "orders": 16,
+      "spend": 382263.49
+    },
+    {
+      "customer_id": "C-004646",
+      "city": "Mumbai",
+      "loyalty_tier": "Bronze",
+      "orders": 13,
+      "spend": 382226.85
+    },
+    {
+      "customer_id": "C-004874",
+      "city": "Goa",
+      "loyalty_tier": "Silver",
+      "orders": 12,
+      "spend": 381851.84
+    },
+    {
+      "customer_id": "C-000548",
+      "city": "Navi Mumbai",
+      "loyalty_tier": "Bronze",
+      "orders": 18,
+      "spend": 377686.08
+    }
+  ],
+  "aov_by_channel": [
+    {
+      "channel": "Offline",
+      "aov": 16335.497569295741
+    },
+    {
+      "channel": "Online",
+      "aov": 16276.997042572153
+    }
+  ],
+  "leakage_by_store": [
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "cancellations": 344,
+      "returns": 192,
+      "lost_revenue": 3113060.26
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "cancellations": 363,
+      "returns": 172,
+      "lost_revenue": 2892000.7399999998
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "cancellations": 310,
+      "returns": 185,
+      "lost_revenue": 2816461.66
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "cancellations": 299,
+      "returns": 217,
+      "lost_revenue": 2797090.92
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "cancellations": 313,
+      "returns": 176,
+      "lost_revenue": 2784543.55
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "cancellations": 290,
+      "returns": 228,
+      "lost_revenue": 2773069.97
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "cancellations": 291,
+      "returns": 194,
+      "lost_revenue": 2686753.22
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "cancellations": 318,
+      "returns": 171,
+      "lost_revenue": 2610492.57
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "cancellations": 280,
+      "returns": 167,
+      "lost_revenue": 2550590.78
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "cancellations": 295,
+      "returns": 180,
+      "lost_revenue": 2541653.98
+    }
+  ],
+  "inventory_health": [
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Powder",
+      "avg_stock": 46.15716440422323,
+      "oos_pct": 6.395173453996983,
+      "avg_days_oos": 0.44419306184012064
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Inhaler",
+      "avg_stock": 46.47692307692308,
+      "oos_pct": 6.342780026990553,
+      "avg_days_oos": 0.44237516869095816
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Ointment",
+      "avg_stock": 46.661396011396015,
+      "oos_pct": 6.339031339031339,
+      "avg_days_oos": 0.444017094017094
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Tablet",
+      "avg_stock": 47.42820512820513,
+      "oos_pct": 6.333333333333334,
+      "avg_days_oos": 0.4419230769230769
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Suspension",
+      "avg_stock": 47.2752508361204,
+      "oos_pct": 6.164994425863991,
+      "avg_days_oos": 0.4319955406911929
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Gel",
+      "avg_stock": 47.37692307692308,
+      "oos_pct": 6.134852801519468,
+      "avg_days_oos": 0.42279202279202277
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Drops",
+      "avg_stock": 46.90304487179487,
+      "oos_pct": 6.0576923076923075,
+      "avg_days_oos": 0.43477564102564104
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Injection",
+      "avg_stock": 47.16089743589744,
+      "oos_pct": 5.998168498168498,
+      "avg_days_oos": 0.4135531135531135
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Syrup",
+      "avg_stock": 46.73429487179487,
+      "oos_pct": 5.94551282051282,
+      "avg_days_oos": 0.42419871794871794
+    },
+    {
+      "category": "Rx Medicines",
+      "sub_type": "Capsule",
+      "avg_stock": 47.345032051282054,
+      "oos_pct": 5.737179487179487,
+      "avg_days_oos": 0.3919871794871795
+    }
+  ],
+  "low_volume_high_margin": [
+    {
+      "product_name": "Oziva Capsule 539",
+      "brand": "Oziva",
+      "category": "Wellness",
+      "sub_type": "Capsule",
+      "revenue": 898259.35,
+      "margin": 338774.63999999996,
+      "margin_pct": 37.7145687378595,
+      "order_count": 38
+    },
+    {
+      "product_name": "Kapiva Powder 430",
+      "brand": "Kapiva",
+      "category": "Wellness",
+      "sub_type": "Powder",
+      "revenue": 670457.35,
+      "margin": 229518.49,
+      "margin_pct": 34.23312310619013,
+      "order_count": 47
+    },
+    {
+      "product_name": "Patanjali Protein Bar 913",
+      "brand": "Patanjali",
+      "category": "Wellness",
+      "sub_type": "Protein Bar",
+      "revenue": 585444.1900000001,
+      "margin": 219288.4,
+      "margin_pct": 37.456755698608944,
+      "order_count": 29
+    },
+    {
+      "product_name": "Neutrogena Moisturizer 19",
+      "brand": "Neutrogena",
+      "category": "Beauty & Personal Care",
+      "sub_type": "Moisturizer",
+      "revenue": 607431.2999999999,
+      "margin": 216458.81,
+      "margin_pct": 35.63510968236244,
+      "order_count": 47
+    },
+    {
+      "product_name": "Oziva Capsule 853",
+      "brand": "Oziva",
+      "category": "Wellness",
+      "sub_type": "Capsule",
+      "revenue": 559442.74,
+      "margin": 210409.66,
+      "margin_pct": 37.610580128361306,
+      "order_count": 25
+    },
+    {
+      "product_name": "Setu Powder 505",
+      "brand": "Setu",
+      "category": "Wellness",
+      "sub_type": "Powder",
+      "revenue": 493444.77999999997,
+      "margin": 164814.92,
+      "margin_pct": 33.40088428942344,
+      "order_count": 48
+    },
+    {
+      "product_name": "Kapiva Gummies 892",
+      "brand": "Kapiva",
+      "category": "Wellness",
+      "sub_type": "Gummies",
+      "revenue": 477377.26,
+      "margin": 159253.76,
+      "margin_pct": 33.36014790482479,
+      "order_count": 21
+    },
+    {
+      "product_name": "Herbalife Oil 46",
+      "brand": "Herbalife",
+      "category": "Wellness",
+      "sub_type": "Oil",
+      "revenue": 488123.15,
+      "margin": 156079.75,
+      "margin_pct": 31.975486104275117,
+      "order_count": 25
+    },
+    {
+      "product_name": "Patanjali Syrup 436",
+      "brand": "Patanjali",
+      "category": "Wellness",
+      "sub_type": "Syrup",
+      "revenue": 413524.79,
+      "margin": 151434.85,
+      "margin_pct": 36.6205010345329,
+      "order_count": 38
+    },
+    {
+      "product_name": "Wellbeing Nutrition Tablet 59",
+      "brand": "Wellbeing Nutrition",
+      "category": "Wellness",
+      "sub_type": "Tablet",
+      "revenue": 439688.44,
+      "margin": 151379.68,
+      "margin_pct": 34.428851484019,
+      "order_count": 17
+    },
+    {
+      "product_name": "Setu Tablet 731",
+      "brand": "Setu",
+      "category": "Wellness",
+      "sub_type": "Tablet",
+      "revenue": 397593.48,
+      "margin": 145606.78,
+      "margin_pct": 36.62202408349352,
+      "order_count": 35
+    },
+    {
+      "product_name": "Biotique Toner 750",
+      "brand": "Biotique",
+      "category": "Beauty & Personal Care",
+      "sub_type": "Toner",
+      "revenue": 399322.86,
+      "margin": 137938.09,
+      "margin_pct": 34.542998615205754,
+      "order_count": 19
+    },
+    {
+      "product_name": "Kapiva Capsule 672",
+      "brand": "Kapiva",
+      "category": "Wellness",
+      "sub_type": "Capsule",
+      "revenue": 425177.69,
+      "margin": 135670.27,
+      "margin_pct": 31.909075473833067,
+      "order_count": 22
+    },
+    {
+      "product_name": "Cetaphil Serum 524",
+      "brand": "Cetaphil",
+      "category": "Beauty & Personal Care",
+      "sub_type": "Serum",
+      "revenue": 362247.67000000004,
+      "margin": 131882.11,
+      "margin_pct": 36.40661374026228,
+      "order_count": 39
+    },
+    {
+      "product_name": "Oziva Capsule 178",
+      "brand": "Oziva",
+      "category": "Wellness",
+      "sub_type": "Capsule",
+      "revenue": 321564.79,
+      "margin": 124796.47,
+      "margin_pct": 38.80912148372961,
+      "order_count": 39
+    }
+  ],
+  "high_volume_low_margin": [],
+  "store_category_matrix": [
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "city": "Bengaluru",
+      "category": "Rx Medicines",
+      "revenue": 15786352.52,
+      "margin": 2891164.42,
+      "margin_pct": 18.314328254972988,
+      "orders": 1024
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "city": "Bengaluru",
+      "category": "Wellness",
+      "revenue": 6665555.72,
+      "margin": 2280479.66,
+      "margin_pct": 34.21289620544947,
+      "orders": 424
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "city": "Bengaluru",
+      "category": "OTC Medicines",
+      "revenue": 4275873.45,
+      "margin": 1296655.42,
+      "margin_pct": 30.324925074665153,
+      "orders": 583
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "city": "Bengaluru",
+      "category": "Beauty & Personal Care",
+      "revenue": 3814692.75,
+      "margin": 1294653.88,
+      "margin_pct": 33.93861484650369,
+      "orders": 321
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-29",
+      "city": "Bengaluru",
+      "category": "FMCG",
+      "revenue": 870061.27,
+      "margin": 142707.9,
+      "margin_pct": 16.40205177734207,
+      "orders": 211
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "city": "Bengaluru",
+      "category": "Rx Medicines",
+      "revenue": 14753736.97,
+      "margin": 2714851.81,
+      "margin_pct": 18.401112989341843,
+      "orders": 1016
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "city": "Bengaluru",
+      "category": "Wellness",
+      "revenue": 6249483.8,
+      "margin": 2150942.74,
+      "margin_pct": 34.417926485384285,
+      "orders": 408
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "city": "Bengaluru",
+      "category": "OTC Medicines",
+      "revenue": 4235927.55,
+      "margin": 1286835.31,
+      "margin_pct": 30.37906798004607,
+      "orders": 616
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "city": "Bengaluru",
+      "category": "Beauty & Personal Care",
+      "revenue": 3299993.89,
+      "margin": 1122251.06,
+      "margin_pct": 34.00767084450571,
+      "orders": 285
+    },
+    {
+      "store_name": "Wellness Forever Bengaluru STA-30",
+      "city": "Bengaluru",
+      "category": "FMCG",
+      "revenue": 930948.36,
+      "margin": 152804.6,
+      "margin_pct": 16.41386424484383,
+      "orders": 222
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "category": "Rx Medicines",
+      "revenue": 14019408.69,
+      "margin": 2578500.59,
+      "margin_pct": 18.392363380056366,
+      "orders": 991
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "category": "Wellness",
+      "revenue": 6426900.06,
+      "margin": 2191278.37,
+      "margin_pct": 34.09541691239556,
+      "orders": 411
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "category": "OTC Medicines",
+      "revenue": 4254484.5,
+      "margin": 1295858.32,
+      "margin_pct": 30.458644754728805,
+      "orders": 609
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "category": "Beauty & Personal Care",
+      "revenue": 3755385.98,
+      "margin": 1283046.39,
+      "margin_pct": 34.165499813683596,
+      "orders": 349
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "category": "FMCG",
+      "revenue": 1062888.29,
+      "margin": 174997.23,
+      "margin_pct": 16.464310656767136,
+      "orders": 254
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14456247.97,
+      "margin": 2657542.98,
+      "margin_pct": 18.383352205323302,
+      "orders": 976
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6313726.89,
+      "margin": 2165681.12,
+      "margin_pct": 34.30115299143071,
+      "orders": 378
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4235392.11,
+      "margin": 1290971.2,
+      "margin_pct": 30.48055921320588,
+      "orders": 594
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3353935.29,
+      "margin": 1140653.93,
+      "margin_pct": 34.009419722585044,
+      "orders": 323
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 930717.9,
+      "margin": 152670.77,
+      "margin_pct": 16.403549346155263,
+      "orders": 226
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14258342.0,
+      "margin": 2608935.28,
+      "margin_pct": 18.297606271472514,
+      "orders": 966
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6648833.11,
+      "margin": 2277123.54,
+      "margin_pct": 34.24846890163558,
+      "orders": 412
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4510758.14,
+      "margin": 1373299.9000000001,
+      "margin_pct": 30.444990783744394,
+      "orders": 619
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3242939.77,
+      "margin": 1101134.28,
+      "margin_pct": 33.95481748339717,
+      "orders": 323
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 957083.89,
+      "margin": 158120.19,
+      "margin_pct": 16.521037669958062,
+      "orders": 226
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 9026855.15,
+      "margin": 1655987.7,
+      "margin_pct": 18.34512321824506,
+      "orders": 618
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 4028228.08,
+      "margin": 1380306.49,
+      "margin_pct": 34.26584747902358,
+      "orders": 257
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 2679263.37,
+      "margin": 817348.6,
+      "margin_pct": 30.506467156306474,
+      "orders": 367
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 2063148.84,
+      "margin": 704127.91,
+      "margin_pct": 34.12879848261456,
+      "orders": 193
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 546902.6,
+      "margin": 89993.72,
+      "margin_pct": 16.455164045663707,
+      "orders": 134
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 8502158.3,
+      "margin": 1553096.85,
+      "margin_pct": 18.26708931072243,
+      "orders": 606
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 3794988.13,
+      "margin": 1306142.57,
+      "margin_pct": 34.41756667628892,
+      "orders": 243
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 2676766.57,
+      "margin": 819498.02,
+      "margin_pct": 30.615221707584315,
+      "orders": 400
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 2038130.45,
+      "margin": 693232.79,
+      "margin_pct": 34.0131707467498,
+      "orders": 186
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 556850.8200000001,
+      "margin": 91881.0,
+      "margin_pct": 16.50011038863155,
+      "orders": 124
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14399233.07,
+      "margin": 2654504.44,
+      "margin_pct": 18.435040443442173,
+      "orders": 964
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6806903.17,
+      "margin": 2334322.55,
+      "margin_pct": 34.29345903270723,
+      "orders": 425
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4244716.26,
+      "margin": 1289024.91,
+      "margin_pct": 30.367752072078428,
+      "orders": 595
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 4015895.07,
+      "margin": 1361872.31,
+      "margin_pct": 33.912049151224466,
+      "orders": 312
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 942977.03,
+      "margin": 152294.73,
+      "margin_pct": 16.150417789073824,
+      "orders": 236
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 9211935.98,
+      "margin": 1693097.31,
+      "margin_pct": 18.379386414276837,
+      "orders": 591
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 4097653.85,
+      "margin": 1405635.48,
+      "margin_pct": 34.30342170068855,
+      "orders": 247
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 2430536.55,
+      "margin": 740786.63,
+      "margin_pct": 30.478316814449883,
+      "orders": 342
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 2108339.18,
+      "margin": 720582.26,
+      "margin_pct": 34.17771992455217,
+      "orders": 201
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-8",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 529249.51,
+      "margin": 88618.38,
+      "margin_pct": 16.74415910181948,
+      "orders": 134
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14457191.31,
+      "margin": 2659864.89,
+      "margin_pct": 18.398213269545508,
+      "orders": 980
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6804201.97,
+      "margin": 2332851.18,
+      "margin_pct": 34.28544876071632,
+      "orders": 440
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4394053.34,
+      "margin": 1342115.85,
+      "margin_pct": 30.543913470108222,
+      "orders": 593
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3642934.89,
+      "margin": 1239423.94,
+      "margin_pct": 34.0226761505474,
+      "orders": 327
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 981465.05,
+      "margin": 158457.32,
+      "margin_pct": 16.144978366779338,
+      "orders": 238
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 15084486.39,
+      "margin": 2775881.42,
+      "margin_pct": 18.40222695179216,
+      "orders": 1019
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 5665888.02,
+      "margin": 1938402.75,
+      "margin_pct": 34.211808337151005,
+      "orders": 376
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4480223.65,
+      "margin": 1358587.72,
+      "margin_pct": 30.324104913825003,
+      "orders": 632
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3867386.47,
+      "margin": 1315002.19,
+      "margin_pct": 34.002347585396606,
+      "orders": 354
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 868367.47,
+      "margin": 142560.03,
+      "margin_pct": 16.417016404357017,
+      "orders": 212
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14511673.43,
+      "margin": 2669872.38,
+      "margin_pct": 18.398101313943364,
+      "orders": 1005
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6323228.02,
+      "margin": 2169429.08,
+      "margin_pct": 34.308885795960904,
+      "orders": 399
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3972571.34,
+      "margin": 1351025.51,
+      "margin_pct": 34.00884199099116,
+      "orders": 363
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 3787251.4,
+      "margin": 1154202.21,
+      "margin_pct": 30.475986093767105,
+      "orders": 543
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 854431.8200000001,
+      "margin": 139325.03,
+      "margin_pct": 16.306161210147813,
+      "orders": 217
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14762841.2,
+      "margin": 2716620.78,
+      "margin_pct": 18.401747625653524,
+      "orders": 1003
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6855274.63,
+      "margin": 2347244.86,
+      "margin_pct": 34.23998288453689,
+      "orders": 414
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4184937.93,
+      "margin": 1270005.3800000001,
+      "margin_pct": 30.34705415571122,
+      "orders": 570
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3755074.19,
+      "margin": 1274628.27,
+      "margin_pct": 33.94415677310493,
+      "orders": 321
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 839277.81,
+      "margin": 136379.97,
+      "margin_pct": 16.24968137785032,
+      "orders": 200
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 14357250.14,
+      "margin": 2644401.78,
+      "margin_pct": 18.4185812339688,
+      "orders": 1004
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6116480.08,
+      "margin": 2105942.28,
+      "margin_pct": 34.43062435347618,
+      "orders": 403
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 4395248.49,
+      "margin": 1340638.24,
+      "margin_pct": 30.501989661112425,
+      "orders": 603
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3743432.74,
+      "margin": 1265829.41,
+      "margin_pct": 33.814669527092924,
+      "orders": 346
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 975619.8,
+      "margin": 160379.06,
+      "margin_pct": 16.43868441374396,
+      "orders": 225
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 15354862.77,
+      "margin": 2841065.38,
+      "margin_pct": 18.502707725599556,
+      "orders": 1034
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 6406619.7,
+      "margin": 2203614.42,
+      "margin_pct": 34.395898667123944,
+      "orders": 426
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 3883169.34,
+      "margin": 1179287.55,
+      "margin_pct": 30.369202235203062,
+      "orders": 573
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 3554747.03,
+      "margin": 1213432.48,
+      "margin_pct": 34.13555084959168,
+      "orders": 329
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 1023335.65,
+      "margin": 166453.03,
+      "margin_pct": 16.26573158083567,
+      "orders": 230
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "city": "Nashik",
+      "category": "Rx Medicines",
+      "revenue": 9033869.0,
+      "margin": 1666055.34,
+      "margin_pct": 18.442323438606426,
+      "orders": 602
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "city": "Nashik",
+      "category": "Wellness",
+      "revenue": 4083914.98,
+      "margin": 1405333.25,
+      "margin_pct": 34.41142278627945,
+      "orders": 256
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "city": "Nashik",
+      "category": "OTC Medicines",
+      "revenue": 2762595.1,
+      "margin": 842028.97,
+      "margin_pct": 30.479637424970456,
+      "orders": 390
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "city": "Nashik",
+      "category": "Beauty & Personal Care",
+      "revenue": 2421606.0100000002,
+      "margin": 816221.69,
+      "margin_pct": 33.70580047412419,
+      "orders": 206
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-26",
+      "city": "Nashik",
+      "category": "FMCG",
+      "revenue": 603626.36,
+      "margin": 98014.16,
+      "margin_pct": 16.237554635619293,
+      "orders": 154
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "city": "Nashik",
+      "category": "Rx Medicines",
+      "revenue": 14773331.31,
+      "margin": 2716346.56,
+      "margin_pct": 18.38682490090314,
+      "orders": 1017
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "city": "Nashik",
+      "category": "Wellness",
+      "revenue": 7119883.37,
+      "margin": 2442266.78,
+      "margin_pct": 34.302061608068165,
+      "orders": 434
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "city": "Nashik",
+      "category": "OTC Medicines",
+      "revenue": 4525459.33,
+      "margin": 1372086.94,
+      "margin_pct": 30.319285622659656,
+      "orders": 630
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "city": "Nashik",
+      "category": "Beauty & Personal Care",
+      "revenue": 3637093.72,
+      "margin": 1229272.75,
+      "margin_pct": 33.79821485600871,
+      "orders": 325
+    },
+    {
+      "store_name": "Wellness Forever Nashik STA-27",
+      "city": "Nashik",
+      "category": "FMCG",
+      "revenue": 1023190.3,
+      "margin": 168771.46,
+      "margin_pct": 16.49463056872216,
+      "orders": 252
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 9241779.18,
+      "margin": 1702255.65,
+      "margin_pct": 18.4191335547578,
+      "orders": 633
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "category": "Wellness",
+      "revenue": 3481849.5,
+      "margin": 1194309.23,
+      "margin_pct": 34.30100094791575,
+      "orders": 217
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 2428243.0,
+      "margin": 743101.96,
+      "margin_pct": 30.602454531939348,
+      "orders": 358
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 2214378.58,
+      "margin": 749365.23,
+      "margin_pct": 33.84088144494245,
+      "orders": 187
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "category": "FMCG",
+      "revenue": 533685.78,
+      "margin": 84326.12,
+      "margin_pct": 15.800705801080177,
+      "orders": 120
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 8598943.53,
+      "margin": 1574960.69,
+      "margin_pct": 18.31574639960451,
+      "orders": 622
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "category": "Wellness",
+      "revenue": 4020437.13,
+      "margin": 1394807.76,
+      "margin_pct": 34.69293797910975,
+      "orders": 247
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 2577606.07,
+      "margin": 785393.59,
+      "margin_pct": 30.469884407123548,
+      "orders": 374
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 2242793.71,
+      "margin": 765569.61,
+      "margin_pct": 34.13464228058674,
+      "orders": 196
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-23",
+      "city": "Navi Mumbai",
+      "category": "FMCG",
+      "revenue": 599746.54,
+      "margin": 98397.67,
+      "margin_pct": 16.406542337034573,
+      "orders": 138
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 8805542.4,
+      "margin": 1626709.66,
+      "margin_pct": 18.473701972067047,
+      "orders": 610
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "category": "Wellness",
+      "revenue": 4370357.25,
+      "margin": 1514789.66,
+      "margin_pct": 34.660545427951,
+      "orders": 264
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 2581538.09,
+      "margin": 785966.37,
+      "margin_pct": 30.44566233768025,
+      "orders": 369
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 2426481.63,
+      "margin": 829067.4,
+      "margin_pct": 34.16747070118969,
+      "orders": 208
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "category": "FMCG",
+      "revenue": 534046.77,
+      "margin": 84952.36,
+      "margin_pct": 15.907288419701517,
+      "orders": 127
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 15253452.1,
+      "margin": 2811413.37,
+      "margin_pct": 18.4313252604635,
+      "orders": 1015
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 6315155.67,
+      "margin": 2168132.4,
+      "margin_pct": 34.33220831435182,
+      "orders": 390
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 4260260.07,
+      "margin": 1298646.87,
+      "margin_pct": 30.482807355936842,
+      "orders": 587
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 3508379.12,
+      "margin": 1184915.47,
+      "margin_pct": 33.77387190697908,
+      "orders": 314
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 938575.04,
+      "margin": 152497.44,
+      "margin_pct": 16.247762139508843,
+      "orders": 222
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 13961434.68,
+      "margin": 2568665.8,
+      "margin_pct": 18.39829400684486,
+      "orders": 974
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 6134910.87,
+      "margin": 2102807.61,
+      "margin_pct": 34.276090632104,
+      "orders": 396
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 4352248.2,
+      "margin": 1328862.32,
+      "margin_pct": 30.532778898041705,
+      "orders": 594
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 3418390.94,
+      "margin": 1165780.48,
+      "margin_pct": 34.10319359201203,
+      "orders": 306
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-18",
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 859419.7000000001,
+      "margin": 138739.59,
+      "margin_pct": 16.14340350820443,
+      "orders": 217
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 15569419.91,
+      "margin": 2865044.03,
+      "margin_pct": 18.4017390921535,
+      "orders": 1052
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 5995539.37,
+      "margin": 2057502.1,
+      "margin_pct": 34.31721439934436,
+      "orders": 400
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 4502549.65,
+      "margin": 1369335.31,
+      "margin_pct": 30.41244220371895,
+      "orders": 609
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 3884088.0,
+      "margin": 1326600.74,
+      "margin_pct": 34.154754990103214,
+      "orders": 348
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 996486.71,
+      "margin": 160388.15,
+      "margin_pct": 16.09536267673856,
+      "orders": 223
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 9062753.41,
+      "margin": 1671828.67,
+      "margin_pct": 18.447248803606143,
+      "orders": 617
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 4596740.85,
+      "margin": 1554571.99,
+      "margin_pct": 33.819004393079936,
+      "orders": 282
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 2517496.62,
+      "margin": 761843.73,
+      "margin_pct": 30.261956419230465,
+      "orders": 364
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 2099431.84,
+      "margin": 706874.41,
+      "margin_pct": 33.66979563385111,
+      "orders": 195
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-14",
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 529396.34,
+      "margin": 86832.33,
+      "margin_pct": 16.40214021880091,
+      "orders": 131
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 14991639.39,
+      "margin": 2748330.5,
+      "margin_pct": 18.332421348349946,
+      "orders": 1004
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 6302536.61,
+      "margin": 2158763.02,
+      "margin_pct": 34.25228846072502,
+      "orders": 381
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 4498985.82,
+      "margin": 1365867.28,
+      "margin_pct": 30.359448432313574,
+      "orders": 618
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 3784784.72,
+      "margin": 1285607.52,
+      "margin_pct": 33.96778456662127,
+      "orders": 317
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 999515.14,
+      "margin": 163439.64,
+      "margin_pct": 16.35189237853866,
+      "orders": 224
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 9090325.61,
+      "margin": 1666096.91,
+      "margin_pct": 18.328242369747194,
+      "orders": 640
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 4478673.54,
+      "margin": 1533895.94,
+      "margin_pct": 34.24888923696814,
+      "orders": 274
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 2734289.44,
+      "margin": 830915.31,
+      "margin_pct": 30.388710786960434,
+      "orders": 372
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 2310662.62,
+      "margin": 787719.15,
+      "margin_pct": 34.09061726198695,
+      "orders": 208
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-16",
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 502875.61,
+      "margin": 82075.29,
+      "margin_pct": 16.321191238525167,
+      "orders": 130
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "revenue": 15026179.53,
+      "margin": 2763655.89,
+      "margin_pct": 18.392272529968903,
+      "orders": 1007
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "category": "Wellness",
+      "revenue": 6289801.65,
+      "margin": 2159310.35,
+      "margin_pct": 34.330340925774664,
+      "orders": 411
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "category": "OTC Medicines",
+      "revenue": 4213086.49,
+      "margin": 1284596.59,
+      "margin_pct": 30.490629448245674,
+      "orders": 599
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "category": "Beauty & Personal Care",
+      "revenue": 3754133.38,
+      "margin": 1271908.1,
+      "margin_pct": 33.880205396431606,
+      "orders": 337
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "category": "FMCG",
+      "revenue": 776580.04,
+      "margin": 124358.48,
+      "margin_pct": 16.01360756065788,
+      "orders": 196
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "revenue": 8373416.08,
+      "margin": 1548437.07,
+      "margin_pct": 18.492298187575553,
+      "orders": 600
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "category": "Wellness",
+      "revenue": 3651616.25,
+      "margin": 1255116.43,
+      "margin_pct": 34.37153151019086,
+      "orders": 239
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "category": "OTC Medicines",
+      "revenue": 2584687.87,
+      "margin": 786202.64,
+      "margin_pct": 30.41770146118262,
+      "orders": 345
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "category": "Beauty & Personal Care",
+      "revenue": 2230547.17,
+      "margin": 764126.1,
+      "margin_pct": 34.25733874975619,
+      "orders": 178
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "category": "FMCG",
+      "revenue": 472250.97000000003,
+      "margin": 73548.16,
+      "margin_pct": 15.57395636476935,
+      "orders": 117
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "revenue": 15170925.85,
+      "margin": 2811435.92,
+      "margin_pct": 18.531735952028267,
+      "orders": 1043
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "category": "Wellness",
+      "revenue": 6912155.52,
+      "margin": 2355468.07,
+      "margin_pct": 34.07718566494291,
+      "orders": 429
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "category": "OTC Medicines",
+      "revenue": 4801192.0,
+      "margin": 1455095.6400000001,
+      "margin_pct": 30.30696627004294,
+      "orders": 670
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "category": "Beauty & Personal Care",
+      "revenue": 3727630.34,
+      "margin": 1268072.64,
+      "margin_pct": 34.0181972013888,
+      "orders": 320
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "category": "FMCG",
+      "revenue": 932602.13,
+      "margin": 152553.51,
+      "margin_pct": 16.357834181656866,
+      "orders": 229
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "revenue": 14989680.63,
+      "margin": 2758896.07,
+      "margin_pct": 18.40530254179271,
+      "orders": 1040
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "category": "Wellness",
+      "revenue": 6591017.23,
+      "margin": 2266373.66,
+      "margin_pct": 34.38579480090359,
+      "orders": 397
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "category": "OTC Medicines",
+      "revenue": 4555522.51,
+      "margin": 1383067.18,
+      "margin_pct": 30.360231498450002,
+      "orders": 596
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "category": "Beauty & Personal Care",
+      "revenue": 3687114.7800000003,
+      "margin": 1259812.94,
+      "margin_pct": 34.16798811996843,
+      "orders": 343
+    },
+    {
+      "store_name": "Wellness Forever Thane STA-21",
+      "city": "Thane",
+      "category": "FMCG",
+      "revenue": 950840.56,
+      "margin": 156544.49,
+      "margin_pct": 16.463800198005856,
+      "orders": 233
+    }
+  ],
+  "oos_revenue_impact": [
+    {
+      "store_name": "Wellness Forever Mumbai STA-4",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.0978260869565215,
+      "sku_count": 126
+    },
+    {
+      "store_name": "Wellness Forever Goa STA-28",
+      "city": "Goa",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.713541666666667,
+      "sku_count": 125
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-12",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.358288770053476,
+      "sku_count": 124
+    },
+    {
+      "store_name": "Wellness Forever Pune FLA-17",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.994252873563219,
+      "sku_count": 123
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai NEI-24",
+      "city": "Navi Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.163841807909605,
+      "sku_count": 121
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-6",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.63855421686747,
+      "sku_count": 117
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-9",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.976047904191617,
+      "sku_count": 117
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-13",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.731428571428571,
+      "sku_count": 117
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-22",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.4363636363636365,
+      "sku_count": 117
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-5",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.7102272727272725,
+      "sku_count": 116
+    },
+    {
+      "store_name": "Wellness Forever Thane FLA-20",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.375,
+      "sku_count": 116
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-1",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.9476744186046515,
+      "sku_count": 115
+    },
+    {
+      "store_name": "Wellness Forever Pune STA-15",
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.660377358490566,
+      "sku_count": 113
+    },
+    {
+      "store_name": "Wellness Forever Thane NEI-19",
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.903846153846154,
+      "sku_count": 113
+    },
+    {
+      "store_name": "Wellness Forever Mumbai STA-2",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.080246913580247,
+      "sku_count": 111
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-7",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.472049689440993,
+      "sku_count": 111
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-10",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.038709677419355,
+      "sku_count": 110
+    },
+    {
+      "store_name": "Wellness Forever Mumbai FLA-11",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.0855263157894735,
+      "sku_count": 110
+    },
+    {
+      "store_name": "Wellness Forever Navi Mumbai STA-25",
+      "city": "Navi Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 6.968553459119497,
+      "sku_count": 109
+    },
+    {
+      "store_name": "Wellness Forever Mumbai NEI-3",
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "oos_pct": 100.0,
+      "avg_days_oos": 7.198630136986301,
+      "sku_count": 108
+    }
+  ],
+  "cancellation_by_category": [
+    {
+      "category": "Rx Medicines",
+      "cancellations": 3068,
+      "returns": 2021,
+      "lost_rev": 32973318.93,
+      "total_orders": 64282
+    },
+    {
+      "category": "Wellness",
+      "cancellations": 1120,
+      "returns": 691,
+      "lost_rev": 14241356.11,
+      "total_orders": 23074
+    },
+    {
+      "category": "OTC Medicines",
+      "cancellations": 1811,
+      "returns": 1035,
+      "lost_rev": 9943336.65,
+      "total_orders": 35158
+    },
+    {
+      "category": "Beauty & Personal Care",
+      "cancellations": 880,
+      "returns": 528,
+      "lost_rev": 8192653.58,
+      "total_orders": 18178
+    },
+    {
+      "category": "FMCG",
+      "cancellations": 657,
+      "returns": 381,
+      "lost_rev": 2237600.0,
+      "total_orders": 12071
+    }
+  ],
+  "city_category_revenue": [
+    {
+      "city": "Bengaluru",
+      "category": "Rx Medicines",
+      "revenue": 30540089.49,
+      "margin": 5606016.23,
+      "orders": 2040
+    },
+    {
+      "city": "Bengaluru",
+      "category": "Wellness",
+      "revenue": 12915039.52,
+      "margin": 4431422.4,
+      "orders": 832
+    },
+    {
+      "city": "Bengaluru",
+      "category": "OTC Medicines",
+      "revenue": 8511801.0,
+      "margin": 2583490.73,
+      "orders": 1199
+    },
+    {
+      "city": "Bengaluru",
+      "category": "Beauty & Personal Care",
+      "revenue": 7114686.64,
+      "margin": 2416904.94,
+      "orders": 606
+    },
+    {
+      "city": "Bengaluru",
+      "category": "FMCG",
+      "revenue": 1801009.6300000001,
+      "margin": 295512.5,
+      "orders": 433
+    },
+    {
+      "city": "Goa",
+      "category": "Rx Medicines",
+      "revenue": 14019408.69,
+      "margin": 2578500.59,
+      "orders": 991
+    },
+    {
+      "city": "Goa",
+      "category": "Wellness",
+      "revenue": 6426900.06,
+      "margin": 2191278.37,
+      "orders": 411
+    },
+    {
+      "city": "Goa",
+      "category": "OTC Medicines",
+      "revenue": 4254484.5,
+      "margin": 1295858.32,
+      "orders": 609
+    },
+    {
+      "city": "Goa",
+      "category": "Beauty & Personal Care",
+      "revenue": 3755385.98,
+      "margin": 1283046.39,
+      "orders": 349
+    },
+    {
+      "city": "Goa",
+      "category": "FMCG",
+      "revenue": 1062888.29,
+      "margin": 174997.23,
+      "orders": 254
+    },
+    {
+      "city": "Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 158383077.71,
+      "margin": 29130871.19,
+      "orders": 10766
+    },
+    {
+      "city": "Mumbai",
+      "category": "Wellness",
+      "revenue": 69862025.65,
+      "margin": 23966696.32,
+      "orders": 4420
+    },
+    {
+      "city": "Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 45902317.15,
+      "margin": 13975766.21,
+      "orders": 6431
+    },
+    {
+      "city": "Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 39358535.26,
+      "margin": 13380945.28,
+      "orders": 3578
+    },
+    {
+      "city": "Mumbai",
+      "category": "FMCG",
+      "revenue": 10006279.35,
+      "margin": 1637133.23,
+      "orders": 2402
+    },
+    {
+      "city": "Nashik",
+      "category": "Rx Medicines",
+      "revenue": 23807200.31,
+      "margin": 4382401.9,
+      "orders": 1619
+    },
+    {
+      "city": "Nashik",
+      "category": "Wellness",
+      "revenue": 11203798.35,
+      "margin": 3847600.03,
+      "orders": 690
+    },
+    {
+      "city": "Nashik",
+      "category": "OTC Medicines",
+      "revenue": 7288054.43,
+      "margin": 2214115.91,
+      "orders": 1020
+    },
+    {
+      "city": "Nashik",
+      "category": "Beauty & Personal Care",
+      "revenue": 6058699.73,
+      "margin": 2045494.44,
+      "orders": 531
+    },
+    {
+      "city": "Nashik",
+      "category": "FMCG",
+      "revenue": 1626816.66,
+      "margin": 266785.62,
+      "orders": 406
+    },
+    {
+      "city": "Navi Mumbai",
+      "category": "Rx Medicines",
+      "revenue": 26646265.11,
+      "margin": 4903926.0,
+      "orders": 1865
+    },
+    {
+      "city": "Navi Mumbai",
+      "category": "Wellness",
+      "revenue": 11872643.88,
+      "margin": 4103906.65,
+      "orders": 728
+    },
+    {
+      "city": "Navi Mumbai",
+      "category": "OTC Medicines",
+      "revenue": 7587387.16,
+      "margin": 2314461.92,
+      "orders": 1101
+    },
+    {
+      "city": "Navi Mumbai",
+      "category": "Beauty & Personal Care",
+      "revenue": 6883653.92,
+      "margin": 2344002.24,
+      "orders": 591
+    },
+    {
+      "city": "Navi Mumbai",
+      "category": "FMCG",
+      "revenue": 1667479.09,
+      "margin": 267676.15,
+      "orders": 385
+    },
+    {
+      "city": "Pune",
+      "category": "Rx Medicines",
+      "revenue": 77929025.1,
+      "margin": 14331379.28,
+      "orders": 5302
+    },
+    {
+      "city": "Pune",
+      "category": "Wellness",
+      "revenue": 33823556.91,
+      "margin": 11575673.06,
+      "orders": 2123
+    },
+    {
+      "city": "Pune",
+      "category": "OTC Medicines",
+      "revenue": 22865829.8,
+      "margin": 6955470.82,
+      "orders": 3144
+    },
+    {
+      "city": "Pune",
+      "category": "Beauty & Personal Care",
+      "revenue": 19005737.24,
+      "margin": 6457497.77,
+      "orders": 1688
+    },
+    {
+      "city": "Pune",
+      "category": "FMCG",
+      "revenue": 4826268.54,
+      "margin": 783972.44,
+      "orders": 1147
+    },
+    {
+      "city": "Thane",
+      "category": "Rx Medicines",
+      "revenue": 53560202.089999996,
+      "margin": 9882424.95,
+      "orders": 3690
+    },
+    {
+      "city": "Thane",
+      "category": "Wellness",
+      "revenue": 23444590.65,
+      "margin": 8036268.51,
+      "orders": 1476
+    },
+    {
+      "city": "Thane",
+      "category": "OTC Medicines",
+      "revenue": 16154488.87,
+      "margin": 4908962.05,
+      "orders": 2210
+    },
+    {
+      "city": "Thane",
+      "category": "Beauty & Personal Care",
+      "revenue": 13399425.67,
+      "margin": 4563919.78,
+      "orders": 1178
+    },
+    {
+      "city": "Thane",
+      "category": "FMCG",
+      "revenue": 3132273.7,
+      "margin": 507004.64,
+      "orders": 775
+    }
+  ]
+}

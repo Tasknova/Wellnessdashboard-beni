@@ -1,9 +1,9 @@
 # Tasknova Bible — Navigation Index
 
-> Source: `TN bible Revenue 101.pdf` — 260 pages, 11 sections, ~81 numbered questions
-> Index created: April 2026
+> Source: `Tn Bible 2026 v3.pdf` — 300 pages, 11 sections, ~87 numbered questions
+> Index updated: April 2026
 
-Use this index to jump to any topic in the PDF by page number or text line in the extracted text (`tn_bible.txt`).
+Use this index to jump to any topic in the PDF by page number.
 
 ---
 
@@ -29,7 +29,7 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 | Red/amber/green thresholds | Section 3, Q29 — p.55 |
 | Daily / weekly / monthly insight definitions | Section 3, Q30–Q32 — p.57 |
 | Rep vs. manager vs. executive dashboard content | Section 3, Q33 — p.61 |
-| Insights vs. improvement plans distinction | Section 3, Q34 — p.62 |
+| Insights vs. improvement plans distinction | Section 3, Q34 — p.63 |
 | Discovery framework (BANT vs. SPIN vs. Hybrid) | Section 3A, p.63 |
 | Demo drop-off signal types | Section 3A, p.65 |
 | Sentiment model (3-level logic) | Section 3A, p.68 |
@@ -39,38 +39,56 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 | Revenue Intelligence full definition | Section 3A, Q26R–Q26W — p.102 |
 | Strategic Intelligence concept | Section 3A, Q26R — p.109 |
 | Improvement plan triggers | Section 4, Q35 — p.115 |
-| Improvement plan variables | Section 4, Q36 — p.117 |
-| Coaching cadence (weekly/monthly structure) | Section 4, Q42 — p.127+ |
-| Rep improvement timeline (weeks 1–4) | Section 4 / Section 11 — p.115, p.250 |
-| LMS skills list (Sales + CX + Cross-functional) | Section 4, Q39 — p.120 |
-| How LMS personalizes | Section 4, Q40 — p.122 |
-| Cross-team shared learning mechanism | Section 4, Q41 — p.123 |
-| MVP screen list (12 screens) | Section 5, Q46 — p.142 |
-| UX design rules | Section 5 — p.139 |
-| Route map (URL structure) | Section 5 — p.141 |
-| Role-based dashboard specs | Section 5 / Section 3, Q33 |
-| Compliance: TRAI, DLT, GDPR, CCPA | Section 7, Q64 — p.194 |
-| Security posture (RBAC, encryption) | Section 7, Q65 — p.196 |
-| Call recording consent rules | Section 7, Q66 — p.197 |
-| Avoiding surveillance perception | Section 7, Q67 — p.198 |
-| Data ingestion risks + mitigations | Section 7, Q68 — p.199 |
-| Model risks + mitigations | Section 7, Q69 — p.200 |
-| Ethical considerations | Section 7, Q70 — p.201 |
-| GTM risks | Section 7, Q72 — p.202 |
-| Regulatory scale-up plan | Section 7, Q73 — p.203 |
-| What Tasknova really is (plain language) | Section 8, 8.1 — p.204 |
-| Full solution architecture (7 layers) | Section 8, 8.3–8.4 — p.205 |
-| MVP feature list (numbered) | Section 8, 8.5 — p.213 |
-| Small business story (BrightNest Solar) | Section 9.1 — p.219 |
-| Mid-market story (Flowstack CRM, SaaS) | Section 9.2 — p.223 |
-| Enterprise BPO story | Section 9.3 — p.227 |
-| Industry catalog (10 industries) | Section 10 — p.232 |
-| Rep measurable improvements + timeline | Section 11, Q74–Q75 — p.249 |
-| Manager workload reduction | Section 11, Q76 — p.251 |
-| Revenue uplift benchmarks by industry | Section 11, Q78 — p.254 |
-| Cost savings breakdown | Section 11, Q79 — p.254 |
-| Cultural transformation impact | Section 11, Q80 — p.256 |
-| Leadership visibility gains | Section 11, Q81 — p.257 |
+| Improvement plan variables | Section 4, Q36 — p.119 |
+| Coaching cadence (weekly/monthly/quarterly) | Section 4, Q42 — p.129 |
+| Coaching evidence requirements | Section 4, Q43 — p.132 |
+| Manager coaching workflow (7 steps) | Section 4, Q44 — p.134 |
+| Rep coaching consumption workflow (7 steps) | Section 4, Q45 — p.137 |
+| Rep improvement timeline (weeks 1–4) | Section 4 / Section 11 — p.115, p.267 |
+| LMS skills list (Sales + CX + Cross-functional) | Section 4, Q39 — p.122 |
+| How LMS personalizes | Section 4, Q40 — p.123 |
+| Cross-team shared learning mechanism | Section 4, Q41 — p.129 |
+| Compliance: TRAI, DLT, GDPR, CCPA | Section 7, Q64 — p.141 |
+| Derived intelligence governance | Section 7, Q64D — p.144 |
+| Security posture (RBAC, encryption) | Section 7, Q65 — p.145 |
+| Call recording consent rules | Section 7, Q66 — p.149 |
+| Avoiding surveillance perception | Section 7, Q67 — p.151 |
+| Data ingestion risks + mitigations | Section 7, Q68 — p.155 |
+| Model risks + mitigations | Section 7, Q69 — p.158 |
+| Ethical considerations | Section 7, Q70 — p.162 |
+| Operational risks | Section 7, Q71 — p.164 |
+| GTM risks | Section 7, Q72 — p.167 |
+| Regulatory scale-up plan | Section 7, Q73 — p.169 |
+| What Tasknova really is (plain language) | Section 8, 8.1 — p.172 |
+| The problem being solved (deeper) | Section 8, 8.2 — p.174 |
+| MVP in 7 layers | Section 8, 8.3 — p.176 |
+| Full solution architecture (Input → Processing → Storage → Application → Intelligence → Extensions) | Section 8, 8.4 — p.181 |
+| MVP feature list (15 features) | Section 8, 8.5 — p.187 |
+| Tasknova's USPs (5 USPs) | Section 8, 8.6 — p.190 |
+| Why users love it (by role) | Section 8, 8.7 — p.192 |
+| Impact by company size (SMB / Mid-Market / Enterprise) | Section 8, 8.8 — p.193 |
+| Small business story (BrightNest Solar) | Section 9.1 — p.197 |
+| Mid-market story (Flowstack CRM, SaaS) | Section 9.2 — p.202 |
+| Enterprise BPO story (GlobalAssist) | Section 9.3 — p.207 |
+| Continuity story (NorthBridge ERP) | Section 9.4 — p.212 |
+| Retention story (CarePulse Health) | Section 9.5 — p.215 |
+| Account reassignment story (Axis Prime Realty) | Section 9.6 — p.217 |
+| Revenue truth story (FinCore Advisory) | Section 9.7 — p.220 |
+| Industry catalog (10 industries) | Section 10 — p.224 |
+| Rep measurable improvements (4 categories) | Section 11, Q74 — p.264 |
+| Rep improvement timeline (Week 1 → Month 3+) | Section 11, Q75 — p.267 |
+| Manager workload reduction (7 mechanisms) | Section 11, Q76 — p.269 |
+| Manager decision improvements (7 types) | Section 11, Q77 — p.273 |
+| CS / Onboarding / Support value | Section 11, Q78 — p.275 |
+| RevOps and revenue leader value | Section 11, Q79 — p.278 |
+| Revenue uplift benchmarks by industry | Section 11, Q80 — p.281 |
+| Cost savings breakdown (6 categories) | Section 11, Q81 — p.284 |
+| Continuity / account memory / stakeholder memory value | Section 11, Q82 — p.286 |
+| Cultural & operating system improvements | Section 11, Q83 — p.289 |
+| Leadership visibility gains (5 categories) | Section 11, Q84 — p.291 |
+| Forecasting accuracy improvement | Section 11, Q85 — p.293 |
+| Strategy de-risking | Section 11, Q86 — p.295 |
+| Long-term strategic value | Section 11, Q87 — p.297 |
 
 ---
 
@@ -104,7 +122,7 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 | Q13 | MVP data sources (Voice, Meetings, Text, Metadata) | 11 |
 | Q14 | Additional sources in Phase 2 and Phase 3 | 12 |
 | Q15 | Data permissions required from clients | 13 |
-| Q16 | Day 1 connector integrations (10 must-have) | 13 |
+| Q16 | Day 1 connector integrations (13 must-have + CSV imports) | 13 |
 | Q17 | AI pipelines: ASR, NLP, Revenue Intelligence layers | 14 |
 | Q18 | Multilingual ASR (Whisper, Hindi/Marathi/Gujarati) | 16 |
 | Q19 | Accuracy thresholds per model (WER, F1 targets) | 17 |
@@ -118,7 +136,7 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 ---
 
 ### Section 3: Analytics & Insight Engine (p.22–70)
-*Questions Q26–Q34 + Sub-sections A–G*
+*Questions Q26–Q34 + Sub-sections A–J*
 
 #### Revenue Intelligence KPIs (Section A, p.23)
 | KPI | Definition | Page |
@@ -182,7 +200,7 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 | Section G | The "Executive Question" Layer — natural language queries | 51 |
 | Section H | Philosophy of Causality — linking customer patterns to execution | 70 |
 | Section I | Category Evolution (Interaction → Execution → Business Intelligence) | 71 |
-| Section J | Persona-Based Value Mapping (Founders, RevOps, Managers, Reps) | 71 |
+| Section J | Persona-Based Value Mapping (Founders, RevOps, Managers, Reps) | 72 |
 
 ---
 
@@ -261,110 +279,134 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 
 ---
 
-### Section 4: Performance Improvement Engine (p.115–137)
-*Questions Q35–Q43*
+### Section 4: Performance Improvement Engine (p.115–138)
+*Questions Q35–Q45*
 
 | Q# | Topic | Page |
 |---|---|---|
 | Q35 | Improvement plan triggers (primary + optional) | 115 |
-| Q36 | Variables influencing the improvement plan (7 categories) | 117 |
-| Q37 | Recommendations per rep per week (3 focus areas, 3 actions, 3 clips) | 119 |
-| Q38 | Behavioral change timeline (7–10 days to 6 months) | 120 |
-| Q39 | LMS skills list: Sales, CX, Cross-functional | 120 |
-| Q40 | How LMS personalizes (11 adaptation triggers) | 122 |
-| Q41 | Cross-team shared learning mechanism | 123 |
-| Q42 | Coaching cadence (Manager weekly/monthly, Rep 7-step cycle) | 127 |
+| Q36 | Variables influencing the improvement plan (7 categories) | 119 |
+| Q37 | Recommendations per rep per week (3 focus areas, 3 actions, 3 clips) | 120 |
+| Q38 | Behavioral change timeline (7–10 days to 6 months) | 121 |
+| Q39 | LMS skills list: Sales, CX, Cross-functional | 122 |
+| Q40 | How LMS personalizes (11 adaptation triggers) | 123 |
+| Q41 | Cross-team shared learning mechanism | 129 |
+| Q42 | Coaching cadence (weekly / monthly / quarterly) | 129 |
+| Q43 | Coaching evidence requirements (what must be shown to reps) | 132 |
+| Q44 | Manager coaching workflow (7-step process) | 134 |
+| Q45 | Rep coaching consumption workflow (7-step process) | 137 |
 
 ---
 
-### Section 5: UX/UI, Sprint Planning & Engineering (p.138–193)
-*Questions Q43–Q63 (approx)*
-
-| Topic | Page |
-|---|---|
-| Product design philosophy and rules (15 rules) | 139 |
-| Global shell structure (5 components) | 140 |
-| Left navigation items | 141 |
-| MVP route map (19 routes) | 141 |
-| 12 MVP product surfaces list | 142 |
-| Screen 1: Authentication & Role Entry | 142 |
-| Screen 2: Revenue Command Dashboard | 143 |
-| *(Screens 3–12 continue through Section 5)* | 143+ |
-
----
-
-### Section 6: Go-to-Market & Pricing (p.194)
-> **Note:** This section has minimal documented content in the Bible. GTM risks are covered in Section 7, Q72. The only pricing reference is "$99/rep plan" in Section 8.5 (p.213). A full GTM playbook does not appear to have been written yet.
-
----
-
-### Section 7: Risks & Compliance (p.194–203)
+### Section 7: Risks, Compliance, Security & Trust (p.139–171)
 *Questions Q64–Q73*
+
+> **Note:** Sections 5 (UX/UI) and 6 (GTM & Pricing) from v1 have been removed in v3. Section numbering jumps from 4 to 7.
 
 | Q# | Topic | Page |
 |---|---|---|
-| Q64 | Regulatory rules: TRAI, DLT, WhatsApp, GDPR, CCPA | 194 |
-| Q65 | MVP security posture (RBAC, encryption, audit logs) | 196 |
-| Q66 | Call recording consent management | 197 |
-| Q67 | Avoiding surveillance perception (5-point strategy) | 198 |
-| Q68 | Data ingestion risks + mitigations (6 risk types) | 199 |
-| Q69 | Model risks + mitigations (ASR variance, misclassification) | 200 |
-| Q70 | Ethical considerations (rep safety, customer privacy) | 201 |
-| Q71 | Operational risks + mitigations | 201 |
-| Q72 | GTM risks (5 types: underpricing, ICP focus, etc.) | 202 |
-| Q73 | Regulatory compliance at scale (SOC2, ISO 27001 roadmap) | 203 |
+| Q64 | Regulatory rules: TRAI, DLT, WhatsApp, GDPR, CCPA, CPaaS, derived intelligence governance | 141 |
+| Q64A | India: telecom and communication rules | 141 |
+| Q64B | Global: GDPR and CCPA obligations | 143 |
+| Q64C | CPaaS provider compliance | 143 |
+| Q64D | Derived intelligence governance (new) | 144 |
+| Q65 | MVP security posture (RBAC, encryption, audit logs) | 145 |
+| Q66 | Call recording consent management | 149 |
+| Q67 | Avoiding surveillance perception (5-point strategy) | 151 |
+| Q68 | Data ingestion risks + mitigations (6 risk types) | 155 |
+| Q69 | Model risks + mitigations (ASR variance, misclassification) | 158 |
+| Q70 | Ethical considerations (rep safety, customer privacy) | 162 |
+| Q71 | Operational risks + mitigations | 164 |
+| Q72 | GTM risks (5 types: underpricing, ICP focus, etc.) | 167 |
+| Q73 | Regulatory compliance at scale (SOC2, ISO 27001 roadmap) | 169 |
 
 ---
 
-### Section 8: Product Deep Dive (p.204–217)
-*Sub-sections 8.1–8.5*
+### Section 8: Product Deep Dive (p.171–196)
+*Sub-sections 8.1–8.8*
 
 | Sub-section | Topic | Page |
 |---|---|---|
-| 8.1 | What Tasknova really is (plain language) | 204 |
-| 8.2 | The core problem being solved | 205 |
-| 8.3 | MVP in 7 layers (Capture → Analysis → Timeline → Improvement → LMS → Trust → Reporting) | 205 |
-| 8.4 | Full solution architecture (Input → Processing → Storage → Application → Insight → Extensions) | 209 |
-| 8.5 | MVP feature list (12 features) + Phase 2 extensions | 213 |
+| 8.1 | What Tasknova really is (plain language) | 172 |
+| 8.2 | The core problem being solved (deeper) | 174 |
+| 8.3 | MVP in 7 layers (Capture → Memory → Customer/Sales Intel → Revenue Intel → Action → Role Views → Reinforcement) | 176 |
+| 8.4 | Full solution architecture (Input → Processing → Storage → Application → Intelligence → Extensions) | 181 |
+| 8.5 | MVP feature list (15 features) + Phase 2 + Phase 3 | 187 |
+| 8.6 | Tasknova's 5 USPs | 190 |
+| 8.7 | Why users love it (by role: Reps, Managers, Execs, CS, QA) | 192 |
+| 8.8 | Impact by company size (Small Business, Mid-Market, Enterprise) | 193 |
 
 ---
 
-### Section 9: Anecdotes (p.218–231)
-*Story-based examples for sales and marketing use*
+### Section 9: Anecdotes & Real-World Stories (p.196–223)
+*7 story-based examples (up from 3 in v1)*
 
 | Sub-section | Story | Company | Page |
 |---|---|---|---|
-| 9.1 | Small business — local solar installer | BrightNest Solar, Pune (15 people) | 219 |
-| 9.2 | Mid-scale — B2B SaaS company | Flowstack CRM (Series B, 60 reps) | 223 |
-| 9.3 | Enterprise — Large BPO/CX outsourcer | *(not yet named in reads)* | 227 |
+| 9.1 | Small business — local solar installer | BrightNest Solar, Pune (15 people) | 197 |
+| 9.2 | Mid-scale — B2B SaaS company | Flowstack CRM (Series B, 60 reps) | 202 |
+| 9.3 | Enterprise — Large BPO/CX outsourcer | GlobalAssist | 207 |
+| 9.4 | Continuity — Sales-to-implementation breakdown | NorthBridge ERP (mid-market ERP) | 212 |
+| 9.5 | Retention — Renewal risk detected before churn | CarePulse Health (healthcare ops platform) | 215 |
+| 9.6 | Account reassignment — New rep takeover | Axis Prime Realty (premium real estate) | 217 |
+| 9.7 | Revenue truth — Stage integrity & risk visibility | FinCore Advisory (BFSI advisory) | 220 |
 
 ---
 
-### Section 10: Industry Impact Catalog (p.232–)
+### Section 10: Industry Impact Catalog (p.224–262)
 *10 industries, each with 7 components: summary, interaction structure, core problems, hidden problems, why current systems fail, why Tasknova fits, measurable improvements*
 
-| Industry | Page |
-|---|---|
-| 1. BPO & Contact Centers | 233 |
-| 2. Real Estate (India, SEA, GCC) | 235 |
-| 3. EdTech (Inside Sales) | 237 |
-| 4. *(continues through 10 industries)* | 238+ |
+| # | Industry | Page |
+|---|---|---|
+| 1 | BPO & Contact Centers | 225 |
+| 2 | Real Estate (India, SEA, GCC) | 229 |
+| 3 | EdTech (Inside Sales) | 233 |
+| 4 | SaaS (SDR + AE + CS motion) | 237 |
+| 5 | Financial Services (BFSI) | 241 |
+| 6 | Healthcare Services | 245 |
+| 7 | D2C & Marketplaces | 248 |
+| 8 | Logistics & Field Services | 252 |
+| 9 | Hospitality & Travel | 255 |
+| 10 | IT Services, Consulting & Agencies | 258 |
 
 ---
 
-### Section 11: Business Impact & Value (p.248–)
-*Questions Q74–Q81*
+### Section 11: Business Impact, Value Creation & ROI Logic (p.262–300)
+*Questions Q74–Q87 (expanded from Q74–Q81 in v1)*
 
 | Q# | Audience | Topic | Page |
 |---|---|---|---|
-| Q74 | Reps | Measurable improvements (3 categories: quality, productivity, outcomes) | 249 |
-| Q75 | Reps | Average improvement timeline (Week 1–4, Month 2–3) | 250 |
-| Q76 | Managers | How Tasknova reduces workload (5 mechanisms) | 251 |
-| Q77 | Managers | Which decisions become easier (5 decision types) | 252 |
-| Q78 | Business | Revenue uplift benchmarks by industry | 254 |
-| Q79 | Business | Cost savings (turnover, manager time, training, CAC, escalations) | 254 |
-| Q80 | Business | Cultural improvements (5 transformations) | 256 |
-| Q81 | Leadership | Visibility gains (4 categories) | 257 |
+| Q74 | Reps | Measurable improvements (4 categories: conversation quality, productivity, account handling, outcomes) | 264 |
+| Q74A | Reps | Conversation quality improvements | 264 |
+| Q74B | Reps | Productivity and learning speed | 265 |
+| Q74C | Reps | Account handling quality | 265 |
+| Q74D | Reps | Performance outcomes | 266 |
+| Q75 | Reps | Average improvement timeline (Week 1 → Month 3+) | 267 |
+| Q75A–F | Reps | Week 1 / Week 2 / Week 3–4 / Month 2 / Month 3+ / Summary | 267 |
+| Q76 | Managers | How Tasknova reduces workload (7 mechanisms) | 269 |
+| Q76A–G | Managers | Auto-surfacing, pre-structured coaching, skill visibility, handover continuity, reduced conflict, intervention clarity, typical reduction | 269 |
+| Q77 | Managers | Which decisions become easier (7 decision types) | 273 |
+| Q77A–G | Managers | Rep attention, team focus, account intervention, stakeholder attention, promotion readiness, account routing, handoff repair | 273 |
+| Q78 | CS/Onboarding/Support | Value for post-sale teams (6 areas) | 275 |
+| Q78A–F | CS/Onboarding/Support | Inherited context, promise vs delivery, journey continuity, renewal/expansion timing, service handling, business impact | 275 |
+| Q79 | RevOps/Revenue Leaders | Value for revenue leadership (6 areas) | 278 |
+| Q79A–F | RevOps/Revenue Leaders | Forecast confidence, stage integrity, revenue-at-risk, resource allocation, lifecycle visibility, exec review quality | 278 |
+| Q80 | Business | Revenue uplift benchmarks (new/protected/expansion revenue + by industry) | 281 |
+| Q80A–D | Business | New revenue growth, protected revenue, expansion/retained revenue, overall framing | 281 |
+| Q81 | Business | Cost savings (6 categories) | 284 |
+| Q81A–F | Business | Rep turnover, manager time, training, acquisition waste, escalation, continuity/leakage cost | 284 |
+| Q82 | Business | Continuity, account memory & stakeholder memory value (5 areas) | 286 |
+| Q82A–E | Business | Safer handovers, stakeholder handling, continuity breakdown, sales-to-post-sale, institutional memory | 286 |
+| Q83 | Business | Cultural & operating system improvements (6 areas) | 289 |
+| Q83A–F | Business | Coaching culture, shared memory, tribal knowledge, cross-team learning, data-backed transparency, leadership alignment | 289 |
+| Q84 | Leadership | Visibility gains (5 categories) | 291 |
+| Q84A–E | Leadership | Customer/account, execution, revenue, continuity/lifecycle, team/capability visibility | 291 |
+| Q85 | Leadership | How Tasknova improves forecasting accuracy (5 mechanisms) | 293 |
+| Q85A–E | Leadership | Conversation quality per stage, commitment credibility, stakeholder/momentum quality, interaction vs CRM truth, typical benefit | 293 |
+| Q86 | Leadership | How Tasknova de-risks strategy (6 mechanisms) | 295 |
+| Q86A–F | Leadership | Strategy misalignment detection, early warnings, customer reaction speed, reduced star-performer dependence, stable execution, future simulation | 295 |
+| Q87 | Leadership | Long-term strategic value (5 assets) | 297 |
+| Q87A–E | Leadership | Interaction intelligence base, execution OS, journey continuity, revenue quality, defensibility | 297 |
 
 ---
 
@@ -373,81 +415,96 @@ Use this index to jump to any topic in the PDF by page number or text line in th
 | Topic | Section | Page |
 |---|---|---|
 | Account Memory / Composite Account Memory | Sec 3 (Q26), Sec 3A (Q26A, Q26G) | 31, 74, 84 |
+| Account reassignment story (Axis Prime Realty) | Sec 9.6 | 217 |
 | Agentic AI / Phase 3 features | Sec 1 (Q10) | 5 |
 | ASR / Speech-to-text pipeline | Sec 2 (Q17, Q18, Q19) | 14–17 |
 | Audit logs | Sec 2 (Q24) | 21 |
 | Behavioral memory (company + stakeholder) | Sec 3A (Q26F) | 80 |
 | BANT vs. SPIN discovery | Sec 3A (A1) | 63 |
 | Benchmarks (industry RAG thresholds) | Sec 3 (Q28, Q29) | 52–57 |
-| Best Practice Library | Sec 4 (Q41) | 123 |
+| Best Practice Library | Sec 4 (Q41) | 129 |
 | Churn detection / Renewal Risk | Sec 3, Sec 3A | 25, 41 |
-| Coaching cadence | Sec 4 (Q42) | 127 |
+| Coaching cadence (weekly/monthly/quarterly) | Sec 4 (Q42) | 129 |
+| Coaching evidence requirements | Sec 4 (Q43) | 132 |
+| Company size impact (SMB/Mid-Market/Enterprise) | Sec 8 (8.8) | 193 |
+| Continuity / account memory value | Sec 11 (Q82) | 286 |
+| Continuity story (NorthBridge ERP) | Sec 9.4 | 212 |
 | CRM integration | Sec 2 (Q13, Q16) | 11, 13 |
-| Cross-team shared learning | Sec 4 (Q41) | 123 |
+| Cross-team shared learning | Sec 4 (Q41) | 129 |
+| Cultural & operating system improvements | Sec 11 (Q83) | 289 |
 | Customer Intelligence (full definition) | Sec 3A (Q26C–K) | 75 |
 | Dashboard — Rep view | Sec 3 (Q33) | 61 |
 | Dashboard — Manager view | Sec 3 (Q33) | 61 |
 | Dashboard — Executive view | Sec 3 (Q33) | 62 |
 | Data retention | Sec 2 (Q21) | 20 |
-| Data ingestion risks | Sec 7 (Q68) | 199 |
+| Data ingestion risks | Sec 7 (Q68) | 155 |
 | Demo analysis / drop-off detection | Sec 3A (A2) | 65 |
+| Derived intelligence governance | Sec 7 (Q64D) | 144 |
 | Discovery framework | Sec 3A (A1) | 63 |
-| Dynamic LMS | Sec 1 (Q10), Sec 4 (Q39–Q40), Sec 8 (8.3) | 5, 120, 206 |
+| Dynamic LMS | Sec 1 (Q10), Sec 4 (Q39–Q40), Sec 8 (8.3) | 5, 122, 176 |
 | Encryption standards | Sec 2 (Q23) | 21 |
 | Expansion Readiness | Sec 3 (Q26), Sec 3A | 24, 41 |
 | Forecast Confidence Score | Sec 3 (Q26), Sec 3A | 23, 37 |
+| Forecasting accuracy improvement | Sec 11 (Q85) | 293 |
 | Full Journey Continuity | Sec 1 (Q9), Sec 3 (Q26A) | 4, 49 |
-| GDPR / CCPA compliance | Sec 7 (Q64) | 194 |
-| GTM risks | Sec 7 (Q72) | 202 |
+| GDPR / CCPA compliance | Sec 7 (Q64B) | 143 |
+| GTM risks | Sec 7 (Q72) | 167 |
 | Handoff Quality | Sec 3, Sec 3A | 27, 47 |
 | Hidden Blocker Detection | Sec 3, Sec 3A | 26, 33 |
-| India compliance (TRAI, DLT) | Sec 7 (Q64) | 194 |
-| Industry catalog (10 industries) | Sec 10 | 232 |
+| India compliance (TRAI, DLT) | Sec 7 (Q64A) | 141 |
+| Industry catalog (10 industries) | Sec 10 | 224 |
 | Insight cadence (daily/weekly/monthly) | Sec 3 (Q30–Q32) | 57 |
 | Intelligence architecture (4 layers) | Sec 3A (Q26A–Q26B) | 72 |
 | Intervention Priority Ranking | Sec 3A | 44 |
 | KPI definitions (all) | Sec 3 (Q26) | 22 |
 | KPI calculation methodology | Sec 3 (Q27) | 50 |
-| Lead Timeline | Sec 8 (8.3) | 206 |
-| LMS skills list | Sec 4 (Q39) | 120 |
+| Lead Timeline | Sec 8 (8.3) | 176 |
+| Leadership visibility gains | Sec 11 (Q84) | 291 |
+| LMS skills list | Sec 4 (Q39) | 122 |
+| Long-term strategic value | Sec 11 (Q87) | 297 |
+| Manager coaching workflow | Sec 4 (Q44) | 134 |
 | Manager dashboard | Sec 3 (Q33) | 61 |
+| Manager workload reduction | Sec 11 (Q76) | 269 |
 | Module dependency tree | Sec 1 (Q11) | 6 |
 | Module ship readiness | Sec 1 (Q12) | 10 |
 | Multilingual ASR | Sec 2 (Q18) | 16 |
-| MVP features | Sec 8 (8.5) | 213 |
-| MVP screens (12 surfaces) | Sec 5 (Q46) | 142 |
+| MVP features (15) | Sec 8 (8.5) | 187 |
 | Next Best Action Engine | Sec 3A | 42 |
 | NLP pipelines (sentiment, intent, objection) | Sec 2 (Q17) | 15 |
 | Objection handling scoring | Sec 3 | 27 |
 | Performance improvement engine | Sec 4 | 115 |
-| Persona-based value mapping | Sec 3 (Section J) | 71 |
+| Persona-based value mapping | Sec 3 (Section J) | 72 |
 | PII redaction | Sec 2 (Q22) | 20 |
-| Pricing ($99/rep mentioned) | Sec 8 (8.5) | 213 |
-| Product design rules (15 rules) | Sec 5 | 139 |
+| Product design USPs (5 USPs) | Sec 8 (8.6) | 190 |
 | Promise vs. Delivery Tracking | Sec 3A | 47 |
-| Real Estate use case | Sec 10, Sec 9.1 (solar) | 219, 235 |
+| Real Estate use case | Sec 10, Sec 9.6 (Axis Prime) | 217, 229 |
+| Rep coaching consumption workflow | Sec 4 (Q45) | 137 |
 | Rep improvement plan | Sec 4 (Q35–Q37) | 115 |
+| Retention story (CarePulse Health) | Sec 9.5 | 215 |
 | Revenue Intelligence (layer definition) | Sec 3A (Q26R–W) | 102 |
 | Revenue Leakage | Sec 3A | 48 |
 | Revenue Signal Engine | Sec 1 (Q11) | 7 |
-| Route map (URL structure) | Sec 5 | 141 |
-| SaaS use case (Flowstack) | Sec 9.2 | 223 |
+| Revenue truth story (FinCore Advisory) | Sec 9.7 | 220 |
+| Revenue uplift benchmarks | Sec 11 (Q80) | 281 |
+| SaaS use case (Flowstack) | Sec 9.2 | 202 |
 | Sales Intelligence (layer definition) | Sec 3A (Q26L–Q26Q) | 93 |
 | Scalability assumptions | Sec 2 (Q25) | 21 |
-| Security posture (RBAC) | Sec 7 (Q65) | 196 |
+| Security posture (RBAC) | Sec 7 (Q65) | 145 |
 | Sentiment model (3-level) | Sec 3A (A3) | 68 |
-| Small business use case (BrightNest) | Sec 9.1 | 219 |
+| Small business use case (BrightNest) | Sec 9.1 | 197 |
 | Stakeholder Influence Mapping | Sec 3A | 32 |
 | Stage Progression Integrity | Sec 3 (Q26), Sec 3A | 23, 38 |
 | Strategic Intelligence (Phase 3) | Sec 3A (Q26R), Sec 3 (Section F) | 51, 109 |
-| Surveillance avoidance | Sec 7 (Q67) | 198 |
+| Strategy de-risking | Sec 11 (Q86) | 295 |
+| Surveillance avoidance | Sec 7 (Q67) | 151 |
 | Talk-listen ratio | Sec 3 | 27 |
 | Target users (primary + power) | Sec 1 (Q5, Q6) | 2–3 |
 | Technical connectors (Day 1) | Sec 2 (Q16) | 13 |
-| Trust Engine (spam/DLT, Phase 2) | Sec 8 (8.3) | 208 |
-| UX philosophy and design rules | Sec 5 | 139 |
-| Weekly Improvement Engine | Sec 1 (Q9), Sec 4, Sec 8 (8.3) | 4, 115, 207 |
-| WhatsApp Business API | Sec 2 (Q13), Sec 7 (Q64) | 11, 194 |
+| Trust Engine (spam/DLT, Phase 2) | Sec 8 (8.5) | 189 |
+| USPs (5 product differentiators) | Sec 8 (8.6) | 190 |
+| UX — Why users love it by role | Sec 8 (8.7) | 192 |
+| Weekly Improvement Engine | Sec 1 (Q9), Sec 4, Sec 8 (8.3) | 4, 115, 176 |
+| WhatsApp Business API | Sec 2 (Q13), Sec 7 (Q64A) | 11, 141 |
 
 ---
 
@@ -480,6 +537,7 @@ CANNOT SHIP UNTIL DATA LOOPS MATURE (Phase 3)
 ├── Real-Time Next Best Action Engine
 ├── Predictive Win/Churn/Expansion Models
 ├── Company-Wide Revenue Graph
+├── Competency Maps & Automation
 └── Scenario Simulation & Intervention Engine
 ```
 
@@ -506,6 +564,23 @@ CANNOT SHIP UNTIL DATA LOOPS MATURE (Phase 3)
 
 | Phase | Key Deliverables |
 |---|---|
-| **MVP (Phase 1)** | Multi-channel ingestion, ASR, NLP, Account Memory, Lead Timeline, Weekly Improvement Engine, Manager Dashboard, Executive Dashboard, Rep Action Layer |
-| **Phase 2** | Forecast Confidence Engine, Account Risk Scoring, Expansion/Churn Layer, Dynamic LMS, CRM API sync (HubSpot, Zoho), Slack/Teams/Zendesk integrations, Hindi fine-tuning (Marathi, Gujarati), Trust Engine |
-| **Phase 3** | Strategic Intelligence, Scenario Simulation, Predictive Models, Company-Wide Revenue Graph, Real-Time Next Best Action, AI Bot Evaluation, Swarm Agent Logic |
+| **MVP (Phase 1)** | Multi-channel ingestion (15 features), ASR, NLP, Account Memory, Lead Timeline, Customer Intelligence, Sales Intelligence, Revenue Signals, Weekly Improvement Engine, Manager Dashboard, Executive Dashboard, Rep Action Layer, Role-Based Access, Redaction & Governance, Basic Trust Signals |
+| **Phase 2** | Forecast Confidence Engine, Account Risk Scoring, Expansion/Churn Layer, Dynamic LMS, Cross-Team Shared Learning, Manager Coaching AI, Advanced Trust Engine, Handoff & Continuity Intelligence, Promise vs. Delivery Tracking, CRM API sync (HubSpot, Zoho, Salesforce), Slack/Teams/Intercom/Zendesk integrations, Hindi fine-tuning (Marathi, Gujarati) |
+| **Phase 3** | Customer Journey Intelligence Across Departments, Real-Time Next Best Action, Predictive Win/Churn/Expansion Models, Strategic Intelligence / Simulation Layer, Company-Wide Knowledge Graph, Competency Maps & Workflow Automation |
+
+---
+
+## What Changed: v1 (260 pages) → v3 (300 pages)
+
+| Area | Change |
+|---|---|
+| **Page count** | 260 → 300 (+40 pages) |
+| **Sections 5 & 6** | Removed (UX/UI and GTM/Pricing sections dropped) |
+| **Section 4** | Expanded: added Q43 (coaching evidence), Q44 (manager workflow), Q45 (rep workflow) |
+| **Section 7** | Moved from p.194 to p.139; expanded with Q64A–D sub-sections including derived intelligence governance |
+| **Section 8** | Moved from p.204 to p.171; expanded with 8.6 (USPs), 8.7 (Why users love it), 8.8 (Impact by company size) |
+| **Section 9** | Expanded from 3 to 7 stories: added 9.4 (NorthBridge ERP, continuity), 9.5 (CarePulse Health, retention), 9.6 (Axis Prime Realty, account reassignment), 9.7 (FinCore Advisory, revenue truth) |
+| **Section 10** | All 10 industries now fully documented with 7-component profiles |
+| **Section 11** | Massively expanded from Q74–Q81 to Q74–Q87; added sub-sections (A–G) for most questions; new questions: Q78 (CS/Support value), Q79 (RevOps value), Q82 (continuity value), Q83 (cultural impact), Q84 (leadership visibility), Q85 (forecasting), Q86 (strategy de-risking), Q87 (long-term strategic value) |
+| **MVP features** | Now 15 features (up from 12), includes Company & Stakeholder Interaction Profiles, Role-Based Access, Redaction & Governance, Basic Trust Signals |
+| **Question count** | ~81 → ~87 numbered questions |
