@@ -1,0 +1,1001 @@
+product_id,product_name,brand,category,sub_type,therapeutic_area,is_generic,mrp,cost_price,margin_pct,requires_prescription,is_scheduled
+P-00001,Sun Pharma Gel 349,Sun Pharma,Rx Medicines,Gel,Neurological,False,265.65,215.51,18.9,True,False
+P-00002,Generic Ipca Gel 234,Ipca,Rx Medicines,Gel,Neurological,True,173.66,140.19,19.3,True,False
+P-00003,Generic Biocon Powder 828,Biocon,Rx Medicines,Powder,Cardiac,True,74.23,60.21,18.9,True,False
+P-00004,Generic Aurobindo Drops 122,Aurobindo,Rx Medicines,Drops,Dermatological,True,332.8,263.54,20.8,True,True
+P-00005,Abbott India Inhaler 394,Abbott India,Rx Medicines,Inhaler,Anti-diabetic,False,224.51,181.0,19.4,True,False
+P-00006,Sun Pharma Ointment 845,Sun Pharma,Rx Medicines,Ointment,Cardiac,False,268.46,217.54,19.0,True,True
+P-00007,Intas Drops 153,Intas,Rx Medicines,Drops,Anti-inflammatory,False,273.72,215.51,21.3,True,False
+P-00008,Torrent Pharma Syrup 355,Torrent Pharma,Rx Medicines,Syrup,Hormonal,False,312.08,253.16,18.9,True,False
+P-00009,Mankind Injection 997,Mankind,Rx Medicines,Injection,Dermatological,False,381.86,311.02,18.6,True,False
+P-00010,Macleods Inhaler 773,Macleods,Rx Medicines,Inhaler,Musculoskeletal,False,258.35,209.18,19.0,True,True
+P-00011,Hetero Powder 46,Hetero,Rx Medicines,Powder,Anti-diabetic,False,238.07,186.67,21.6,True,False
+P-00012,Generic Glenmark Powder 63,Glenmark,Rx Medicines,Powder,Antibiotic,True,252.61,198.49,21.4,True,False
+P-00013,Generic Ipca Tablet 482,Ipca,Rx Medicines,Tablet,Cardiac,True,429.14,345.5,19.5,True,False
+P-00014,Macleods Capsule 690,Macleods,Rx Medicines,Capsule,Antibiotic,False,684.77,543.65,20.6,True,True
+P-00015,Lupin Tablet 649,Lupin,Rx Medicines,Tablet,Anti-inflammatory,False,548.05,433.6,20.9,True,False
+P-00016,Abbott India Syrup 47,Abbott India,Rx Medicines,Syrup,Cardiac,False,193.93,157.13,19.0,True,False
+P-00017,Alkem Capsule 838,Alkem,Rx Medicines,Capsule,Anti-diabetic,False,245.29,199.22,18.8,True,False
+P-00018,Lupin Syrup 167,Lupin,Rx Medicines,Syrup,Anti-diabetic,False,1091.03,851.24,22.0,True,False
+P-00019,Torrent Pharma Syrup 108,Torrent Pharma,Rx Medicines,Syrup,Gastrointestinal,False,263.15,205.61,21.9,True,False
+P-00020,Generic Cipla Syrup 575,Cipla,Rx Medicines,Syrup,Neurological,True,405.43,326.05,19.6,True,False
+P-00021,Generic Alkem Suspension 938,Alkem,Rx Medicines,Suspension,Anti-viral,True,475.09,375.5,21.0,True,True
+P-00022,Generic Hetero Inhaler 827,Hetero,Rx Medicines,Inhaler,Respiratory,True,287.28,230.75,19.7,True,False
+P-00023,Generic Biocon Gel 409,Biocon,Rx Medicines,Gel,Anti-inflammatory,True,372.5,294.99,20.8,True,True
+P-00024,Generic Aurobindo Capsule 60,Aurobindo,Rx Medicines,Capsule,Respiratory,True,494.02,391.82,20.7,True,False
+P-00025,Generic Intas Injection 62,Intas,Rx Medicines,Injection,Anti-viral,True,179.15,143.16,20.1,True,False
+P-00026,Abbott India Ointment 893,Abbott India,Rx Medicines,Ointment,Cardiac,False,236.84,193.72,18.2,True,False
+P-00027,Generic Dr. Reddys Inhaler 67,Dr. Reddys,Rx Medicines,Inhaler,Vitamin/Supplement,True,265.39,213.02,19.7,True,True
+P-00028,Zydus Gel 917,Zydus,Rx Medicines,Gel,Respiratory,False,219.57,176.29,19.7,True,False
+P-00029,Generic Cipla Capsule 281,Cipla,Rx Medicines,Capsule,Cardiac,True,449.21,363.32,19.1,True,False
+P-00030,Zydus Drops 665,Zydus,Rx Medicines,Drops,Antibiotic,False,527.42,427.26,19.0,True,True
+P-00031,Generic Natco Ointment 227,Natco,Rx Medicines,Ointment,Pain Management,True,349.57,280.02,19.9,True,False
+P-00032,Generic Mankind Injection 771,Mankind,Rx Medicines,Injection,Pain Management,True,412.45,327.49,20.6,True,False
+P-00033,Generic Zydus Injection 25,Zydus,Rx Medicines,Injection,Anti-viral,True,1377.89,1092.17,20.7,True,True
+P-00034,Sun Pharma Tablet 917,Sun Pharma,Rx Medicines,Tablet,Hormonal,False,292.03,230.11,21.2,True,False
+P-00035,Cipla Tablet 851,Cipla,Rx Medicines,Tablet,Hormonal,False,259.54,202.84,21.8,True,False
+P-00036,Generic Biocon Capsule 858,Biocon,Rx Medicines,Capsule,Anti-hypertensive,True,375.76,297.86,20.7,True,False
+P-00037,Generic Cadila Gel 502,Cadila,Rx Medicines,Gel,Antibiotic,True,205.14,162.5,20.8,True,False
+P-00038,Lupin Powder 878,Lupin,Rx Medicines,Powder,Neurological,False,234.4,187.07,20.2,True,False
+P-00039,Dr. Reddys Tablet 199,Dr. Reddys,Rx Medicines,Tablet,Anti-inflammatory,False,530.4,427.7,19.4,True,False
+P-00040,Abbott India Tablet 882,Abbott India,Rx Medicines,Tablet,Respiratory,False,208.31,164.53,21.0,True,False
+P-00041,Intas Injection 454,Intas,Rx Medicines,Injection,Cardiac,False,208.51,170.53,18.2,True,False
+P-00042,Generic Abbott India Powder 573,Abbott India,Rx Medicines,Powder,Pain Management,True,241.2,191.25,20.7,True,False
+P-00043,Generic Aurobindo Ointment 160,Aurobindo,Rx Medicines,Ointment,Anti-allergic,True,511.45,404.0,21.0,True,False
+P-00044,Mankind Ointment 643,Mankind,Rx Medicines,Ointment,Respiratory,False,153.92,120.08,22.0,True,False
+P-00045,Ipca Capsule 528,Ipca,Rx Medicines,Capsule,Neurological,False,380.59,310.54,18.4,True,False
+P-00046,Alkem Gel 526,Alkem,Rx Medicines,Gel,Hormonal,False,552.1,437.13,20.8,True,False
+P-00047,Torrent Pharma Syrup 226,Torrent Pharma,Rx Medicines,Syrup,Vitamin/Supplement,False,498.68,390.02,21.8,True,False
+P-00048,Lupin Drops 191,Lupin,Rx Medicines,Drops,Antibiotic,False,220.54,173.99,21.1,True,False
+P-00049,Generic Cadila Gel 67,Cadila,Rx Medicines,Gel,Pain Management,True,240.72,192.88,19.9,True,False
+P-00050,Alkem Powder 199,Alkem,Rx Medicines,Powder,Antibiotic,False,279.36,222.56,20.3,True,False
+P-00051,Intas Powder 182,Intas,Rx Medicines,Powder,Cardiac,False,552.36,431.33,21.9,True,True
+P-00052,Hetero Drops 236,Hetero,Rx Medicines,Drops,Anti-allergic,False,242.65,198.26,18.3,True,False
+P-00053,Generic Macleods Powder 665,Macleods,Rx Medicines,Powder,Anti-viral,True,821.7,654.59,20.3,True,False
+P-00054,Ipca Gel 417,Ipca,Rx Medicines,Gel,Dermatological,False,190.78,153.43,19.6,True,False
+P-00055,Generic Alkem Gel 878,Alkem,Rx Medicines,Gel,Musculoskeletal,True,142.39,115.25,19.1,True,False
+P-00056,Generic Intas Powder 761,Intas,Rx Medicines,Powder,Anti-inflammatory,True,211.79,168.56,20.4,True,True
+P-00057,Natco Syrup 19,Natco,Rx Medicines,Syrup,Anti-hypertensive,False,650.1,509.18,21.7,True,False
+P-00058,Generic Macleods Ointment 155,Macleods,Rx Medicines,Ointment,Anti-diabetic,True,117.88,93.0,21.1,True,False
+P-00059,Intas Ointment 394,Intas,Rx Medicines,Ointment,Neurological,False,264.41,212.43,19.7,True,True
+P-00060,Torrent Pharma Tablet 446,Torrent Pharma,Rx Medicines,Tablet,Gastrointestinal,False,519.93,405.62,22.0,True,False
+P-00061,Zydus Gel 694,Zydus,Rx Medicines,Gel,Anti-diabetic,False,193.44,156.68,19.0,True,False
+P-00062,Cipla Tablet 81,Cipla,Rx Medicines,Tablet,Anti-hypertensive,False,202.38,163.05,19.4,True,True
+P-00063,Sun Pharma Drops 743,Sun Pharma,Rx Medicines,Drops,Hormonal,False,447.34,349.5,21.9,True,False
+P-00064,Intas Inhaler 84,Intas,Rx Medicines,Inhaler,Gastrointestinal,False,210.63,167.33,20.6,True,False
+P-00065,Torrent Pharma Capsule 317,Torrent Pharma,Rx Medicines,Capsule,Anti-hypertensive,False,422.62,345.01,18.4,True,False
+P-00066,Cipla Suspension 572,Cipla,Rx Medicines,Suspension,Pain Management,False,781.34,621.26,20.5,True,False
+P-00067,Lupin Gel 135,Lupin,Rx Medicines,Gel,Musculoskeletal,False,298.51,240.63,19.4,True,False
+P-00068,Hetero Syrup 104,Hetero,Rx Medicines,Syrup,Respiratory,False,220.11,179.36,18.5,True,False
+P-00069,Generic Hetero Suspension 102,Hetero,Rx Medicines,Suspension,Anti-inflammatory,True,406.86,325.91,19.9,True,False
+P-00070,Generic Zydus Capsule 847,Zydus,Rx Medicines,Capsule,Vitamin/Supplement,True,242.12,198.23,18.1,True,True
+P-00071,Glenmark Gel 258,Glenmark,Rx Medicines,Gel,Anti-diabetic,False,747.81,612.03,18.2,True,False
+P-00072,Aurobindo Suspension 346,Aurobindo,Rx Medicines,Suspension,Anti-viral,False,284.98,229.38,19.5,True,False
+P-00073,Cipla Suspension 535,Cipla,Rx Medicines,Suspension,Vitamin/Supplement,False,283.35,221.87,21.7,True,False
+P-00074,Natco Suspension 321,Natco,Rx Medicines,Suspension,Musculoskeletal,False,327.87,268.37,18.1,True,True
+P-00075,Dr. Reddys Inhaler 640,Dr. Reddys,Rx Medicines,Inhaler,Anti-viral,False,156.01,127.27,18.4,True,False
+P-00076,Generic Cadila Inhaler 135,Cadila,Rx Medicines,Inhaler,Respiratory,True,122.15,99.73,18.4,True,True
+P-00077,Intas Injection 120,Intas,Rx Medicines,Injection,Musculoskeletal,False,278.89,227.72,18.3,True,False
+P-00078,Aurobindo Suspension 434,Aurobindo,Rx Medicines,Suspension,Anti-allergic,False,586.85,478.22,18.5,True,False
+P-00079,Sun Pharma Suspension 719,Sun Pharma,Rx Medicines,Suspension,Cardiac,False,139.14,113.53,18.4,True,False
+P-00080,Hetero Injection 616,Hetero,Rx Medicines,Injection,Pain Management,False,371.03,300.01,19.1,True,True
+P-00081,Generic Glenmark Inhaler 331,Glenmark,Rx Medicines,Inhaler,Anti-viral,True,320.54,261.41,18.4,True,False
+P-00082,Generic Ipca Injection 513,Ipca,Rx Medicines,Injection,Cardiac,True,273.05,221.08,19.0,True,False
+P-00083,Sun Pharma Suspension 796,Sun Pharma,Rx Medicines,Suspension,Vitamin/Supplement,False,201.03,162.24,19.3,True,True
+P-00084,Intas Tablet 148,Intas,Rx Medicines,Tablet,Cardiac,False,372.44,296.74,20.3,True,False
+P-00085,Generic Biocon Syrup 907,Biocon,Rx Medicines,Syrup,Anti-hypertensive,True,787.07,628.12,20.2,True,False
+P-00086,Generic Sun Pharma Injection 786,Sun Pharma,Rx Medicines,Injection,Gastrointestinal,True,105.88,86.81,18.0,True,False
+P-00087,Torrent Pharma Inhaler 556,Torrent Pharma,Rx Medicines,Inhaler,Anti-viral,False,304.8,247.73,18.7,True,False
+P-00088,Alkem Powder 734,Alkem,Rx Medicines,Powder,Anti-allergic,False,292.8,238.18,18.7,True,True
+P-00089,Natco Gel 304,Natco,Rx Medicines,Gel,Neurological,False,244.62,192.6,21.3,True,False
+P-00090,Torrent Pharma Tablet 154,Torrent Pharma,Rx Medicines,Tablet,Anti-viral,False,449.71,358.37,20.3,True,False
+P-00091,Sun Pharma Ointment 188,Sun Pharma,Rx Medicines,Ointment,Antibiotic,False,89.14,71.91,19.3,True,False
+P-00092,Aurobindo Tablet 166,Aurobindo,Rx Medicines,Tablet,Respiratory,False,573.08,456.79,20.3,True,True
+P-00093,Cipla Ointment 644,Cipla,Rx Medicines,Ointment,Anti-diabetic,False,290.2,229.11,21.0,True,False
+P-00094,Torrent Pharma Injection 166,Torrent Pharma,Rx Medicines,Injection,Anti-inflammatory,False,220.51,177.31,19.6,True,False
+P-00095,Aurobindo Injection 803,Aurobindo,Rx Medicines,Injection,Anti-hypertensive,False,283.84,226.33,20.3,True,False
+P-00096,Generic Zydus Injection 143,Zydus,Rx Medicines,Injection,Musculoskeletal,True,261.71,211.02,19.4,True,False
+P-00097,Aurobindo Gel 692,Aurobindo,Rx Medicines,Gel,Anti-allergic,False,244.78,193.61,20.9,True,False
+P-00098,Lupin Injection 115,Lupin,Rx Medicines,Injection,Gastrointestinal,False,224.72,177.91,20.8,True,False
+P-00099,Generic Glenmark Drops 631,Glenmark,Rx Medicines,Drops,Pain Management,True,170.71,133.26,21.9,True,True
+P-00100,Cipla Drops 440,Cipla,Rx Medicines,Drops,Dermatological,False,262.93,209.21,20.4,True,True
+P-00101,Glenmark Gel 611,Glenmark,Rx Medicines,Gel,Gastrointestinal,False,177.18,142.35,19.7,True,False
+P-00102,Generic Sun Pharma Inhaler 649,Sun Pharma,Rx Medicines,Inhaler,Anti-hypertensive,True,316.66,248.03,21.7,True,False
+P-00103,Generic Abbott India Syrup 186,Abbott India,Rx Medicines,Syrup,Neurological,True,72.7,56.95,21.7,True,False
+P-00104,Generic Ipca Drops 976,Ipca,Rx Medicines,Drops,Anti-hypertensive,True,272.5,216.22,20.7,True,False
+P-00105,Glenmark Tablet 224,Glenmark,Rx Medicines,Tablet,Cardiac,False,1013.81,828.6,18.3,True,False
+P-00106,Intas Suspension 184,Intas,Rx Medicines,Suspension,Anti-diabetic,False,288.41,227.55,21.1,True,False
+P-00107,Intas Capsule 880,Intas,Rx Medicines,Capsule,Antibiotic,False,235.91,185.31,21.4,True,False
+P-00108,Cadila Gel 96,Cadila,Rx Medicines,Gel,Anti-hypertensive,False,232.54,186.88,19.6,True,False
+P-00109,Macleods Inhaler 776,Macleods,Rx Medicines,Inhaler,Anti-diabetic,False,124.4,101.03,18.8,True,True
+P-00110,Generic Aurobindo Ointment 273,Aurobindo,Rx Medicines,Ointment,Anti-diabetic,True,332.05,264.89,20.2,True,True
+P-00111,Natco Suspension 339,Natco,Rx Medicines,Suspension,Anti-inflammatory,False,120.08,98.05,18.3,True,True
+P-00112,Hetero Syrup 906,Hetero,Rx Medicines,Syrup,Anti-allergic,False,178.49,141.34,20.8,True,False
+P-00113,Ipca Gel 943,Ipca,Rx Medicines,Gel,Antibiotic,False,128.57,102.22,20.5,True,False
+P-00114,Glenmark Capsule 863,Glenmark,Rx Medicines,Capsule,Antibiotic,False,379.1,296.48,21.8,True,False
+P-00115,Intas Gel 124,Intas,Rx Medicines,Gel,Hormonal,False,296.46,238.05,19.7,True,False
+P-00116,Glenmark Suspension 767,Glenmark,Rx Medicines,Suspension,Neurological,False,301.85,244.4,19.0,True,False
+P-00117,Generic Natco Injection 155,Natco,Rx Medicines,Injection,Vitamin/Supplement,True,213.77,175.13,18.1,True,False
+P-00118,Cadila Injection 162,Cadila,Rx Medicines,Injection,Anti-hypertensive,False,189.74,151.38,20.2,True,False
+P-00119,Generic Abbott India Inhaler 830,Abbott India,Rx Medicines,Inhaler,Cardiac,True,318.24,253.31,20.4,True,True
+P-00120,Biocon Tablet 567,Biocon,Rx Medicines,Tablet,Anti-allergic,False,457.66,361.17,21.1,True,True
+P-00121,Generic Ipca Tablet 196,Ipca,Rx Medicines,Tablet,Anti-inflammatory,True,250.21,196.01,21.7,True,False
+P-00122,Dr. Reddys Drops 415,Dr. Reddys,Rx Medicines,Drops,Anti-viral,False,512.13,400.4,21.8,True,False
+P-00123,Generic Cipla Gel 516,Cipla,Rx Medicines,Gel,Anti-inflammatory,True,322.65,253.65,21.4,True,False
+P-00124,Sun Pharma Powder 305,Sun Pharma,Rx Medicines,Powder,Gastrointestinal,False,243.35,196.19,19.4,True,False
+P-00125,Ipca Suspension 26,Ipca,Rx Medicines,Suspension,Respiratory,False,458.36,358.22,21.8,True,False
+P-00126,Intas Suspension 736,Intas,Rx Medicines,Suspension,Anti-viral,False,208.0,163.85,21.2,True,False
+P-00127,Hetero Drops 886,Hetero,Rx Medicines,Drops,Anti-hypertensive,False,130.52,101.87,22.0,True,False
+P-00128,Cadila Inhaler 259,Cadila,Rx Medicines,Inhaler,Musculoskeletal,False,272.01,216.87,20.3,True,False
+P-00129,Aurobindo Ointment 944,Aurobindo,Rx Medicines,Ointment,Antibiotic,False,274.52,215.64,21.4,True,False
+P-00130,Generic Cadila Inhaler 629,Cadila,Rx Medicines,Inhaler,Anti-viral,True,393.68,317.07,19.5,True,True
+P-00131,Sun Pharma Syrup 897,Sun Pharma,Rx Medicines,Syrup,Dermatological,False,98.97,78.89,20.3,True,False
+P-00132,Biocon Capsule 903,Biocon,Rx Medicines,Capsule,Vitamin/Supplement,False,147.34,117.19,20.5,True,False
+P-00133,Dr. Reddys Gel 748,Dr. Reddys,Rx Medicines,Gel,Hormonal,False,291.76,228.28,21.8,True,True
+P-00134,Generic Natco Injection 254,Natco,Rx Medicines,Injection,Anti-diabetic,True,477.01,383.48,19.6,True,False
+P-00135,Generic Hetero Suspension 398,Hetero,Rx Medicines,Suspension,Neurological,True,224.09,179.98,19.7,True,False
+P-00136,Intas Syrup 333,Intas,Rx Medicines,Syrup,Dermatological,False,579.1,468.21,19.1,True,False
+P-00137,Generic Zydus Powder 353,Zydus,Rx Medicines,Powder,Gastrointestinal,True,275.19,221.43,19.5,True,True
+P-00138,Generic Zydus Ointment 328,Zydus,Rx Medicines,Ointment,Cardiac,True,314.79,245.76,21.9,True,False
+P-00139,Generic Ipca Capsule 319,Ipca,Rx Medicines,Capsule,Anti-inflammatory,True,259.87,204.38,21.4,True,False
+P-00140,Generic Biocon Gel 762,Biocon,Rx Medicines,Gel,Neurological,True,201.36,163.34,18.9,True,False
+P-00141,Generic Torrent Pharma Ointment 762,Torrent Pharma,Rx Medicines,Ointment,Anti-viral,True,293.85,233.94,20.4,True,True
+P-00142,Cadila Syrup 12,Cadila,Rx Medicines,Syrup,Pain Management,False,132.27,103.19,22.0,True,False
+P-00143,Torrent Pharma Suspension 626,Torrent Pharma,Rx Medicines,Suspension,Neurological,False,607.01,495.53,18.4,True,False
+P-00144,Glenmark Syrup 472,Glenmark,Rx Medicines,Syrup,Anti-allergic,False,687.27,562.59,18.1,True,False
+P-00145,Zydus Capsule 697,Zydus,Rx Medicines,Capsule,Anti-viral,False,286.46,223.87,21.8,True,False
+P-00146,Generic Zydus Tablet 358,Zydus,Rx Medicines,Tablet,Vitamin/Supplement,True,204.24,163.55,19.9,True,False
+P-00147,Dr. Reddys Suspension 156,Dr. Reddys,Rx Medicines,Suspension,Dermatological,False,123.36,96.82,21.5,True,False
+P-00148,Generic Cipla Powder 179,Cipla,Rx Medicines,Powder,Vitamin/Supplement,True,352.86,279.5,20.8,True,True
+P-00149,Torrent Pharma Inhaler 679,Torrent Pharma,Rx Medicines,Inhaler,Vitamin/Supplement,False,257.55,207.74,19.3,True,False
+P-00150,Macleods Injection 304,Macleods,Rx Medicines,Injection,Vitamin/Supplement,False,301.31,240.96,20.0,True,True
+P-00151,Biocon Tablet 684,Biocon,Rx Medicines,Tablet,Dermatological,False,408.07,325.8,20.2,True,True
+P-00152,Mankind Gel 581,Mankind,Rx Medicines,Gel,Anti-hypertensive,False,142.55,114.94,19.4,True,True
+P-00153,Zydus Drops 927,Zydus,Rx Medicines,Drops,Anti-inflammatory,False,255.09,201.95,20.8,True,False
+P-00154,Cipla Drops 279,Cipla,Rx Medicines,Drops,Hormonal,False,228.71,179.74,21.4,True,False
+P-00155,Abbott India Injection 547,Abbott India,Rx Medicines,Injection,Anti-inflammatory,False,612.5,485.51,20.7,True,True
+P-00156,Sun Pharma Injection 280,Sun Pharma,Rx Medicines,Injection,Vitamin/Supplement,False,270.94,212.91,21.4,True,False
+P-00157,Ipca Injection 858,Ipca,Rx Medicines,Injection,Anti-viral,False,490.64,396.96,19.1,True,False
+P-00158,Aurobindo Ointment 462,Aurobindo,Rx Medicines,Ointment,Cardiac,False,539.19,425.74,21.0,True,False
+P-00159,Cipla Gel 801,Cipla,Rx Medicines,Gel,Anti-viral,False,189.55,148.85,21.5,True,False
+P-00160,Generic Aurobindo Suspension 318,Aurobindo,Rx Medicines,Suspension,Neurological,True,385.63,302.82,21.5,True,True
+P-00161,Natco Capsule 387,Natco,Rx Medicines,Capsule,Antibiotic,False,202.31,158.52,21.6,True,False
+P-00162,Generic Natco Powder 245,Natco,Rx Medicines,Powder,Respiratory,True,447.38,364.61,18.5,True,False
+P-00163,Generic Glenmark Drops 353,Glenmark,Rx Medicines,Drops,Anti-allergic,True,298.52,241.57,19.1,True,False
+P-00164,Generic Biocon Tablet 347,Biocon,Rx Medicines,Tablet,Anti-hypertensive,True,199.19,157.91,20.7,True,False
+P-00165,Torrent Pharma Powder 562,Torrent Pharma,Rx Medicines,Powder,Cardiac,False,318.55,251.67,21.0,True,False
+P-00166,Natco Drops 945,Natco,Rx Medicines,Drops,Anti-inflammatory,False,354.02,285.4,19.4,True,True
+P-00167,Cipla Capsule 927,Cipla,Rx Medicines,Capsule,Neurological,False,244.74,199.92,18.3,True,False
+P-00168,Generic Torrent Pharma Inhaler 115,Torrent Pharma,Rx Medicines,Inhaler,Musculoskeletal,True,268.2,211.34,21.2,True,True
+P-00169,Intas Suspension 232,Intas,Rx Medicines,Suspension,Antibiotic,False,311.09,247.42,20.5,True,False
+P-00170,Macleods Suspension 327,Macleods,Rx Medicines,Suspension,Anti-allergic,False,434.82,342.61,21.2,True,False
+P-00171,Mankind Injection 818,Mankind,Rx Medicines,Injection,Cardiac,False,253.61,201.43,20.6,True,True
+P-00172,Generic Natco Capsule 546,Natco,Rx Medicines,Capsule,Respiratory,True,541.01,429.56,20.6,True,False
+P-00173,Natco Injection 603,Natco,Rx Medicines,Injection,Vitamin/Supplement,False,381.51,305.24,20.0,True,True
+P-00174,Zydus Suspension 764,Zydus,Rx Medicines,Suspension,Antibiotic,False,492.48,402.23,18.3,True,False
+P-00175,Aurobindo Tablet 413,Aurobindo,Rx Medicines,Tablet,Anti-diabetic,False,341.86,270.17,21.0,True,False
+P-00176,Abbott India Injection 617,Abbott India,Rx Medicines,Injection,Anti-hypertensive,False,386.99,303.91,21.5,True,False
+P-00177,Sun Pharma Injection 195,Sun Pharma,Rx Medicines,Injection,Anti-hypertensive,False,377.92,294.9,22.0,True,False
+P-00178,Abbott India Syrup 746,Abbott India,Rx Medicines,Syrup,Dermatological,False,493.52,388.18,21.3,True,True
+P-00179,Alkem Injection 302,Alkem,Rx Medicines,Injection,Respiratory,False,140.05,111.97,20.1,True,False
+P-00180,Generic Biocon Powder 23,Biocon,Rx Medicines,Powder,Anti-allergic,True,576.48,463.37,19.6,True,False
+P-00181,Generic Sun Pharma Inhaler 270,Sun Pharma,Rx Medicines,Inhaler,Hormonal,True,180.88,142.11,21.4,True,False
+P-00182,Alkem Suspension 404,Alkem,Rx Medicines,Suspension,Respiratory,False,124.17,99.57,19.8,True,False
+P-00183,Natco Gel 692,Natco,Rx Medicines,Gel,Anti-allergic,False,245.96,199.24,19.0,True,False
+P-00184,Ipca Ointment 506,Ipca,Rx Medicines,Ointment,Anti-allergic,False,518.86,415.61,19.9,True,False
+P-00185,Generic Aurobindo Drops 10,Aurobindo,Rx Medicines,Drops,Vitamin/Supplement,True,238.41,195.0,18.2,True,True
+P-00186,Torrent Pharma Ointment 700,Torrent Pharma,Rx Medicines,Ointment,Gastrointestinal,False,223.47,182.32,18.4,True,True
+P-00187,Cadila Injection 928,Cadila,Rx Medicines,Injection,Dermatological,False,129.35,103.37,20.1,True,False
+P-00188,Biocon Injection 17,Biocon,Rx Medicines,Injection,Musculoskeletal,False,360.14,284.76,20.9,True,False
+P-00189,Cipla Inhaler 320,Cipla,Rx Medicines,Inhaler,Cardiac,False,254.54,201.67,20.8,True,False
+P-00190,Generic Ipca Gel 657,Ipca,Rx Medicines,Gel,Anti-hypertensive,True,312.16,248.26,20.5,True,False
+P-00191,Intas Suspension 62,Intas,Rx Medicines,Suspension,Anti-inflammatory,False,163.44,129.71,20.6,True,False
+P-00192,Generic Glenmark Gel 975,Glenmark,Rx Medicines,Gel,Anti-hypertensive,True,391.11,305.07,22.0,True,False
+P-00193,Cipla Powder 333,Cipla,Rx Medicines,Powder,Vitamin/Supplement,False,331.98,262.42,21.0,True,False
+P-00194,Torrent Pharma Injection 406,Torrent Pharma,Rx Medicines,Injection,Cardiac,False,573.86,449.87,21.6,True,False
+P-00195,Generic Biocon Tablet 720,Biocon,Rx Medicines,Tablet,Cardiac,True,143.24,113.85,20.5,True,False
+P-00196,Cipla Tablet 995,Cipla,Rx Medicines,Tablet,Antibiotic,False,501.2,406.43,18.9,True,False
+P-00197,Alkem Gel 463,Alkem,Rx Medicines,Gel,Neurological,False,457.45,365.61,20.1,True,False
+P-00198,Abbott India Ointment 749,Abbott India,Rx Medicines,Ointment,Gastrointestinal,False,238.02,192.83,19.0,True,False
+P-00199,Hetero Inhaler 628,Hetero,Rx Medicines,Inhaler,Anti-hypertensive,False,306.28,241.07,21.3,True,True
+P-00200,Aurobindo Ointment 60,Aurobindo,Rx Medicines,Ointment,Neurological,False,695.88,552.4,20.6,True,True
+P-00201,Generic Biocon Drops 548,Biocon,Rx Medicines,Drops,Pain Management,True,120.1,97.11,19.1,True,False
+P-00202,Generic Dr. Reddys Suspension 11,Dr. Reddys,Rx Medicines,Suspension,Anti-inflammatory,True,266.57,210.94,20.9,True,False
+P-00203,Generic Lupin Gel 250,Lupin,Rx Medicines,Gel,Hormonal,True,213.71,172.72,19.2,True,False
+P-00204,Cadila Suspension 831,Cadila,Rx Medicines,Suspension,Anti-inflammatory,False,361.97,295.56,18.3,True,False
+P-00205,Generic Biocon Gel 914,Biocon,Rx Medicines,Gel,Vitamin/Supplement,True,511.77,401.55,21.5,True,False
+P-00206,Generic Aurobindo Gel 593,Aurobindo,Rx Medicines,Gel,Neurological,True,339.26,266.8,21.4,True,False
+P-00207,Generic Intas Gel 211,Intas,Rx Medicines,Gel,Anti-inflammatory,True,418.32,335.93,19.7,True,False
+P-00208,Lupin Gel 570,Lupin,Rx Medicines,Gel,Anti-hypertensive,False,211.57,172.19,18.6,True,False
+P-00209,Generic Sun Pharma Tablet 464,Sun Pharma,Rx Medicines,Tablet,Anti-diabetic,True,212.95,172.66,18.9,True,False
+P-00210,Cadila Powder 930,Cadila,Rx Medicines,Powder,Vitamin/Supplement,False,175.2,143.25,18.2,True,False
+P-00211,Dr. Reddys Inhaler 468,Dr. Reddys,Rx Medicines,Inhaler,Antibiotic,False,110.02,87.03,20.9,True,False
+P-00212,Natco Syrup 176,Natco,Rx Medicines,Syrup,Cardiac,False,104.35,83.15,20.3,True,False
+P-00213,Lupin Suspension 434,Lupin,Rx Medicines,Suspension,Anti-inflammatory,False,209.34,169.76,18.9,True,False
+P-00214,Biocon Tablet 548,Biocon,Rx Medicines,Tablet,Anti-allergic,False,168.58,132.84,21.2,True,False
+P-00215,Alkem Drops 847,Alkem,Rx Medicines,Drops,Antibiotic,False,103.33,83.35,19.3,True,True
+P-00216,Abbott India Capsule 807,Abbott India,Rx Medicines,Capsule,Antibiotic,False,337.59,266.96,20.9,True,False
+P-00217,Abbott India Gel 627,Abbott India,Rx Medicines,Gel,Vitamin/Supplement,False,539.37,438.61,18.7,True,True
+P-00218,Generic Hetero Tablet 665,Hetero,Rx Medicines,Tablet,Dermatological,True,396.23,312.3,21.2,True,False
+P-00219,Alkem Drops 93,Alkem,Rx Medicines,Drops,Dermatological,False,192.12,152.38,20.7,True,False
+P-00220,Macleods Suspension 469,Macleods,Rx Medicines,Suspension,Anti-diabetic,False,415.49,330.59,20.4,True,False
+P-00221,Generic Sun Pharma Injection 770,Sun Pharma,Rx Medicines,Injection,Anti-hypertensive,True,157.03,126.59,19.4,True,False
+P-00222,Ipca Syrup 475,Ipca,Rx Medicines,Syrup,Respiratory,False,129.78,101.53,21.8,True,False
+P-00223,Dr. Reddys Drops 570,Dr. Reddys,Rx Medicines,Drops,Cardiac,False,103.32,82.65,20.0,True,True
+P-00224,Macleods Syrup 143,Macleods,Rx Medicines,Syrup,Musculoskeletal,False,514.89,404.33,21.5,True,True
+P-00225,Mankind Injection 475,Mankind,Rx Medicines,Injection,Anti-viral,False,154.6,122.47,20.8,True,False
+P-00226,Macleods Gel 298,Macleods,Rx Medicines,Gel,Neurological,False,234.69,187.95,19.9,True,False
+P-00227,Natco Tablet 911,Natco,Rx Medicines,Tablet,Cardiac,False,216.3,169.12,21.8,True,True
+P-00228,Sun Pharma Suspension 589,Sun Pharma,Rx Medicines,Suspension,Anti-inflammatory,False,446.16,363.44,18.5,True,True
+P-00229,Abbott India Injection 296,Abbott India,Rx Medicines,Injection,Anti-allergic,False,286.95,231.11,19.5,True,True
+P-00230,Generic Sun Pharma Gel 262,Sun Pharma,Rx Medicines,Gel,Pain Management,True,249.5,194.66,22.0,True,False
+P-00231,Aurobindo Powder 773,Aurobindo,Rx Medicines,Powder,Neurological,False,206.04,163.25,20.8,True,False
+P-00232,Generic Lupin Inhaler 829,Lupin,Rx Medicines,Inhaler,Gastrointestinal,True,240.7,191.45,20.5,True,True
+P-00233,Lupin Drops 492,Lupin,Rx Medicines,Drops,Anti-viral,False,225.55,179.05,20.6,True,False
+P-00234,Natco Inhaler 192,Natco,Rx Medicines,Inhaler,Cardiac,False,543.66,424.84,21.9,True,False
+P-00235,Torrent Pharma Ointment 995,Torrent Pharma,Rx Medicines,Ointment,Musculoskeletal,False,351.97,284.06,19.3,True,False
+P-00236,Macleods Ointment 506,Macleods,Rx Medicines,Ointment,Anti-inflammatory,False,154.16,124.12,19.5,True,False
+P-00237,Generic Lupin Capsule 934,Lupin,Rx Medicines,Capsule,Anti-allergic,True,483.27,384.41,20.5,True,False
+P-00238,Cadila Tablet 434,Cadila,Rx Medicines,Tablet,Anti-diabetic,False,365.51,290.09,20.6,True,False
+P-00239,Hetero Tablet 768,Hetero,Rx Medicines,Tablet,Musculoskeletal,False,419.58,330.21,21.3,True,False
+P-00240,Alkem Tablet 182,Alkem,Rx Medicines,Tablet,Anti-allergic,False,196.28,157.41,19.8,True,True
+P-00241,Abbott India Tablet 673,Abbott India,Rx Medicines,Tablet,Dermatological,False,233.25,190.6,18.3,True,True
+P-00242,Alkem Gel 408,Alkem,Rx Medicines,Gel,Anti-inflammatory,False,307.09,247.52,19.4,True,False
+P-00243,Generic Ipca Gel 346,Ipca,Rx Medicines,Gel,Pain Management,True,187.88,150.19,20.1,True,False
+P-00244,Alkem Powder 570,Alkem,Rx Medicines,Powder,Anti-viral,False,260.45,211.43,18.8,True,False
+P-00245,Lupin Powder 685,Lupin,Rx Medicines,Powder,Musculoskeletal,False,453.0,365.62,19.3,True,False
+P-00246,Alkem Capsule 921,Alkem,Rx Medicines,Capsule,Gastrointestinal,False,272.7,213.58,21.7,True,False
+P-00247,Generic Sun Pharma Gel 855,Sun Pharma,Rx Medicines,Gel,Dermatological,True,184.98,148.9,19.5,True,False
+P-00248,Generic Macleods Drops 297,Macleods,Rx Medicines,Drops,Anti-inflammatory,True,309.71,252.46,18.5,True,False
+P-00249,Intas Suspension 242,Intas,Rx Medicines,Suspension,Musculoskeletal,False,325.99,256.27,21.4,True,False
+P-00250,Biocon Ointment 656,Biocon,Rx Medicines,Ointment,Pain Management,False,319.81,252.93,20.9,True,True
+P-00251,Ipca Drops 292,Ipca,Rx Medicines,Drops,Neurological,False,267.09,211.26,20.9,True,False
+P-00252,Generic Aurobindo Syrup 692,Aurobindo,Rx Medicines,Syrup,Anti-allergic,True,268.23,212.09,20.9,True,False
+P-00253,Cipla Suspension 376,Cipla,Rx Medicines,Suspension,Cardiac,False,692.62,543.75,21.5,True,False
+P-00254,Zydus Suspension 270,Zydus,Rx Medicines,Suspension,Dermatological,False,382.44,309.83,19.0,True,False
+P-00255,Generic Lupin Suspension 311,Lupin,Rx Medicines,Suspension,Musculoskeletal,True,146.65,115.9,21.0,True,False
+P-00256,Sun Pharma Powder 607,Sun Pharma,Rx Medicines,Powder,Neurological,False,479.99,382.95,20.2,True,False
+P-00257,Generic Abbott India Tablet 764,Abbott India,Rx Medicines,Tablet,Neurological,True,263.57,212.68,19.3,True,False
+P-00258,Torrent Pharma Suspension 390,Torrent Pharma,Rx Medicines,Suspension,Musculoskeletal,False,345.35,278.1,19.5,True,False
+P-00259,Generic Cadila Suspension 414,Cadila,Rx Medicines,Suspension,Musculoskeletal,True,137.77,109.14,20.8,True,True
+P-00260,Generic Natco Injection 128,Natco,Rx Medicines,Injection,Vitamin/Supplement,True,116.09,94.76,18.4,True,False
+P-00261,Generic Natco Syrup 171,Natco,Rx Medicines,Syrup,Musculoskeletal,True,710.13,565.16,20.4,True,False
+P-00262,Generic Intas Syrup 323,Intas,Rx Medicines,Syrup,Vitamin/Supplement,True,719.17,568.26,21.0,True,False
+P-00263,Lupin Syrup 840,Lupin,Rx Medicines,Syrup,Anti-inflammatory,False,335.41,271.87,18.9,True,False
+P-00264,Aurobindo Powder 207,Aurobindo,Rx Medicines,Powder,Vitamin/Supplement,False,209.61,170.43,18.7,True,False
+P-00265,Hetero Drops 514,Hetero,Rx Medicines,Drops,Anti-allergic,False,509.85,406.09,20.4,True,False
+P-00266,Generic Cadila Capsule 263,Cadila,Rx Medicines,Capsule,Hormonal,True,106.28,87.05,18.1,True,False
+P-00267,Torrent Pharma Tablet 942,Torrent Pharma,Rx Medicines,Tablet,Antibiotic,False,469.31,369.03,21.4,True,False
+P-00268,Cadila Ointment 752,Cadila,Rx Medicines,Ointment,Musculoskeletal,False,254.0,207.46,18.3,True,False
+P-00269,Dr. Reddys Tablet 197,Dr. Reddys,Rx Medicines,Tablet,Anti-inflammatory,False,207.2,164.85,20.4,True,False
+P-00270,Generic Lupin Ointment 351,Lupin,Rx Medicines,Ointment,Anti-allergic,True,353.96,289.62,18.2,True,False
+P-00271,Dr. Reddys Inhaler 738,Dr. Reddys,Rx Medicines,Inhaler,Dermatological,False,270.84,217.44,19.7,True,False
+P-00272,Abbott India Powder 859,Abbott India,Rx Medicines,Powder,Dermatological,False,316.53,258.97,18.2,True,False
+P-00273,Lupin Capsule 212,Lupin,Rx Medicines,Capsule,Respiratory,False,259.66,205.31,20.9,True,False
+P-00274,Aurobindo Inhaler 905,Aurobindo,Rx Medicines,Inhaler,Musculoskeletal,False,248.71,199.78,19.7,True,False
+P-00275,Zydus Gel 924,Zydus,Rx Medicines,Gel,Gastrointestinal,False,160.71,128.15,20.3,True,False
+P-00276,Generic Abbott India Powder 717,Abbott India,Rx Medicines,Powder,Anti-diabetic,True,371.79,302.62,18.6,True,False
+P-00277,Mankind Drops 186,Mankind,Rx Medicines,Drops,Anti-diabetic,False,464.44,366.13,21.2,True,False
+P-00278,Torrent Pharma Drops 523,Torrent Pharma,Rx Medicines,Drops,Musculoskeletal,False,89.36,72.68,18.7,True,False
+P-00279,Sun Pharma Gel 945,Sun Pharma,Rx Medicines,Gel,Antibiotic,False,381.6,311.96,18.2,True,True
+P-00280,Generic Cadila Syrup 41,Cadila,Rx Medicines,Syrup,Anti-viral,True,783.32,626.74,20.0,True,False
+P-00281,Lupin Injection 791,Lupin,Rx Medicines,Injection,Dermatological,False,334.82,272.39,18.6,True,False
+P-00282,Glenmark Suspension 75,Glenmark,Rx Medicines,Suspension,Musculoskeletal,False,184.22,146.95,20.2,True,True
+P-00283,Generic Dr. Reddys Suspension 610,Dr. Reddys,Rx Medicines,Suspension,Musculoskeletal,True,172.1,136.6,20.6,True,False
+P-00284,Ipca Syrup 595,Ipca,Rx Medicines,Syrup,Hormonal,False,279.25,226.71,18.8,True,True
+P-00285,Generic Glenmark Injection 113,Glenmark,Rx Medicines,Injection,Dermatological,True,223.88,175.39,21.7,True,False
+P-00286,Generic Torrent Pharma Capsule 292,Torrent Pharma,Rx Medicines,Capsule,Antibiotic,True,531.28,427.93,19.5,True,False
+P-00287,Generic Alkem Drops 697,Alkem,Rx Medicines,Drops,Anti-diabetic,True,267.13,211.22,20.9,True,True
+P-00288,Lupin Drops 533,Lupin,Rx Medicines,Drops,Antibiotic,False,238.35,187.03,21.5,True,False
+P-00289,Hetero Tablet 933,Hetero,Rx Medicines,Tablet,Respiratory,False,336.48,271.57,19.3,True,False
+P-00290,Generic Zydus Powder 939,Zydus,Rx Medicines,Powder,Anti-inflammatory,True,205.75,162.79,20.9,True,False
+P-00291,Generic Zydus Syrup 581,Zydus,Rx Medicines,Syrup,Vitamin/Supplement,True,356.62,290.85,18.4,True,False
+P-00292,Ipca Capsule 737,Ipca,Rx Medicines,Capsule,Anti-allergic,False,248.91,200.98,19.3,True,False
+P-00293,Generic Dr. Reddys Gel 952,Dr. Reddys,Rx Medicines,Gel,Anti-allergic,True,211.06,170.13,19.4,True,True
+P-00294,Ipca Powder 629,Ipca,Rx Medicines,Powder,Cardiac,False,228.02,180.24,21.0,True,False
+P-00295,Generic Aurobindo Syrup 165,Aurobindo,Rx Medicines,Syrup,Vitamin/Supplement,True,155.29,123.07,20.7,True,False
+P-00296,Torrent Pharma Powder 864,Torrent Pharma,Rx Medicines,Powder,Anti-diabetic,False,507.06,398.81,21.3,True,True
+P-00297,Dr. Reddys Injection 638,Dr. Reddys,Rx Medicines,Injection,Anti-viral,False,169.8,139.01,18.1,True,False
+P-00298,Natco Injection 773,Natco,Rx Medicines,Injection,Respiratory,False,199.52,157.16,21.2,True,False
+P-00299,Macleods Syrup 510,Macleods,Rx Medicines,Syrup,Hormonal,False,128.3,104.04,18.9,True,False
+P-00300,Dr. Reddys Syrup 890,Dr. Reddys,Rx Medicines,Syrup,Pain Management,False,137.11,109.8,19.9,True,True
+P-00301,Natco Gel 435,Natco,Rx Medicines,Gel,Cardiac,False,225.24,176.49,21.6,True,False
+P-00302,Biocon Inhaler 384,Biocon,Rx Medicines,Inhaler,Neurological,False,407.52,329.2,19.2,True,False
+P-00303,Generic Aurobindo Injection 830,Aurobindo,Rx Medicines,Injection,Cardiac,True,119.66,94.17,21.3,True,False
+P-00304,Generic Natco Powder 523,Natco,Rx Medicines,Powder,Anti-inflammatory,True,364.65,286.22,21.5,True,False
+P-00305,Natco Drops 441,Natco,Rx Medicines,Drops,Anti-viral,False,370.32,291.25,21.4,True,True
+P-00306,Dr. Reddys Capsule 285,Dr. Reddys,Rx Medicines,Capsule,Gastrointestinal,False,863.71,706.04,18.3,True,False
+P-00307,Abbott India Tablet 737,Abbott India,Rx Medicines,Tablet,Neurological,False,319.69,251.54,21.3,True,False
+P-00308,Alkem Inhaler 183,Alkem,Rx Medicines,Inhaler,Anti-allergic,False,385.97,302.44,21.6,True,False
+P-00309,Glenmark Syrup 832,Glenmark,Rx Medicines,Syrup,Vitamin/Supplement,False,572.99,455.19,20.6,True,False
+P-00310,Lupin Drops 203,Lupin,Rx Medicines,Drops,Antibiotic,False,244.45,194.07,20.6,True,False
+P-00311,Generic Glenmark Tablet 789,Glenmark,Rx Medicines,Tablet,Cardiac,True,265.61,213.96,19.4,True,False
+P-00312,Generic Alkem Syrup 630,Alkem,Rx Medicines,Syrup,Anti-diabetic,True,255.34,204.78,19.8,True,False
+P-00313,Alkem Syrup 311,Alkem,Rx Medicines,Syrup,Anti-inflammatory,False,291.78,239.2,18.0,True,True
+P-00314,Generic Alkem Injection 766,Alkem,Rx Medicines,Injection,Musculoskeletal,True,135.1,108.28,19.9,True,False
+P-00315,Cadila Drops 798,Cadila,Rx Medicines,Drops,Neurological,False,209.43,164.88,21.3,True,False
+P-00316,Mankind Inhaler 503,Mankind,Rx Medicines,Inhaler,Vitamin/Supplement,False,429.08,340.25,20.7,True,False
+P-00317,Biocon Tablet 277,Biocon,Rx Medicines,Tablet,Antibiotic,False,424.31,335.82,20.9,True,False
+P-00318,Cipla Gel 162,Cipla,Rx Medicines,Gel,Musculoskeletal,False,255.71,202.3,20.9,True,False
+P-00319,Generic Biocon Inhaler 648,Biocon,Rx Medicines,Inhaler,Anti-inflammatory,True,196.5,158.11,19.5,True,False
+P-00320,Zydus Syrup 746,Zydus,Rx Medicines,Syrup,Dermatological,False,332.35,262.54,21.0,True,False
+P-00321,Aurobindo Powder 982,Aurobindo,Rx Medicines,Powder,Anti-viral,False,544.51,427.16,21.6,True,True
+P-00322,Macleods Syrup 780,Macleods,Rx Medicines,Syrup,Neurological,False,543.63,442.42,18.6,True,False
+P-00323,Sun Pharma Drops 822,Sun Pharma,Rx Medicines,Drops,Pain Management,False,119.85,95.95,19.9,True,False
+P-00324,Zydus Ointment 288,Zydus,Rx Medicines,Ointment,Anti-viral,False,202.76,163.48,19.4,True,False
+P-00325,Torrent Pharma Ointment 643,Torrent Pharma,Rx Medicines,Ointment,Anti-hypertensive,False,193.54,154.5,20.2,True,False
+P-00326,Abbott India Capsule 856,Abbott India,Rx Medicines,Capsule,Antibiotic,False,257.43,202.26,21.4,True,False
+P-00327,Alkem Gel 449,Alkem,Rx Medicines,Gel,Cardiac,False,469.22,377.73,19.5,True,True
+P-00328,Generic Mankind Injection 157,Mankind,Rx Medicines,Injection,Anti-diabetic,True,491.83,396.5,19.4,True,False
+P-00329,Cadila Capsule 890,Cadila,Rx Medicines,Capsule,Hormonal,False,529.33,421.43,20.4,True,False
+P-00330,Zydus Suspension 495,Zydus,Rx Medicines,Suspension,Anti-inflammatory,False,218.25,173.9,20.3,True,False
+P-00331,Generic Lupin Tablet 439,Lupin,Rx Medicines,Tablet,Gastrointestinal,True,160.36,130.86,18.4,True,True
+P-00332,Generic Cadila Syrup 254,Cadila,Rx Medicines,Syrup,Hormonal,True,294.01,239.36,18.6,True,False
+P-00333,Generic Zydus Gel 795,Zydus,Rx Medicines,Gel,Musculoskeletal,True,220.83,177.16,19.8,True,False
+P-00334,Generic Intas Injection 174,Intas,Rx Medicines,Injection,Cardiac,True,89.25,71.25,20.2,True,False
+P-00335,Generic Biocon Capsule 425,Biocon,Rx Medicines,Capsule,Gastrointestinal,True,250.94,202.74,19.2,True,False
+P-00336,Generic Intas Ointment 148,Intas,Rx Medicines,Ointment,Anti-allergic,True,517.31,419.33,18.9,True,False
+P-00337,Cipla Suspension 282,Cipla,Rx Medicines,Suspension,Vitamin/Supplement,False,252.69,203.14,19.6,True,False
+P-00338,Generic Macleods Suspension 174,Macleods,Rx Medicines,Suspension,Dermatological,True,899.53,715.28,20.5,True,False
+P-00339,Alkem Ointment 568,Alkem,Rx Medicines,Ointment,Anti-inflammatory,False,643.56,518.62,19.4,True,False
+P-00340,Generic Ipca Inhaler 946,Ipca,Rx Medicines,Inhaler,Anti-diabetic,True,611.39,484.69,20.7,True,False
+P-00341,Generic Abbott India Drops 591,Abbott India,Rx Medicines,Drops,Antibiotic,True,177.7,140.35,21.0,True,False
+P-00342,Lupin Drops 408,Lupin,Rx Medicines,Drops,Pain Management,False,284.07,224.28,21.0,True,False
+P-00343,Macleods Tablet 760,Macleods,Rx Medicines,Tablet,Pain Management,False,93.22,74.2,20.4,True,False
+P-00344,Generic Biocon Syrup 950,Biocon,Rx Medicines,Syrup,Neurological,True,118.93,97.24,18.2,True,False
+P-00345,Intas Tablet 952,Intas,Rx Medicines,Tablet,Antibiotic,False,161.36,132.12,18.1,True,False
+P-00346,Hetero Capsule 844,Hetero,Rx Medicines,Capsule,Vitamin/Supplement,False,183.06,149.89,18.1,True,False
+P-00347,Cadila Ointment 743,Cadila,Rx Medicines,Ointment,Anti-hypertensive,False,513.85,410.49,20.1,True,True
+P-00348,Macleods Suspension 656,Macleods,Rx Medicines,Suspension,Dermatological,False,181.42,146.63,19.2,True,True
+P-00349,Lupin Powder 137,Lupin,Rx Medicines,Powder,Anti-viral,False,345.67,272.82,21.1,True,False
+P-00350,Cipla Injection 274,Cipla,Rx Medicines,Injection,Anti-viral,False,208.07,169.88,18.4,True,False
+P-00351,Natco Injection 982,Natco,Rx Medicines,Injection,Cardiac,False,354.23,281.51,20.5,True,False
+P-00352,Sun Pharma Syrup 384,Sun Pharma,Rx Medicines,Syrup,Anti-hypertensive,False,110.71,90.44,18.3,True,False
+P-00353,Generic Hetero Drops 299,Hetero,Rx Medicines,Drops,Anti-hypertensive,True,457.35,371.16,18.8,True,False
+P-00354,Alkem Inhaler 639,Alkem,Rx Medicines,Inhaler,Pain Management,False,519.39,420.37,19.1,True,False
+P-00355,Mankind Tablet 322,Mankind,Rx Medicines,Tablet,Pain Management,False,288.52,232.46,19.4,True,False
+P-00356,Intas Inhaler 493,Intas,Rx Medicines,Inhaler,Pain Management,False,321.65,257.91,19.8,True,False
+P-00357,Macleods Capsule 269,Macleods,Rx Medicines,Capsule,Anti-inflammatory,False,162.8,129.83,20.3,True,True
+P-00358,Alkem Capsule 859,Alkem,Rx Medicines,Capsule,Anti-viral,False,168.45,136.21,19.1,True,False
+P-00359,Ipca Powder 218,Ipca,Rx Medicines,Powder,Anti-viral,False,398.7,317.47,20.4,True,True
+P-00360,Generic Macleods Suspension 841,Macleods,Rx Medicines,Suspension,Gastrointestinal,True,445.82,348.8,21.8,True,False
+P-00361,Ipca Powder 859,Ipca,Rx Medicines,Powder,Antibiotic,False,477.99,381.02,20.3,True,False
+P-00362,Biocon Syrup 430,Biocon,Rx Medicines,Syrup,Dermatological,False,307.85,240.57,21.9,True,True
+P-00363,Cipla Powder 110,Cipla,Rx Medicines,Powder,Musculoskeletal,False,227.59,178.65,21.5,True,False
+P-00364,Abbott India Tablet 542,Abbott India,Rx Medicines,Tablet,Neurological,False,206.54,166.9,19.2,True,False
+P-00365,Generic Abbott India Ointment 364,Abbott India,Rx Medicines,Ointment,Gastrointestinal,True,83.28,65.41,21.5,True,False
+P-00366,Macleods Syrup 22,Macleods,Rx Medicines,Syrup,Anti-allergic,False,275.81,216.69,21.4,True,False
+P-00367,Biocon Injection 109,Biocon,Rx Medicines,Injection,Neurological,False,232.64,182.57,21.5,True,False
+P-00368,Biocon Capsule 283,Biocon,Rx Medicines,Capsule,Dermatological,False,801.67,636.47,20.6,True,False
+P-00369,Torrent Pharma Ointment 236,Torrent Pharma,Rx Medicines,Ointment,Cardiac,False,308.26,249.23,19.1,True,False
+P-00370,Intas Drops 62,Intas,Rx Medicines,Drops,Gastrointestinal,False,260.0,210.42,19.1,True,False
+P-00371,Biocon Ointment 26,Biocon,Rx Medicines,Ointment,Anti-hypertensive,False,251.08,201.83,19.6,True,False
+P-00372,Ipca Powder 842,Ipca,Rx Medicines,Powder,Anti-allergic,False,74.84,60.18,19.6,True,False
+P-00373,Hetero Tablet 184,Hetero,Rx Medicines,Tablet,Musculoskeletal,False,314.38,256.83,18.3,True,False
+P-00374,Generic Sun Pharma Ointment 64,Sun Pharma,Rx Medicines,Ointment,Gastrointestinal,True,484.79,390.9,19.4,True,False
+P-00375,Abbott India Ointment 785,Abbott India,Rx Medicines,Ointment,Respiratory,False,334.52,266.99,20.2,True,False
+P-00376,Generic Alkem Drops 498,Alkem,Rx Medicines,Drops,Dermatological,True,411.19,336.1,18.3,True,False
+P-00377,Sun Pharma Inhaler 242,Sun Pharma,Rx Medicines,Inhaler,Anti-inflammatory,False,366.26,299.23,18.3,True,False
+P-00378,Generic Abbott India Inhaler 516,Abbott India,Rx Medicines,Inhaler,Musculoskeletal,True,287.32,225.87,21.4,True,False
+P-00379,Ipca Ointment 58,Ipca,Rx Medicines,Ointment,Anti-inflammatory,False,617.12,499.62,19.0,True,False
+P-00380,Torrent Pharma Suspension 498,Torrent Pharma,Rx Medicines,Suspension,Neurological,False,168.55,132.21,21.6,True,False
+P-00381,Generic Intas Capsule 745,Intas,Rx Medicines,Capsule,Anti-inflammatory,True,120.33,95.01,21.0,True,False
+P-00382,Natco Ointment 219,Natco,Rx Medicines,Ointment,Pain Management,False,195.42,153.94,21.2,True,False
+P-00383,Generic Natco Syrup 730,Natco,Rx Medicines,Syrup,Vitamin/Supplement,True,451.07,357.71,20.7,True,False
+P-00384,Biocon Capsule 690,Biocon,Rx Medicines,Capsule,Anti-allergic,False,273.8,217.3,20.6,True,True
+P-00385,Dr. Reddys Suspension 283,Dr. Reddys,Rx Medicines,Suspension,Musculoskeletal,False,131.62,105.51,19.8,True,False
+P-00386,Generic Torrent Pharma Drops 892,Torrent Pharma,Rx Medicines,Drops,Cardiac,True,297.48,241.67,18.8,True,False
+P-00387,Sun Pharma Tablet 504,Sun Pharma,Rx Medicines,Tablet,Gastrointestinal,False,473.32,373.49,21.1,True,False
+P-00388,Ipca Inhaler 863,Ipca,Rx Medicines,Inhaler,Anti-inflammatory,False,238.87,190.47,20.3,True,False
+P-00389,Abbott India Powder 180,Abbott India,Rx Medicines,Powder,Anti-inflammatory,False,381.47,309.32,18.9,True,True
+P-00390,Cadila Suspension 799,Cadila,Rx Medicines,Suspension,Dermatological,False,252.41,198.82,21.2,True,False
+P-00391,Dr. Reddys Gel 681,Dr. Reddys,Rx Medicines,Gel,Cardiac,False,406.22,316.96,22.0,True,False
+P-00392,Mankind Tablet 684,Mankind,Rx Medicines,Tablet,Anti-inflammatory,False,255.74,201.99,21.0,True,True
+P-00393,Mankind Gel 778,Mankind,Rx Medicines,Gel,Anti-hypertensive,False,111.57,87.71,21.4,True,True
+P-00394,Generic Biocon Injection 50,Biocon,Rx Medicines,Injection,Musculoskeletal,True,626.33,492.55,21.4,True,True
+P-00395,Generic Cipla Tablet 108,Cipla,Rx Medicines,Tablet,Dermatological,True,129.63,103.29,20.3,True,False
+P-00396,Biocon Inhaler 654,Biocon,Rx Medicines,Inhaler,Respiratory,False,754.82,593.41,21.4,True,False
+P-00397,Lupin Inhaler 377,Lupin,Rx Medicines,Inhaler,Anti-viral,False,137.75,111.55,19.0,True,False
+P-00398,Mankind Powder 430,Mankind,Rx Medicines,Powder,Musculoskeletal,False,311.57,243.76,21.8,True,False
+P-00399,Aurobindo Suspension 13,Aurobindo,Rx Medicines,Suspension,Anti-viral,False,519.4,409.89,21.1,True,True
+P-00400,Generic Intas Inhaler 590,Intas,Rx Medicines,Inhaler,Anti-inflammatory,True,163.9,131.61,19.7,True,False
+P-00401,Glenmark Powder 400,Glenmark,Rx Medicines,Powder,Anti-allergic,False,199.72,156.0,21.9,True,False
+P-00402,Generic Dr. Reddys Syrup 47,Dr. Reddys,Rx Medicines,Syrup,Anti-inflammatory,True,284.82,222.54,21.9,True,False
+P-00403,Lupin Powder 121,Lupin,Rx Medicines,Powder,Respiratory,False,429.08,337.81,21.3,True,False
+P-00404,Natco Powder 749,Natco,Rx Medicines,Powder,Hormonal,False,315.12,245.8,22.0,True,False
+P-00405,Alkem Tablet 776,Alkem,Rx Medicines,Tablet,Respiratory,False,689.43,560.72,18.7,True,False
+P-00406,Intas Gel 445,Intas,Rx Medicines,Gel,Anti-diabetic,False,339.12,269.92,20.4,True,False
+P-00407,Zydus Drops 97,Zydus,Rx Medicines,Drops,Anti-viral,False,88.25,69.07,21.7,True,True
+P-00408,Aurobindo Inhaler 387,Aurobindo,Rx Medicines,Inhaler,Anti-diabetic,False,302.87,246.88,18.5,True,False
+P-00409,Intas Capsule 254,Intas,Rx Medicines,Capsule,Vitamin/Supplement,False,232.92,184.8,20.7,True,False
+P-00410,Intas Inhaler 792,Intas,Rx Medicines,Inhaler,Anti-diabetic,False,222.5,179.06,19.5,True,False
+P-00411,Generic Lupin Capsule 860,Lupin,Rx Medicines,Capsule,Hormonal,True,131.09,103.8,20.8,True,False
+P-00412,Cipla Tablet 292,Cipla,Rx Medicines,Tablet,Gastrointestinal,False,234.22,187.33,20.0,True,False
+P-00413,Alkem Syrup 437,Alkem,Rx Medicines,Syrup,Hormonal,False,307.47,243.8,20.7,True,False
+P-00414,Generic Zydus Suspension 635,Zydus,Rx Medicines,Suspension,Dermatological,True,314.11,245.82,21.7,True,False
+P-00415,Macleods Injection 911,Macleods,Rx Medicines,Injection,Anti-allergic,False,151.62,121.83,19.6,True,False
+P-00416,Generic Natco Ointment 59,Natco,Rx Medicines,Ointment,Hormonal,True,225.31,181.55,19.4,True,False
+P-00417,Generic Zydus Capsule 600,Zydus,Rx Medicines,Capsule,Respiratory,True,303.32,240.58,20.7,True,True
+P-00418,Macleods Gel 678,Macleods,Rx Medicines,Gel,Dermatological,False,359.85,294.11,18.3,True,False
+P-00419,Sun Pharma Drops 434,Sun Pharma,Rx Medicines,Drops,Anti-allergic,False,596.8,472.56,20.8,True,False
+P-00420,Generic Intas Inhaler 812,Intas,Rx Medicines,Inhaler,Musculoskeletal,True,206.05,164.7,20.1,True,False
+P-00421,Dettol Ointment 304,Dettol,OTC Medicines,Ointment,,False,133.1,90.21,32.2,False,False
+P-00422,Burnol Drops 562,Burnol,OTC Medicines,Drops,,False,124.23,88.85,28.5,False,False
+P-00423,Crocin Balm 423,Crocin,OTC Medicines,Balm,,False,277.06,186.91,32.5,False,False
+P-00424,Vicks Syrup 143,Vicks,OTC Medicines,Syrup,,False,234.56,157.33,32.9,False,False
+P-00425,Burnol Gel 452,Burnol,OTC Medicines,Gel,,False,317.93,215.92,32.1,False,False
+P-00426,Zandu Syrup 74,Zandu,OTC Medicines,Syrup,,False,90.76,59.84,34.1,False,False
+P-00427,Dabur Gel 956,Dabur,OTC Medicines,Gel,,False,352.54,248.57,29.5,False,False
+P-00428,Vicks Ointment 619,Vicks,OTC Medicines,Ointment,,False,73.6,49.96,32.1,False,False
+P-00429,Benadryl Tablet 173,Benadryl,OTC Medicines,Tablet,,False,122.66,86.14,29.8,False,False
+P-00430,Dabur Tablet 82,Dabur,OTC Medicines,Tablet,,False,105.59,74.4,29.5,False,False
+P-00431,Strepsils Drops 516,Strepsils,OTC Medicines,Drops,,False,118.6,84.62,28.6,False,False
+P-00432,Vicks Powder 280,Vicks,OTC Medicines,Powder,,False,109.98,75.84,31.0,False,False
+P-00433,Zandu Powder 955,Zandu,OTC Medicines,Powder,,False,136.92,92.15,32.7,False,False
+P-00434,Zandu Ointment 766,Zandu,OTC Medicines,Ointment,,False,56.0,37.76,32.6,False,False
+P-00435,Volini Balm 305,Volini,OTC Medicines,Balm,,False,84.62,59.46,29.7,False,False
+P-00436,Burnol Syrup 323,Burnol,OTC Medicines,Syrup,,False,77.65,51.93,33.1,False,False
+P-00437,Cipla Syrup 648,Cipla,OTC Medicines,Syrup,,False,57.31,37.71,34.2,False,False
+P-00438,Dabur Balm 598,Dabur,OTC Medicines,Balm,,False,68.16,44.63,34.5,False,False
+P-00439,Moov Cream 759,Moov,OTC Medicines,Cream,,False,243.72,162.89,33.2,False,False
+P-00440,Moov Cream 730,Moov,OTC Medicines,Cream,,False,168.71,112.37,33.4,False,False
+P-00441,Benadryl Drops 874,Benadryl,OTC Medicines,Drops,,False,89.06,58.73,34.1,False,False
+P-00442,Crocin Spray 577,Crocin,OTC Medicines,Spray,,False,205.33,138.26,32.7,False,False
+P-00443,Burnol Spray 751,Burnol,OTC Medicines,Spray,,False,197.78,133.57,32.5,False,False
+P-00444,Strepsils Ointment 261,Strepsils,OTC Medicines,Ointment,,False,106.59,73.44,31.1,False,False
+P-00445,Burnol Spray 521,Burnol,OTC Medicines,Spray,,False,98.42,67.42,31.5,False,False
+P-00446,Burnol Gel 781,Burnol,OTC Medicines,Gel,,False,241.24,173.32,28.2,False,False
+P-00447,Crocin Lozenges 216,Crocin,OTC Medicines,Lozenges,,False,119.17,78.07,34.5,False,False
+P-00448,Cipla Lozenges 943,Cipla,OTC Medicines,Lozenges,,False,85.0,56.96,33.0,False,False
+P-00449,Himalaya Powder 654,Himalaya,OTC Medicines,Powder,,False,84.59,59.95,29.1,False,False
+P-00450,Cipla Gel 251,Cipla,OTC Medicines,Gel,,False,93.81,61.35,34.6,False,False
+P-00451,Volini Cream 78,Volini,OTC Medicines,Cream,,False,159.62,113.69,28.8,False,False
+P-00452,Cipla Balm 292,Cipla,OTC Medicines,Balm,,False,194.72,127.6,34.5,False,False
+P-00453,Moov Gel 61,Moov,OTC Medicines,Gel,,False,41.06,28.55,30.5,False,False
+P-00454,Moov Powder 823,Moov,OTC Medicines,Powder,,False,156.63,103.69,33.8,False,False
+P-00455,Volini Spray 816,Volini,OTC Medicines,Spray,,False,67.68,46.33,31.5,False,False
+P-00456,Cipla Tablet 146,Cipla,OTC Medicines,Tablet,,False,60.69,43.26,28.7,False,False
+P-00457,Crocin Cream 270,Crocin,OTC Medicines,Cream,,False,94.65,64.69,31.7,False,False
+P-00458,Strepsils Lozenges 480,Strepsils,OTC Medicines,Lozenges,,False,201.15,133.03,33.9,False,False
+P-00459,Dabur Powder 381,Dabur,OTC Medicines,Powder,,False,37.59,25.17,33.1,False,False
+P-00460,Volini Tablet 606,Volini,OTC Medicines,Tablet,,False,70.43,47.06,33.2,False,False
+P-00461,Himalaya Spray 298,Himalaya,OTC Medicines,Spray,,False,126.92,89.95,29.1,False,False
+P-00462,Cipla Gel 643,Cipla,OTC Medicines,Gel,,False,287.09,188.99,34.2,False,False
+P-00463,Strepsils Cream 215,Strepsils,OTC Medicines,Cream,,False,126.52,85.71,32.3,False,False
+P-00464,Volini Lozenges 136,Volini,OTC Medicines,Lozenges,,False,55.92,39.31,29.7,False,False
+P-00465,Dabur Drops 967,Dabur,OTC Medicines,Drops,,False,199.97,138.16,30.9,False,False
+P-00466,Cipla Cream 945,Cipla,OTC Medicines,Cream,,False,340.94,229.27,32.8,False,False
+P-00467,Strepsils Tablet 906,Strepsils,OTC Medicines,Tablet,,False,88.11,60.07,31.8,False,False
+P-00468,Himalaya Tablet 326,Himalaya,OTC Medicines,Tablet,,False,70.57,48.36,31.5,False,False
+P-00469,Volini Ointment 314,Volini,OTC Medicines,Ointment,,False,72.94,50.52,30.7,False,False
+P-00470,Dabur Lozenges 112,Dabur,OTC Medicines,Lozenges,,False,166.18,110.66,33.4,False,False
+P-00471,Vicks Tablet 638,Vicks,OTC Medicines,Tablet,,False,117.29,79.85,31.9,False,False
+P-00472,Burnol Gel 34,Burnol,OTC Medicines,Gel,,False,81.86,57.49,29.8,False,False
+P-00473,Crocin Powder 345,Crocin,OTC Medicines,Powder,,False,223.57,148.12,33.7,False,False
+P-00474,Benadryl Cream 639,Benadryl,OTC Medicines,Cream,,False,128.19,91.15,28.9,False,False
+P-00475,Benadryl Lozenges 438,Benadryl,OTC Medicines,Lozenges,,False,62.05,40.96,34.0,False,False
+P-00476,Dabur Spray 66,Dabur,OTC Medicines,Spray,,False,108.42,74.95,30.9,False,False
+P-00477,Moov Syrup 543,Moov,OTC Medicines,Syrup,,False,117.46,84.02,28.5,False,False
+P-00478,Crocin Powder 344,Crocin,OTC Medicines,Powder,,False,123.53,82.52,33.2,False,False
+P-00479,Dettol Balm 566,Dettol,OTC Medicines,Balm,,False,88.6,61.46,30.6,False,False
+P-00480,Crocin Balm 644,Crocin,OTC Medicines,Balm,,False,133.37,86.72,35.0,False,False
+P-00481,Strepsils Cream 68,Strepsils,OTC Medicines,Cream,,False,87.34,60.61,30.6,False,False
+P-00482,Volini Balm 893,Volini,OTC Medicines,Balm,,False,66.2,45.51,31.2,False,False
+P-00483,Burnol Gel 907,Burnol,OTC Medicines,Gel,,False,160.49,111.29,30.7,False,False
+P-00484,Cipla Powder 133,Cipla,OTC Medicines,Powder,,False,108.4,78.01,28.0,False,False
+P-00485,Himalaya Ointment 259,Himalaya,OTC Medicines,Ointment,,False,83.13,55.39,33.4,False,False
+P-00486,Strepsils Spray 839,Strepsils,OTC Medicines,Spray,,False,125.02,85.45,31.6,False,False
+P-00487,Volini Gel 101,Volini,OTC Medicines,Gel,,False,167.64,116.16,30.7,False,False
+P-00488,Benadryl Drops 410,Benadryl,OTC Medicines,Drops,,False,75.83,50.62,33.2,False,False
+P-00489,Volini Cream 766,Volini,OTC Medicines,Cream,,False,250.14,165.17,34.0,False,False
+P-00490,Crocin Gel 454,Crocin,OTC Medicines,Gel,,False,100.34,70.09,30.1,False,False
+P-00491,Burnol Drops 246,Burnol,OTC Medicines,Drops,,False,237.98,168.26,29.3,False,False
+P-00492,Burnol Syrup 725,Burnol,OTC Medicines,Syrup,,False,49.76,34.35,31.0,False,False
+P-00493,Strepsils Tablet 800,Strepsils,OTC Medicines,Tablet,,False,71.33,49.14,31.1,False,False
+P-00494,Himalaya Tablet 815,Himalaya,OTC Medicines,Tablet,,False,135.33,94.86,29.9,False,False
+P-00495,Benadryl Cream 694,Benadryl,OTC Medicines,Cream,,False,130.77,91.18,30.3,False,False
+P-00496,Dettol Spray 790,Dettol,OTC Medicines,Spray,,False,158.24,106.24,32.9,False,False
+P-00497,Burnol Balm 896,Burnol,OTC Medicines,Balm,,False,163.12,112.18,31.2,False,False
+P-00498,Crocin Ointment 878,Crocin,OTC Medicines,Ointment,,False,156.29,111.56,28.6,False,False
+P-00499,Zandu Tablet 79,Zandu,OTC Medicines,Tablet,,False,95.34,66.91,29.8,False,False
+P-00500,Vicks Cream 837,Vicks,OTC Medicines,Cream,,False,116.08,76.88,33.8,False,False
+P-00501,Moov Syrup 513,Moov,OTC Medicines,Syrup,,False,100.46,70.92,29.4,False,False
+P-00502,Moov Lozenges 239,Moov,OTC Medicines,Lozenges,,False,244.14,158.76,35.0,False,False
+P-00503,Himalaya Syrup 559,Himalaya,OTC Medicines,Syrup,,False,174.07,116.72,32.9,False,False
+P-00504,Burnol Balm 966,Burnol,OTC Medicines,Balm,,False,161.17,105.85,34.3,False,False
+P-00505,Burnol Gel 409,Burnol,OTC Medicines,Gel,,False,119.21,81.07,32.0,False,False
+P-00506,Cipla Cream 708,Cipla,OTC Medicines,Cream,,False,109.1,78.38,28.2,False,False
+P-00507,Vicks Cream 510,Vicks,OTC Medicines,Cream,,False,109.08,77.93,28.6,False,False
+P-00508,Dabur Drops 471,Dabur,OTC Medicines,Drops,,False,117.81,84.7,28.1,False,False
+P-00509,Moov Syrup 777,Moov,OTC Medicines,Syrup,,False,71.64,50.92,28.9,False,False
+P-00510,Burnol Gel 217,Burnol,OTC Medicines,Gel,,False,209.38,142.5,31.9,False,False
+P-00511,Vicks Spray 550,Vicks,OTC Medicines,Spray,,False,52.53,37.57,28.5,False,False
+P-00512,Dabur Syrup 948,Dabur,OTC Medicines,Syrup,,False,57.4,38.49,33.0,False,False
+P-00513,Benadryl Balm 704,Benadryl,OTC Medicines,Balm,,False,203.32,140.99,30.7,False,False
+P-00514,Dettol Spray 910,Dettol,OTC Medicines,Spray,,False,132.55,89.56,32.4,False,False
+P-00515,Dabur Spray 724,Dabur,OTC Medicines,Spray,,False,164.06,111.31,32.2,False,False
+P-00516,Burnol Syrup 703,Burnol,OTC Medicines,Syrup,,False,186.81,129.76,30.5,False,False
+P-00517,Himalaya Ointment 191,Himalaya,OTC Medicines,Ointment,,False,320.15,214.88,32.9,False,False
+P-00518,Strepsils Drops 73,Strepsils,OTC Medicines,Drops,,False,120.22,85.24,29.1,False,False
+P-00519,Volini Balm 763,Volini,OTC Medicines,Balm,,False,61.53,44.12,28.3,False,False
+P-00520,Cipla Syrup 121,Cipla,OTC Medicines,Syrup,,False,98.78,70.99,28.1,False,False
+P-00521,Cipla Lozenges 541,Cipla,OTC Medicines,Lozenges,,False,109.72,75.5,31.2,False,False
+P-00522,Crocin Cream 99,Crocin,OTC Medicines,Cream,,False,63.66,42.99,32.5,False,False
+P-00523,Himalaya Spray 596,Himalaya,OTC Medicines,Spray,,False,149.87,107.08,28.5,False,False
+P-00524,Moov Ointment 669,Moov,OTC Medicines,Ointment,,False,201.94,137.0,32.2,False,False
+P-00525,Moov Ointment 448,Moov,OTC Medicines,Ointment,,False,130.28,88.18,32.3,False,False
+P-00526,Burnol Lozenges 964,Burnol,OTC Medicines,Lozenges,,False,113.78,77.93,31.5,False,False
+P-00527,Moov Spray 188,Moov,OTC Medicines,Spray,,False,135.83,96.61,28.9,False,False
+P-00528,Zandu Spray 760,Zandu,OTC Medicines,Spray,,False,132.18,86.87,34.3,False,False
+P-00529,Volini Powder 285,Volini,OTC Medicines,Powder,,False,217.84,155.89,28.4,False,False
+P-00530,Dettol Lozenges 277,Dettol,OTC Medicines,Lozenges,,False,113.01,77.92,31.0,False,False
+P-00531,Cipla Tablet 373,Cipla,OTC Medicines,Tablet,,False,108.26,77.41,28.5,False,False
+P-00532,Strepsils Syrup 59,Strepsils,OTC Medicines,Syrup,,False,82.62,56.74,31.3,False,False
+P-00533,Crocin Ointment 119,Crocin,OTC Medicines,Ointment,,False,51.23,34.02,33.6,False,False
+P-00534,Moov Ointment 48,Moov,OTC Medicines,Ointment,,False,95.21,67.69,28.9,False,False
+P-00535,Dettol Tablet 803,Dettol,OTC Medicines,Tablet,,False,60.97,39.74,34.8,False,False
+P-00536,Crocin Balm 969,Crocin,OTC Medicines,Balm,,False,72.67,51.58,29.0,False,False
+P-00537,Crocin Ointment 105,Crocin,OTC Medicines,Ointment,,False,45.99,31.3,31.9,False,False
+P-00538,Vicks Drops 137,Vicks,OTC Medicines,Drops,,False,111.32,74.07,33.5,False,False
+P-00539,Moov Cream 499,Moov,OTC Medicines,Cream,,False,110.73,72.1,34.9,False,False
+P-00540,Benadryl Lozenges 193,Benadryl,OTC Medicines,Lozenges,,False,201.42,144.22,28.4,False,False
+P-00541,Himalaya Powder 981,Himalaya,OTC Medicines,Powder,,False,91.61,62.45,31.8,False,False
+P-00542,Moov Tablet 280,Moov,OTC Medicines,Tablet,,False,69.51,45.85,34.0,False,False
+P-00543,Volini Lozenges 227,Volini,OTC Medicines,Lozenges,,False,256.18,167.59,34.6,False,False
+P-00544,Burnol Spray 729,Burnol,OTC Medicines,Spray,,False,143.51,98.41,31.4,False,False
+P-00545,Benadryl Drops 27,Benadryl,OTC Medicines,Drops,,False,97.05,64.03,34.0,False,False
+P-00546,Volini Lozenges 354,Volini,OTC Medicines,Lozenges,,False,201.42,138.62,31.2,False,False
+P-00547,Moov Tablet 197,Moov,OTC Medicines,Tablet,,False,122.6,81.95,33.2,False,False
+P-00548,Strepsils Drops 560,Strepsils,OTC Medicines,Drops,,False,235.06,165.46,29.6,False,False
+P-00549,Moov Powder 129,Moov,OTC Medicines,Powder,,False,77.35,54.98,28.9,False,False
+P-00550,Dettol Spray 421,Dettol,OTC Medicines,Spray,,False,194.12,135.98,30.0,False,False
+P-00551,Dabur Drops 721,Dabur,OTC Medicines,Drops,,False,91.23,59.76,34.5,False,False
+P-00552,Volini Ointment 15,Volini,OTC Medicines,Ointment,,False,182.03,126.33,30.6,False,False
+P-00553,Dabur Gel 808,Dabur,OTC Medicines,Gel,,False,83.81,57.08,31.9,False,False
+P-00554,Vicks Balm 946,Vicks,OTC Medicines,Balm,,False,106.94,71.96,32.7,False,False
+P-00555,Vicks Gel 566,Vicks,OTC Medicines,Gel,,False,425.08,283.69,33.3,False,False
+P-00556,Strepsils Syrup 509,Strepsils,OTC Medicines,Syrup,,False,163.97,117.44,28.4,False,False
+P-00557,Cipla Drops 929,Cipla,OTC Medicines,Drops,,False,145.52,102.74,29.4,False,False
+P-00558,Strepsils Ointment 118,Strepsils,OTC Medicines,Ointment,,False,52.19,34.21,34.4,False,False
+P-00559,Volini Ointment 944,Volini,OTC Medicines,Ointment,,False,86.44,56.74,34.4,False,False
+P-00560,Vicks Tablet 710,Vicks,OTC Medicines,Tablet,,False,83.18,55.39,33.4,False,False
+P-00561,Volini Syrup 22,Volini,OTC Medicines,Syrup,,False,124.9,83.77,32.9,False,False
+P-00562,Himalaya Syrup 990,Himalaya,OTC Medicines,Syrup,,False,268.64,190.21,29.2,False,False
+P-00563,Vicks Lozenges 189,Vicks,OTC Medicines,Lozenges,,False,65.26,43.93,32.7,False,False
+P-00564,Strepsils Spray 701,Strepsils,OTC Medicines,Spray,,False,166.37,119.2,28.4,False,False
+P-00565,Cipla Powder 748,Cipla,OTC Medicines,Powder,,False,218.61,154.94,29.1,False,False
+P-00566,Burnol Syrup 809,Burnol,OTC Medicines,Syrup,,False,107.57,75.83,29.5,False,False
+P-00567,Dettol Tablet 676,Dettol,OTC Medicines,Tablet,,False,128.14,90.56,29.3,False,False
+P-00568,Dettol Tablet 51,Dettol,OTC Medicines,Tablet,,False,125.3,84.86,32.3,False,False
+P-00569,Dabur Lozenges 742,Dabur,OTC Medicines,Lozenges,,False,141.17,99.3,29.7,False,False
+P-00570,Vicks Spray 577,Vicks,OTC Medicines,Spray,,False,96.0,63.51,33.8,False,False
+P-00571,Crocin Drops 236,Crocin,OTC Medicines,Drops,,False,126.03,83.9,33.4,False,False
+P-00572,Dabur Ointment 124,Dabur,OTC Medicines,Ointment,,False,229.39,164.68,28.2,False,False
+P-00573,Himalaya Ointment 156,Himalaya,OTC Medicines,Ointment,,False,113.23,76.68,32.3,False,False
+P-00574,Moov Drops 559,Moov,OTC Medicines,Drops,,False,133.6,93.43,30.1,False,False
+P-00575,Volini Spray 308,Volini,OTC Medicines,Spray,,False,141.62,99.22,29.9,False,False
+P-00576,Zandu Gel 579,Zandu,OTC Medicines,Gel,,False,156.68,107.81,31.2,False,False
+P-00577,Cipla Powder 261,Cipla,OTC Medicines,Powder,,False,79.9,53.08,33.6,False,False
+P-00578,Dabur Ointment 805,Dabur,OTC Medicines,Ointment,,False,45.59,31.83,30.2,False,False
+P-00579,Cipla Gel 977,Cipla,OTC Medicines,Gel,,False,197.51,129.27,34.5,False,False
+P-00580,Moov Syrup 501,Moov,OTC Medicines,Syrup,,False,95.03,62.24,34.5,False,False
+P-00581,Burnol Powder 384,Burnol,OTC Medicines,Powder,,False,178.8,125.32,29.9,False,False
+P-00582,Benadryl Syrup 929,Benadryl,OTC Medicines,Syrup,,False,73.26,51.78,29.3,False,False
+P-00583,Crocin Gel 220,Crocin,OTC Medicines,Gel,,False,136.95,95.99,29.9,False,False
+P-00584,Dabur Ointment 963,Dabur,OTC Medicines,Ointment,,False,172.45,114.3,33.7,False,False
+P-00585,Burnol Tablet 360,Burnol,OTC Medicines,Tablet,,False,74.67,51.66,30.8,False,False
+P-00586,Himalaya Balm 141,Himalaya,OTC Medicines,Balm,,False,287.49,191.75,33.3,False,False
+P-00587,Volini Lozenges 908,Volini,OTC Medicines,Lozenges,,False,111.64,74.68,33.1,False,False
+P-00588,Strepsils Spray 442,Strepsils,OTC Medicines,Spray,,False,74.74,51.56,31.0,False,False
+P-00589,Zandu Drops 774,Zandu,OTC Medicines,Drops,,False,116.66,83.04,28.8,False,False
+P-00590,Strepsils Gel 984,Strepsils,OTC Medicines,Gel,,False,62.58,44.46,29.0,False,False
+P-00591,Benadryl Spray 884,Benadryl,OTC Medicines,Spray,,False,48.65,33.82,30.5,False,False
+P-00592,Dettol Lozenges 539,Dettol,OTC Medicines,Lozenges,,False,238.51,160.73,32.6,False,False
+P-00593,Vicks Cream 251,Vicks,OTC Medicines,Cream,,False,311.75,204.85,34.3,False,False
+P-00594,Strepsils Powder 721,Strepsils,OTC Medicines,Powder,,False,179.91,117.66,34.6,False,False
+P-00595,Volini Spray 206,Volini,OTC Medicines,Spray,,False,83.24,56.52,32.1,False,False
+P-00596,Benadryl Syrup 709,Benadryl,OTC Medicines,Syrup,,False,105.99,70.83,33.2,False,False
+P-00597,Dabur Lozenges 454,Dabur,OTC Medicines,Lozenges,,False,136.51,95.46,30.1,False,False
+P-00598,Crocin Gel 624,Crocin,OTC Medicines,Gel,,False,64.5,42.86,33.6,False,False
+P-00599,Strepsils Spray 866,Strepsils,OTC Medicines,Spray,,False,90.04,64.1,28.8,False,False
+P-00600,Dettol Tablet 561,Dettol,OTC Medicines,Tablet,,False,97.28,66.92,31.2,False,False
+P-00601,Vicks Tablet 414,Vicks,OTC Medicines,Tablet,,False,153.01,106.32,30.5,False,False
+P-00602,Cipla Drops 217,Cipla,OTC Medicines,Drops,,False,55.36,38.01,31.3,False,False
+P-00603,Moov Tablet 858,Moov,OTC Medicines,Tablet,,False,70.0,49.99,28.6,False,False
+P-00604,Crocin Cream 248,Crocin,OTC Medicines,Cream,,False,87.28,61.49,29.5,False,False
+P-00605,Moov Drops 684,Moov,OTC Medicines,Drops,,False,174.65,122.38,29.9,False,False
+P-00606,Dettol Drops 579,Dettol,OTC Medicines,Drops,,False,170.14,114.41,32.8,False,False
+P-00607,Cipla Lozenges 541,Cipla,OTC Medicines,Lozenges,,False,93.0,63.86,31.3,False,False
+P-00608,Crocin Drops 763,Crocin,OTC Medicines,Drops,,False,122.08,82.31,32.6,False,False
+P-00609,Himalaya Balm 393,Himalaya,OTC Medicines,Balm,,False,284.07,203.17,28.5,False,False
+P-00610,Dettol Lozenges 584,Dettol,OTC Medicines,Lozenges,,False,154.01,105.36,31.6,False,False
+P-00611,Burnol Cream 937,Burnol,OTC Medicines,Cream,,False,107.69,73.39,31.9,False,False
+P-00612,Strepsils Ointment 390,Strepsils,OTC Medicines,Ointment,,False,87.56,61.08,30.2,False,False
+P-00613,Cipla Lozenges 150,Cipla,OTC Medicines,Lozenges,,False,95.1,66.11,30.5,False,False
+P-00614,Crocin Gel 942,Crocin,OTC Medicines,Gel,,False,103.87,70.88,31.8,False,False
+P-00615,Zandu Ointment 438,Zandu,OTC Medicines,Ointment,,False,140.64,100.85,28.3,False,False
+P-00616,Strepsils Syrup 767,Strepsils,OTC Medicines,Syrup,,False,101.6,69.19,31.9,False,False
+P-00617,Moov Ointment 885,Moov,OTC Medicines,Ointment,,False,187.64,134.44,28.4,False,False
+P-00618,Dabur Lozenges 322,Dabur,OTC Medicines,Lozenges,,False,93.61,63.24,32.4,False,False
+P-00619,Dabur Gel 432,Dabur,OTC Medicines,Gel,,False,107.53,71.54,33.5,False,False
+P-00620,Dettol Syrup 182,Dettol,OTC Medicines,Syrup,,False,114.78,76.02,33.8,False,False
+P-00621,Volini Spray 15,Volini,OTC Medicines,Spray,,False,98.41,65.56,33.4,False,False
+P-00622,Strepsils Syrup 899,Strepsils,OTC Medicines,Syrup,,False,105.07,73.82,29.7,False,False
+P-00623,Benadryl Spray 456,Benadryl,OTC Medicines,Spray,,False,111.67,73.49,34.2,False,False
+P-00624,Dabur Gel 410,Dabur,OTC Medicines,Gel,,False,132.82,95.57,28.0,False,False
+P-00625,Zandu Balm 513,Zandu,OTC Medicines,Balm,,False,83.62,55.19,34.0,False,False
+P-00626,Crocin Cream 989,Crocin,OTC Medicines,Cream,,False,86.06,56.26,34.6,False,False
+P-00627,Crocin Lozenges 234,Crocin,OTC Medicines,Lozenges,,False,124.49,83.89,32.6,False,False
+P-00628,Himalaya Tablet 850,Himalaya,OTC Medicines,Tablet,,False,101.42,70.86,30.1,False,False
+P-00629,Volini Gel 265,Volini,OTC Medicines,Gel,,False,62.86,43.91,30.2,False,False
+P-00630,Volini Powder 246,Volini,OTC Medicines,Powder,,False,159.76,113.24,29.1,False,False
+P-00631,Moov Powder 615,Moov,OTC Medicines,Powder,,False,166.42,111.78,32.8,False,False
+P-00632,Volini Powder 364,Volini,OTC Medicines,Powder,,False,185.12,132.61,28.4,False,False
+P-00633,Zandu Syrup 223,Zandu,OTC Medicines,Syrup,,False,117.67,77.88,33.8,False,False
+P-00634,Volini Lozenges 903,Volini,OTC Medicines,Lozenges,,False,116.3,81.58,29.9,False,False
+P-00635,Himalaya Powder 250,Himalaya,OTC Medicines,Powder,,False,89.17,63.96,28.3,False,False
+P-00636,Dabur Syrup 196,Dabur,OTC Medicines,Syrup,,False,113.79,75.09,34.0,False,False
+P-00637,Strepsils Drops 307,Strepsils,OTC Medicines,Drops,,False,84.93,59.68,29.7,False,False
+P-00638,Dettol Balm 651,Dettol,OTC Medicines,Balm,,False,202.36,131.91,34.8,False,False
+P-00639,Strepsils Ointment 901,Strepsils,OTC Medicines,Ointment,,False,106.34,72.47,31.8,False,False
+P-00640,Dettol Tablet 474,Dettol,OTC Medicines,Tablet,,False,177.24,124.86,29.6,False,False
+P-00641,Moov Balm 85,Moov,OTC Medicines,Balm,,False,113.54,79.07,30.4,False,False
+P-00642,Vicks Lozenges 979,Vicks,OTC Medicines,Lozenges,,False,76.64,54.05,29.5,False,False
+P-00643,Volini Balm 237,Volini,OTC Medicines,Balm,,False,28.05,19.54,30.3,False,False
+P-00644,Zandu Cream 30,Zandu,OTC Medicines,Cream,,False,99.49,70.13,29.5,False,False
+P-00645,Vicks Lozenges 173,Vicks,OTC Medicines,Lozenges,,False,110.11,77.21,29.9,False,False
+P-00646,Himalaya Drops 155,Himalaya,OTC Medicines,Drops,,False,110.24,78.4,28.9,False,False
+P-00647,Vicks Drops 662,Vicks,OTC Medicines,Drops,,False,114.34,76.74,32.9,False,False
+P-00648,Burnol Drops 543,Burnol,OTC Medicines,Drops,,False,97.47,68.41,29.8,False,False
+P-00649,Zandu Balm 559,Zandu,OTC Medicines,Balm,,False,83.02,59.13,28.8,False,False
+P-00650,Crocin Balm 450,Crocin,OTC Medicines,Balm,,False,99.9,67.23,32.7,False,False
+P-00651,Herbalife Capsule 864,Herbalife,Wellness,Capsule,,False,217.22,146.92,32.4,False,False
+P-00652,HealthKart Drink Mix 998,HealthKart,Wellness,Drink Mix,,False,369.84,231.63,37.4,False,False
+P-00653,Patanjali Oil 198,Patanjali,Wellness,Oil,,False,473.69,300.21,36.6,False,False
+P-00654,Amway Gummies 843,Amway,Wellness,Gummies,,False,611.34,392.84,35.7,False,False
+P-00655,Herbalife Powder 153,Herbalife,Wellness,Powder,,False,139.76,88.73,36.5,False,False
+P-00656,Oziva Oil 97,Oziva,Wellness,Oil,,False,236.44,152.65,35.4,False,False
+P-00657,Himalaya Tablet 315,Himalaya,Wellness,Tablet,,False,729.77,495.3,32.1,False,False
+P-00658,Himalaya Capsule 330,Himalaya,Wellness,Capsule,,False,405.71,259.91,35.9,False,False
+P-00659,HealthKart Powder 540,HealthKart,Wellness,Powder,,False,440.57,281.55,36.1,False,False
+P-00660,Setu Tablet 180,Setu,Wellness,Tablet,,False,673.51,405.23,39.8,False,False
+P-00661,Amway Syrup 787,Amway,Wellness,Syrup,,False,211.62,143.59,32.1,False,False
+P-00662,Setu Protein Bar 370,Setu,Wellness,Protein Bar,,False,294.7,192.76,34.6,False,False
+P-00663,MuscleBlaze Powder 194,MuscleBlaze,Wellness,Powder,,False,512.16,339.57,33.7,False,False
+P-00664,Herbalife Powder 562,Herbalife,Wellness,Powder,,False,186.41,126.09,32.4,False,False
+P-00665,Patanjali Protein Bar 597,Patanjali,Wellness,Protein Bar,,False,516.78,337.69,34.7,False,False
+P-00666,Setu Capsule 514,Setu,Wellness,Capsule,,False,343.24,216.3,37.0,False,False
+P-00667,Patanjali Protein Bar 645,Patanjali,Wellness,Protein Bar,,False,363.53,234.8,35.4,False,False
+P-00668,Herbalife Protein Bar 395,Herbalife,Wellness,Protein Bar,,False,305.39,195.63,35.9,False,False
+P-00669,Kapiva Drink Mix 349,Kapiva,Wellness,Drink Mix,,False,655.84,414.91,36.7,False,False
+P-00670,Oziva Protein Bar 631,Oziva,Wellness,Protein Bar,,False,283.82,184.76,34.9,False,False
+P-00671,HealthKart Powder 159,HealthKart,Wellness,Powder,,False,399.3,243.96,38.9,False,False
+P-00672,Wellbeing Nutrition Drink Mix 429,Wellbeing Nutrition,Wellness,Drink Mix,,False,297.2,185.1,37.7,False,False
+P-00673,MuscleBlaze Drink Mix 157,MuscleBlaze,Wellness,Drink Mix,,False,157.88,96.78,38.7,False,False
+P-00674,Patanjali Drink Mix 489,Patanjali,Wellness,Drink Mix,,False,541.87,355.65,34.4,False,False
+P-00675,HealthKart Syrup 727,HealthKart,Wellness,Syrup,,False,234.35,151.06,35.5,False,False
+P-00676,MuscleBlaze Syrup 608,MuscleBlaze,Wellness,Syrup,,False,290.11,189.77,34.6,False,False
+P-00677,Oziva Drink Mix 625,Oziva,Wellness,Drink Mix,,False,239.33,155.05,35.2,False,False
+P-00678,Himalaya Oil 794,Himalaya,Wellness,Oil,,False,404.03,251.72,37.7,False,False
+P-00679,Amway Drink Mix 260,Amway,Wellness,Drink Mix,,False,354.38,216.85,38.8,False,False
+P-00680,Herbalife Tablet 806,Herbalife,Wellness,Tablet,,False,301.18,183.15,39.2,False,False
+P-00681,MuscleBlaze Gummies 517,MuscleBlaze,Wellness,Gummies,,False,119.31,75.34,36.9,False,False
+P-00682,Kapiva Protein Bar 733,Kapiva,Wellness,Protein Bar,,False,542.49,364.77,32.8,False,False
+P-00683,Oziva Protein Bar 620,Oziva,Wellness,Protein Bar,,False,711.37,434.01,39.0,False,False
+P-00684,Herbalife Drink Mix 904,Herbalife,Wellness,Drink Mix,,False,100.89,64.86,35.7,False,False
+P-00685,Setu Oil 335,Setu,Wellness,Oil,,False,232.54,145.62,37.4,False,False
+P-00686,Wellbeing Nutrition Oil 682,Wellbeing Nutrition,Wellness,Oil,,False,154.72,96.61,37.6,False,False
+P-00687,Amway Syrup 630,Amway,Wellness,Syrup,,False,390.04,243.59,37.5,False,False
+P-00688,Herbalife Capsule 252,Herbalife,Wellness,Capsule,,False,209.57,129.03,38.4,False,False
+P-00689,MuscleBlaze Tablet 197,MuscleBlaze,Wellness,Tablet,,False,507.98,337.84,33.5,False,False
+P-00690,Kapiva Drink Mix 120,Kapiva,Wellness,Drink Mix,,False,718.85,471.13,34.5,False,False
+P-00691,HealthKart Oil 819,HealthKart,Wellness,Oil,,False,292.13,195.71,33.0,False,False
+P-00692,Setu Protein Bar 928,Setu,Wellness,Protein Bar,,False,431.02,283.36,34.3,False,False
+P-00693,Kapiva Syrup 216,Kapiva,Wellness,Syrup,,False,582.37,350.56,39.8,False,False
+P-00694,Oziva Drink Mix 51,Oziva,Wellness,Drink Mix,,False,441.69,298.65,32.4,False,False
+P-00695,MuscleBlaze Powder 751,MuscleBlaze,Wellness,Powder,,False,937.64,618.67,34.0,False,False
+P-00696,Himalaya Powder 876,Himalaya,Wellness,Powder,,False,346.61,231.43,33.2,False,False
+P-00697,Wellbeing Nutrition Protein Bar 276,Wellbeing Nutrition,Wellness,Protein Bar,,False,774.99,504.37,34.9,False,False
+P-00698,Oziva Oil 917,Oziva,Wellness,Oil,,False,466.37,279.95,40.0,False,False
+P-00699,Setu Drink Mix 55,Setu,Wellness,Drink Mix,,False,127.13,77.18,39.3,False,False
+P-00700,HealthKart Protein Bar 278,HealthKart,Wellness,Protein Bar,,False,524.47,317.87,39.4,False,False
+P-00701,Kapiva Oil 84,Kapiva,Wellness,Oil,,False,209.51,131.14,37.4,False,False
+P-00702,Himalaya Gummies 532,Himalaya,Wellness,Gummies,,False,647.38,416.7,35.6,False,False
+P-00703,MuscleBlaze Capsule 376,MuscleBlaze,Wellness,Capsule,,False,269.95,170.94,36.7,False,False
+P-00704,Kapiva Powder 550,Kapiva,Wellness,Powder,,False,295.15,181.44,38.5,False,False
+P-00705,Amway Capsule 282,Amway,Wellness,Capsule,,False,187.28,117.49,37.3,False,False
+P-00706,Amway Protein Bar 509,Amway,Wellness,Protein Bar,,False,353.86,237.39,32.9,False,False
+P-00707,Wellbeing Nutrition Capsule 585,Wellbeing Nutrition,Wellness,Capsule,,False,142.73,89.52,37.3,False,False
+P-00708,MuscleBlaze Syrup 329,MuscleBlaze,Wellness,Syrup,,False,177.72,115.21,35.2,False,False
+P-00709,Oziva Capsule 178,Oziva,Wellness,Capsule,,False,381.53,230.3,39.6,False,False
+P-00710,Setu Powder 505,Setu,Wellness,Powder,,False,451.86,297.78,34.1,False,False
+P-00711,Patanjali Drink Mix 197,Patanjali,Wellness,Drink Mix,,False,286.27,190.94,33.3,False,False
+P-00712,Patanjali Syrup 436,Patanjali,Wellness,Syrup,,False,504.27,313.28,37.9,False,False
+P-00713,MuscleBlaze Powder 929,MuscleBlaze,Wellness,Powder,,False,238.24,159.78,32.9,False,False
+P-00714,Amway Syrup 644,Amway,Wellness,Syrup,,False,307.13,195.57,36.3,False,False
+P-00715,Kapiva Powder 430,Kapiva,Wellness,Powder,,False,595.23,387.06,35.0,False,False
+P-00716,Himalaya Gummies 995,Himalaya,Wellness,Gummies,,False,380.58,230.19,39.5,False,False
+P-00717,Oziva Capsule 539,Oziva,Wellness,Capsule,,False,1089.7,668.76,38.6,False,False
+P-00718,Setu Oil 262,Setu,Wellness,Oil,,False,285.93,189.97,33.6,False,False
+P-00719,Himalaya Gummies 607,Himalaya,Wellness,Gummies,,False,463.0,313.35,32.3,False,False
+P-00720,Amway Oil 775,Amway,Wellness,Oil,,False,233.03,150.58,35.4,False,False
+P-00721,HealthKart Drink Mix 639,HealthKart,Wellness,Drink Mix,,False,313.15,192.66,38.5,False,False
+P-00722,Oziva Capsule 853,Oziva,Wellness,Capsule,,False,973.95,594.2,39.0,False,False
+P-00723,Oziva Oil 701,Oziva,Wellness,Oil,,False,249.75,161.04,35.5,False,False
+P-00724,Oziva Oil 283,Oziva,Wellness,Oil,,False,286.12,191.9,32.9,False,False
+P-00725,Amway Gummies 938,Amway,Wellness,Gummies,,False,311.3,206.3,33.7,False,False
+P-00726,Setu Tablet 731,Setu,Wellness,Tablet,,False,524.09,321.74,38.6,False,False
+P-00727,Herbalife Capsule 392,Herbalife,Wellness,Capsule,,False,238.73,158.17,33.7,False,False
+P-00728,MuscleBlaze Powder 194,MuscleBlaze,Wellness,Powder,,False,351.1,216.72,38.3,False,False
+P-00729,HealthKart Gummies 233,HealthKart,Wellness,Gummies,,False,463.64,309.17,33.3,False,False
+P-00730,Amway Gummies 963,Amway,Wellness,Gummies,,False,288.31,185.02,35.8,False,False
+P-00731,MuscleBlaze Protein Bar 452,MuscleBlaze,Wellness,Protein Bar,,False,449.2,295.27,34.3,False,False
+P-00732,Setu Tablet 792,Setu,Wellness,Tablet,,False,463.9,290.72,37.3,False,False
+P-00733,Oziva Oil 405,Oziva,Wellness,Oil,,False,227.79,144.0,36.8,False,False
+P-00734,MuscleBlaze Oil 76,MuscleBlaze,Wellness,Oil,,False,525.69,317.42,39.6,False,False
+P-00735,Wellbeing Nutrition Protein Bar 606,Wellbeing Nutrition,Wellness,Protein Bar,,False,317.05,202.77,36.0,False,False
+P-00736,Amway Oil 25,Amway,Wellness,Oil,,False,384.71,244.57,36.4,False,False
+P-00737,Amway Protein Bar 336,Amway,Wellness,Protein Bar,,False,253.19,169.87,32.9,False,False
+P-00738,Oziva Drink Mix 799,Oziva,Wellness,Drink Mix,,False,234.82,144.23,38.6,False,False
+P-00739,Wellbeing Nutrition Capsule 631,Wellbeing Nutrition,Wellness,Capsule,,False,284.87,172.15,39.6,False,False
+P-00740,Wellbeing Nutrition Protein Bar 315,Wellbeing Nutrition,Wellness,Protein Bar,,False,373.87,240.73,35.6,False,False
+P-00741,Kapiva Capsule 429,Kapiva,Wellness,Capsule,,False,483.24,302.29,37.4,False,False
+P-00742,Kapiva Gummies 974,Kapiva,Wellness,Gummies,,False,507.97,305.21,39.9,False,False
+P-00743,Kapiva Powder 101,Kapiva,Wellness,Powder,,False,568.52,378.87,33.4,False,False
+P-00744,Amway Protein Bar 120,Amway,Wellness,Protein Bar,,False,191.61,124.0,35.3,False,False
+P-00745,Kapiva Protein Bar 258,Kapiva,Wellness,Protein Bar,,False,563.56,382.22,32.2,False,False
+P-00746,Patanjali Protein Bar 913,Patanjali,Wellness,Protein Bar,,False,874.04,527.45,39.7,False,False
+P-00747,MuscleBlaze Protein Bar 859,MuscleBlaze,Wellness,Protein Bar,,False,184.03,124.39,32.4,False,False
+P-00748,Patanjali Powder 822,Patanjali,Wellness,Powder,,False,343.53,217.45,36.7,False,False
+P-00749,Patanjali Gummies 44,Patanjali,Wellness,Gummies,,False,223.45,137.96,38.3,False,False
+P-00750,Oziva Oil 23,Oziva,Wellness,Oil,,False,181.61,113.51,37.5,False,False
+P-00751,MuscleBlaze Oil 896,MuscleBlaze,Wellness,Oil,,False,272.34,176.27,35.3,False,False
+P-00752,MuscleBlaze Gummies 284,MuscleBlaze,Wellness,Gummies,,False,176.21,119.59,32.1,False,False
+P-00753,Patanjali Syrup 924,Patanjali,Wellness,Syrup,,False,265.31,168.14,36.6,False,False
+P-00754,Herbalife Oil 46,Herbalife,Wellness,Oil,,False,778.61,518.17,33.4,False,False
+P-00755,Setu Tablet 854,Setu,Wellness,Tablet,,False,308.84,196.46,36.4,False,False
+P-00756,Oziva Syrup 537,Oziva,Wellness,Syrup,,False,204.99,123.05,40.0,False,False
+P-00757,Amway Syrup 94,Amway,Wellness,Syrup,,False,451.34,291.24,35.5,False,False
+P-00758,Kapiva Capsule 672,Kapiva,Wellness,Capsule,,False,790.94,524.66,33.7,False,False
+P-00759,Amway Protein Bar 598,Amway,Wellness,Protein Bar,,False,554.34,350.83,36.7,False,False
+P-00760,Patanjali Gummies 926,Patanjali,Wellness,Gummies,,False,593.99,392.33,34.0,False,False
+P-00761,Kapiva Gummies 892,Kapiva,Wellness,Gummies,,False,998.1,661.93,33.7,False,False
+P-00762,Wellbeing Nutrition Tablet 59,Wellbeing Nutrition,Wellness,Tablet,,False,776.78,506.16,34.8,False,False
+P-00763,Herbalife Tablet 808,Herbalife,Wellness,Tablet,,False,543.29,344.78,36.5,False,False
+P-00764,HealthKart Powder 822,HealthKart,Wellness,Powder,,False,204.23,130.49,36.1,False,False
+P-00765,Himalaya Gummies 37,Himalaya,Wellness,Gummies,,False,469.94,317.27,32.5,False,False
+P-00766,Kapiva Powder 507,Kapiva,Wellness,Powder,,False,307.12,201.76,34.3,False,False
+P-00767,Kapiva Drink Mix 84,Kapiva,Wellness,Drink Mix,,False,316.41,212.85,32.7,False,False
+P-00768,Patanjali Protein Bar 894,Patanjali,Wellness,Protein Bar,,False,410.71,275.06,33.0,False,False
+P-00769,Amway Capsule 902,Amway,Wellness,Capsule,,False,393.2,250.06,36.4,False,False
+P-00770,Wellbeing Nutrition Oil 10,Wellbeing Nutrition,Wellness,Oil,,False,239.74,158.16,34.0,False,False
+P-00771,Herbalife Capsule 924,Herbalife,Wellness,Capsule,,False,558.94,353.39,36.8,False,False
+P-00772,Oziva Tablet 191,Oziva,Wellness,Tablet,,False,383.88,242.25,36.9,False,False
+P-00773,Amway Capsule 757,Amway,Wellness,Capsule,,False,185.47,122.13,34.2,False,False
+P-00774,Wellbeing Nutrition Gummies 354,Wellbeing Nutrition,Wellness,Gummies,,False,404.0,262.29,35.1,False,False
+P-00775,MuscleBlaze Oil 560,MuscleBlaze,Wellness,Oil,,False,914.26,615.73,32.7,False,False
+P-00776,Setu Powder 765,Setu,Wellness,Powder,,False,189.9,121.26,36.1,False,False
+P-00777,Patanjali Syrup 630,Patanjali,Wellness,Syrup,,False,158.14,96.61,38.9,False,False
+P-00778,Kapiva Powder 281,Kapiva,Wellness,Powder,,False,733.62,444.12,39.5,False,False
+P-00779,Amway Capsule 667,Amway,Wellness,Capsule,,False,331.71,210.58,36.5,False,False
+P-00780,Patanjali Oil 947,Patanjali,Wellness,Oil,,False,576.88,349.28,39.5,False,False
+P-00781,Setu Oil 375,Setu,Wellness,Oil,,False,484.29,327.41,32.4,False,False
+P-00782,Kapiva Drink Mix 620,Kapiva,Wellness,Drink Mix,,False,291.77,192.42,34.0,False,False
+P-00783,HealthKart Oil 82,HealthKart,Wellness,Oil,,False,141.36,85.81,39.3,False,False
+P-00784,Herbalife Gummies 833,Herbalife,Wellness,Gummies,,False,206.15,135.03,34.5,False,False
+P-00785,Oziva Gummies 215,Oziva,Wellness,Gummies,,False,356.01,215.47,39.5,False,False
+P-00786,Setu Tablet 744,Setu,Wellness,Tablet,,False,370.04,225.39,39.1,False,False
+P-00787,Kapiva Gummies 139,Kapiva,Wellness,Gummies,,False,333.71,223.43,33.0,False,False
+P-00788,Kapiva Oil 741,Kapiva,Wellness,Oil,,False,431.12,278.39,35.4,False,False
+P-00789,Setu Gummies 895,Setu,Wellness,Gummies,,False,130.17,84.06,35.4,False,False
+P-00790,Herbalife Protein Bar 735,Herbalife,Wellness,Protein Bar,,False,358.31,225.42,37.1,False,False
+P-00791,Amway Drink Mix 333,Amway,Wellness,Drink Mix,,False,471.61,286.39,39.3,False,False
+P-00792,Kapiva Syrup 192,Kapiva,Wellness,Syrup,,False,254.88,155.03,39.2,False,False
+P-00793,Himalaya Tablet 994,Himalaya,Wellness,Tablet,,False,329.0,214.79,34.7,False,False
+P-00794,MuscleBlaze Protein Bar 731,MuscleBlaze,Wellness,Protein Bar,,False,440.03,270.62,38.5,False,False
+P-00795,Herbalife Tablet 164,Herbalife,Wellness,Tablet,,False,289.82,177.17,38.9,False,False
+P-00796,Setu Powder 527,Setu,Wellness,Powder,,False,500.98,329.7,34.2,False,False
+P-00797,Wellbeing Nutrition Powder 858,Wellbeing Nutrition,Wellness,Powder,,False,377.14,246.45,34.7,False,False
+P-00798,Wellbeing Nutrition Tablet 124,Wellbeing Nutrition,Wellness,Tablet,,False,419.89,268.37,36.1,False,False
+P-00799,Patanjali Syrup 611,Patanjali,Wellness,Syrup,,False,421.83,282.21,33.1,False,False
+P-00800,HealthKart Drink Mix 231,HealthKart,Wellness,Drink Mix,,False,409.17,256.56,37.3,False,False
+P-00801,Plum Sunscreen 914,Plum,Beauty & Personal Care,Sunscreen,,False,204.91,129.36,36.9,False,False
+P-00802,Lakme Face Mask 717,Lakme,Beauty & Personal Care,Face Mask,,False,260.6,168.29,35.4,False,False
+P-00803,LOreal Sunscreen 181,LOreal,Beauty & Personal Care,Sunscreen,,False,198.69,125.59,36.8,False,False
+P-00804,mCaffeine Serum 307,mCaffeine,Beauty & Personal Care,Serum,,False,542.88,344.38,36.6,False,False
+P-00805,Mamaearth Face Wash 392,Mamaearth,Beauty & Personal Care,Face Wash,,False,297.43,196.04,34.1,False,False
+P-00806,Lakme Sunscreen 569,Lakme,Beauty & Personal Care,Sunscreen,,False,143.79,91.53,36.3,False,False
+P-00807,LOreal Shampoo 377,LOreal,Beauty & Personal Care,Shampoo,,False,204.06,135.19,33.8,False,False
+P-00808,Lakme Face Mask 859,Lakme,Beauty & Personal Care,Face Mask,,False,307.19,211.61,31.1,False,False
+P-00809,Nivea Body Lotion 785,Nivea,Beauty & Personal Care,Body Lotion,,False,228.15,148.18,35.1,False,False
+P-00810,LOreal Serum 497,LOreal,Beauty & Personal Care,Serum,,False,241.6,166.56,31.1,False,False
+P-00811,Biotique Face Wash 91,Biotique,Beauty & Personal Care,Face Wash,,False,241.79,165.93,31.4,False,False
+P-00812,WOW Lip Balm 936,WOW,Beauty & Personal Care,Lip Balm,,False,95.25,59.97,37.0,False,False
+P-00813,Cetaphil Body Lotion 366,Cetaphil,Beauty & Personal Care,Body Lotion,,False,204.0,135.06,33.8,False,False
+P-00814,Cetaphil Face Mask 349,Cetaphil,Beauty & Personal Care,Face Mask,,False,159.83,105.1,34.2,False,False
+P-00815,Mamaearth Conditioner 857,Mamaearth,Beauty & Personal Care,Conditioner,,False,272.97,188.08,31.1,False,False
+P-00816,Neutrogena Lip Balm 606,Neutrogena,Beauty & Personal Care,Lip Balm,,False,341.29,218.37,36.0,False,False
+P-00817,mCaffeine Moisturizer 78,mCaffeine,Beauty & Personal Care,Moisturizer,,False,144.58,91.42,36.8,False,False
+P-00818,Biotique Sunscreen 497,Biotique,Beauty & Personal Care,Sunscreen,,False,380.89,264.96,30.4,False,False
+P-00819,Cetaphil Conditioner 683,Cetaphil,Beauty & Personal Care,Conditioner,,False,311.5,211.04,32.3,False,False
+P-00820,mCaffeine Body Lotion 618,mCaffeine,Beauty & Personal Care,Body Lotion,,False,930.52,596.81,35.9,False,False
+P-00821,Nivea Lip Balm 269,Nivea,Beauty & Personal Care,Lip Balm,,False,207.19,143.06,31.0,False,False
+P-00822,Nivea Face Wash 114,Nivea,Beauty & Personal Care,Face Wash,,False,318.57,204.68,35.7,False,False
+P-00823,mCaffeine Shampoo 634,mCaffeine,Beauty & Personal Care,Shampoo,,False,322.13,218.42,32.2,False,False
+P-00824,Plum Moisturizer 122,Plum,Beauty & Personal Care,Moisturizer,,False,146.38,97.17,33.6,False,False
+P-00825,Mamaearth Lip Balm 191,Mamaearth,Beauty & Personal Care,Lip Balm,,False,243.02,155.08,36.2,False,False
+P-00826,LOreal Toner 717,LOreal,Beauty & Personal Care,Toner,,False,239.05,157.1,34.3,False,False
+P-00827,LOreal Lip Balm 479,LOreal,Beauty & Personal Care,Lip Balm,,False,258.44,165.31,36.0,False,False
+P-00828,Neutrogena Face Wash 826,Neutrogena,Beauty & Personal Care,Face Wash,,False,218.78,137.63,37.1,False,False
+P-00829,Biotique Moisturizer 772,Biotique,Beauty & Personal Care,Moisturizer,,False,254.13,170.87,32.8,False,False
+P-00830,Neutrogena Sunscreen 207,Neutrogena,Beauty & Personal Care,Sunscreen,,False,166.05,114.62,31.0,False,False
+P-00831,Biotique Face Mask 706,Biotique,Beauty & Personal Care,Face Mask,,False,112.62,74.98,33.4,False,False
+P-00832,mCaffeine Sunscreen 998,mCaffeine,Beauty & Personal Care,Sunscreen,,False,238.29,159.88,32.9,False,False
+P-00833,WOW Shampoo 970,WOW,Beauty & Personal Care,Shampoo,,False,298.85,196.36,34.3,False,False
+P-00834,Nivea Lip Balm 303,Nivea,Beauty & Personal Care,Lip Balm,,False,327.29,203.08,38.0,False,False
+P-00835,mCaffeine Serum 491,mCaffeine,Beauty & Personal Care,Serum,,False,134.52,90.65,32.6,False,False
+P-00836,LOreal Moisturizer 829,LOreal,Beauty & Personal Care,Moisturizer,,False,361.05,247.24,31.5,False,False
+P-00837,Mamaearth Body Lotion 70,Mamaearth,Beauty & Personal Care,Body Lotion,,False,294.92,202.46,31.4,False,False
+P-00838,WOW Face Mask 997,WOW,Beauty & Personal Care,Face Mask,,False,179.01,122.27,31.7,False,False
+P-00839,Lakme Shampoo 823,Lakme,Beauty & Personal Care,Shampoo,,False,159.81,108.17,32.3,False,False
+P-00840,Biotique Lip Balm 11,Biotique,Beauty & Personal Care,Lip Balm,,False,140.92,91.97,34.7,False,False
+P-00841,Neutrogena Moisturizer 809,Neutrogena,Beauty & Personal Care,Moisturizer,,False,223.85,142.43,36.4,False,False
+P-00842,Cetaphil Shampoo 760,Cetaphil,Beauty & Personal Care,Shampoo,,False,82.22,53.19,35.3,False,False
+P-00843,Mamaearth Toner 288,Mamaearth,Beauty & Personal Care,Toner,,False,197.02,131.4,33.3,False,False
+P-00844,mCaffeine Toner 856,mCaffeine,Beauty & Personal Care,Toner,,False,151.79,103.7,31.7,False,False
+P-00845,Neutrogena Face Wash 576,Neutrogena,Beauty & Personal Care,Face Wash,,False,290.7,200.21,31.1,False,False
+P-00846,Neutrogena Face Wash 815,Neutrogena,Beauty & Personal Care,Face Wash,,False,205.73,135.65,34.1,False,False
+P-00847,mCaffeine Toner 618,mCaffeine,Beauty & Personal Care,Toner,,False,300.55,195.16,35.1,False,False
+P-00848,Cetaphil Serum 524,Cetaphil,Beauty & Personal Care,Serum,,False,421.52,264.12,37.3,False,False
+P-00849,Neutrogena Moisturizer 19,Neutrogena,Beauty & Personal Care,Moisturizer,,False,566.02,354.27,37.4,False,False
+P-00850,mCaffeine Toner 749,mCaffeine,Beauty & Personal Care,Toner,,False,309.42,201.83,34.8,False,False
+P-00851,Mamaearth Face Wash 828,Mamaearth,Beauty & Personal Care,Face Wash,,False,276.95,179.29,35.3,False,False
+P-00852,Plum Serum 583,Plum,Beauty & Personal Care,Serum,,False,212.13,139.56,34.2,False,False
+P-00853,Lakme Moisturizer 22,Lakme,Beauty & Personal Care,Moisturizer,,False,69.73,45.93,34.1,False,False
+P-00854,Cetaphil Lip Balm 521,Cetaphil,Beauty & Personal Care,Lip Balm,,False,169.74,113.22,33.3,False,False
+P-00855,Neutrogena Face Wash 126,Neutrogena,Beauty & Personal Care,Face Wash,,False,275.62,184.99,32.9,False,False
+P-00856,WOW Serum 433,WOW,Beauty & Personal Care,Serum,,False,313.39,217.35,30.6,False,False
+P-00857,Plum Face Wash 658,Plum,Beauty & Personal Care,Face Wash,,False,219.23,151.3,31.0,False,False
+P-00858,Biotique Face Wash 827,Biotique,Beauty & Personal Care,Face Wash,,False,197.52,136.5,30.9,False,False
+P-00859,Plum Toner 161,Plum,Beauty & Personal Care,Toner,,False,258.11,162.41,37.1,False,False
+P-00860,Neutrogena Face Wash 505,Neutrogena,Beauty & Personal Care,Face Wash,,False,502.92,344.18,31.6,False,False
+P-00861,Biotique Conditioner 166,Biotique,Beauty & Personal Care,Conditioner,,False,115.38,72.55,37.1,False,False
+P-00862,Biotique Moisturizer 385,Biotique,Beauty & Personal Care,Moisturizer,,False,272.68,179.92,34.0,False,False
+P-00863,Plum Serum 256,Plum,Beauty & Personal Care,Serum,,False,219.06,149.55,31.7,False,False
+P-00864,LOreal Toner 738,LOreal,Beauty & Personal Care,Toner,,False,81.38,50.98,37.4,False,False
+P-00865,Neutrogena Toner 140,Neutrogena,Beauty & Personal Care,Toner,,False,316.72,200.69,36.6,False,False
+P-00866,Nivea Face Wash 282,Nivea,Beauty & Personal Care,Face Wash,,False,109.39,68.61,37.3,False,False
+P-00867,Lakme Face Wash 675,Lakme,Beauty & Personal Care,Face Wash,,False,385.55,245.32,36.4,False,False
+P-00868,LOreal Face Mask 894,LOreal,Beauty & Personal Care,Face Mask,,False,137.77,87.69,36.4,False,False
+P-00869,WOW Lip Balm 831,WOW,Beauty & Personal Care,Lip Balm,,False,291.09,202.81,30.3,False,False
+P-00870,Lakme Face Wash 127,Lakme,Beauty & Personal Care,Face Wash,,False,80.17,55.99,30.2,False,False
+P-00871,Neutrogena Face Mask 345,Neutrogena,Beauty & Personal Care,Face Mask,,False,151.81,98.56,35.1,False,False
+P-00872,mCaffeine Serum 675,mCaffeine,Beauty & Personal Care,Serum,,False,419.66,286.41,31.8,False,False
+P-00873,Neutrogena Lip Balm 972,Neutrogena,Beauty & Personal Care,Lip Balm,,False,174.14,116.6,33.0,False,False
+P-00874,Biotique Shampoo 468,Biotique,Beauty & Personal Care,Shampoo,,False,218.34,140.35,35.7,False,False
+P-00875,Nivea Face Wash 737,Nivea,Beauty & Personal Care,Face Wash,,False,226.67,145.84,35.7,False,False
+P-00876,Nivea Toner 825,Nivea,Beauty & Personal Care,Toner,,False,353.68,233.12,34.1,False,False
+P-00877,Biotique Face Mask 389,Biotique,Beauty & Personal Care,Face Mask,,False,320.53,202.85,36.7,False,False
+P-00878,Nivea Shampoo 567,Nivea,Beauty & Personal Care,Shampoo,,False,121.5,76.72,36.9,False,False
+P-00879,LOreal Lip Balm 793,LOreal,Beauty & Personal Care,Lip Balm,,False,342.88,213.26,37.8,False,False
+P-00880,LOreal Moisturizer 247,LOreal,Beauty & Personal Care,Moisturizer,,False,321.84,201.17,37.5,False,False
+P-00881,WOW Shampoo 743,WOW,Beauty & Personal Care,Shampoo,,False,184.73,117.26,36.5,False,False
+P-00882,Mamaearth Sunscreen 489,Mamaearth,Beauty & Personal Care,Sunscreen,,False,149.51,102.36,31.5,False,False
+P-00883,LOreal Body Lotion 656,LOreal,Beauty & Personal Care,Body Lotion,,False,276.56,191.73,30.7,False,False
+P-00884,Mamaearth Sunscreen 544,Mamaearth,Beauty & Personal Care,Sunscreen,,False,181.79,124.85,31.3,False,False
+P-00885,Mamaearth Conditioner 898,Mamaearth,Beauty & Personal Care,Conditioner,,False,237.76,152.2,36.0,False,False
+P-00886,WOW Face Mask 902,WOW,Beauty & Personal Care,Face Mask,,False,87.92,55.01,37.4,False,False
+P-00887,LOreal Lip Balm 178,LOreal,Beauty & Personal Care,Lip Balm,,False,225.49,153.17,32.1,False,False
+P-00888,Neutrogena Toner 972,Neutrogena,Beauty & Personal Care,Toner,,False,323.13,223.57,30.8,False,False
+P-00889,LOreal Face Wash 115,LOreal,Beauty & Personal Care,Face Wash,,False,602.61,413.81,31.3,False,False
+P-00890,Mamaearth Body Lotion 859,Mamaearth,Beauty & Personal Care,Body Lotion,,False,419.45,263.47,37.2,False,False
+P-00891,Mamaearth Sunscreen 401,Mamaearth,Beauty & Personal Care,Sunscreen,,False,228.63,149.22,34.7,False,False
+P-00892,LOreal Serum 850,LOreal,Beauty & Personal Care,Serum,,False,234.08,152.57,34.8,False,False
+P-00893,Nivea Face Mask 478,Nivea,Beauty & Personal Care,Face Mask,,False,155.92,100.06,35.8,False,False
+P-00894,Biotique Face Mask 883,Biotique,Beauty & Personal Care,Face Mask,,False,178.57,113.94,36.2,False,False
+P-00895,WOW Moisturizer 688,WOW,Beauty & Personal Care,Moisturizer,,False,274.62,184.61,32.8,False,False
+P-00896,Biotique Face Mask 914,Biotique,Beauty & Personal Care,Face Mask,,False,93.93,62.84,33.1,False,False
+P-00897,Lakme Toner 387,Lakme,Beauty & Personal Care,Toner,,False,77.85,48.76,37.4,False,False
+P-00898,WOW Face Wash 303,WOW,Beauty & Personal Care,Face Wash,,False,187.44,121.86,35.0,False,False
+P-00899,Plum Sunscreen 993,Plum,Beauty & Personal Care,Sunscreen,,False,727.06,495.18,31.9,False,False
+P-00900,Lakme Moisturizer 834,Lakme,Beauty & Personal Care,Moisturizer,,False,265.65,184.36,30.6,False,False
+P-00901,Biotique Toner 553,Biotique,Beauty & Personal Care,Toner,,False,222.5,142.07,36.1,False,False
+P-00902,Neutrogena Toner 800,Neutrogena,Beauty & Personal Care,Toner,,False,108.95,72.2,33.7,False,False
+P-00903,Nivea Serum 938,Nivea,Beauty & Personal Care,Serum,,False,396.39,269.15,32.1,False,False
+P-00904,Mamaearth Moisturizer 444,Mamaearth,Beauty & Personal Care,Moisturizer,,False,197.82,128.71,34.9,False,False
+P-00905,Nivea Body Lotion 551,Nivea,Beauty & Personal Care,Body Lotion,,False,115.82,75.36,34.9,False,False
+P-00906,Mamaearth Toner 186,Mamaearth,Beauty & Personal Care,Toner,,False,425.08,283.81,33.2,False,False
+P-00907,Nivea Toner 610,Nivea,Beauty & Personal Care,Toner,,False,313.3,212.18,32.3,False,False
+P-00908,Biotique Toner 750,Biotique,Beauty & Personal Care,Toner,,False,869.53,564.79,35.0,False,False
+P-00909,LOreal Toner 801,LOreal,Beauty & Personal Care,Toner,,False,146.78,99.01,32.5,False,False
+P-00910,Nivea Conditioner 539,Nivea,Beauty & Personal Care,Conditioner,,False,354.95,245.25,30.9,False,False
+P-00911,Cetaphil Conditioner 707,Cetaphil,Beauty & Personal Care,Conditioner,,False,129.26,85.15,34.1,False,False
+P-00912,Neutrogena Moisturizer 677,Neutrogena,Beauty & Personal Care,Moisturizer,,False,155.46,108.62,30.1,False,False
+P-00913,Nivea Conditioner 291,Nivea,Beauty & Personal Care,Conditioner,,False,152.11,98.16,35.5,False,False
+P-00914,Neutrogena Face Mask 160,Neutrogena,Beauty & Personal Care,Face Mask,,False,240.87,161.94,32.8,False,False
+P-00915,Plum Serum 339,Plum,Beauty & Personal Care,Serum,,False,355.89,230.65,35.2,False,False
+P-00916,Biotique Serum 187,Biotique,Beauty & Personal Care,Serum,,False,195.41,134.73,31.1,False,False
+P-00917,Neutrogena Face Mask 264,Neutrogena,Beauty & Personal Care,Face Mask,,False,241.84,156.2,35.4,False,False
+P-00918,Biotique Conditioner 909,Biotique,Beauty & Personal Care,Conditioner,,False,255.25,171.06,33.0,False,False
+P-00919,Neutrogena Conditioner 228,Neutrogena,Beauty & Personal Care,Conditioner,,False,218.61,148.61,32.0,False,False
+P-00920,mCaffeine Face Mask 644,mCaffeine,Beauty & Personal Care,Face Mask,,False,234.31,160.16,31.6,False,False
+P-00921,Lifebuoy Cotton 917,Lifebuoy,FMCG,Cotton,,False,75.04,63.6,15.2,False,False
+P-00922,Band-Aid Diaper 362,Band-Aid,FMCG,Diaper,,False,92.26,76.47,17.1,False,False
+P-00923,Moov Diaper 206,Moov,FMCG,Diaper,,False,81.19,64.3,20.8,False,False
+P-00924,Dettol Hand Wash 627,Dettol,FMCG,Hand Wash,,False,131.63,104.96,20.3,False,False
+P-00925,Band-Aid Wipes 114,Band-Aid,FMCG,Wipes,,False,236.78,197.7,16.5,False,False
+P-00926,Stayfree Diaper 595,Stayfree,FMCG,Diaper,,False,52.6,41.29,21.5,False,False
+P-00927,Moov Sanitary Pad 531,Moov,FMCG,Sanitary Pad,,False,58.46,48.7,16.7,False,False
+P-00928,Huggies Soap 857,Huggies,FMCG,Soap,,False,39.98,31.41,21.4,False,False
+P-00929,Stayfree Soap 972,Stayfree,FMCG,Soap,,False,87.22,69.24,20.6,False,False
+P-00930,Moov Diaper 940,Moov,FMCG,Diaper,,False,101.63,85.1,16.3,False,False
+P-00931,Moov Tissue 264,Moov,FMCG,Tissue,,False,124.2,101.32,18.4,False,False
+P-00932,Dettol Wipes 637,Dettol,FMCG,Wipes,,False,41.16,32.32,21.5,False,False
+P-00933,Pampers Hand Wash 377,Pampers,FMCG,Hand Wash,,False,47.66,39.33,17.5,False,False
+P-00934,Stayfree Sanitizer 767,Stayfree,FMCG,Sanitizer,,False,85.68,69.37,19.0,False,False
+P-00935,Whisper Wipes 442,Whisper,FMCG,Wipes,,False,208.93,171.46,17.9,False,False
+P-00936,Moov Soap 907,Moov,FMCG,Soap,,False,148.39,120.89,18.5,False,False
+P-00937,Colgate Cotton 376,Colgate,FMCG,Cotton,,False,104.08,84.77,18.6,False,False
+P-00938,Stayfree Sanitizer 960,Stayfree,FMCG,Sanitizer,,False,75.15,61.17,18.6,False,False
+P-00939,Stayfree Toothpaste 920,Stayfree,FMCG,Toothpaste,,False,122.64,97.4,20.6,False,False
+P-00940,Lifebuoy Soap 378,Lifebuoy,FMCG,Soap,,False,204.18,162.73,20.3,False,False
+P-00941,Huggies Hand Wash 320,Huggies,FMCG,Hand Wash,,False,87.32,73.8,15.5,False,False
+P-00942,Pampers Cotton 53,Pampers,FMCG,Cotton,,False,158.17,126.4,20.1,False,False
+P-00943,Band-Aid Tissue 154,Band-Aid,FMCG,Tissue,,False,68.55,56.34,17.8,False,False
+P-00944,Dettol Diaper 423,Dettol,FMCG,Diaper,,False,143.38,113.26,21.0,False,False
+P-00945,Dettol Soap 16,Dettol,FMCG,Soap,,False,147.38,120.41,18.3,False,False
+P-00946,Moov Diaper 555,Moov,FMCG,Diaper,,False,63.04,52.12,17.3,False,False
+P-00947,Dettol Diaper 240,Dettol,FMCG,Diaper,,False,89.2,73.76,17.3,False,False
+P-00948,Pampers Wipes 367,Pampers,FMCG,Wipes,,False,81.25,66.44,18.2,False,False
+P-00949,Savlon Diaper 94,Savlon,FMCG,Diaper,,False,103.44,85.88,17.0,False,False
+P-00950,Pampers Toothpaste 78,Pampers,FMCG,Toothpaste,,False,69.77,59.2,15.2,False,False
+P-00951,Band-Aid Bandage 180,Band-Aid,FMCG,Bandage,,False,75.52,59.24,21.6,False,False
+P-00952,Savlon Soap 662,Savlon,FMCG,Soap,,False,47.56,38.56,18.9,False,False
+P-00953,Stayfree Toothpaste 629,Stayfree,FMCG,Toothpaste,,False,180.53,140.98,21.9,False,False
+P-00954,Band-Aid Sanitary Pad 80,Band-Aid,FMCG,Sanitary Pad,,False,105.95,83.32,21.4,False,False
+P-00955,Band-Aid Diaper 798,Band-Aid,FMCG,Diaper,,False,146.38,121.73,16.8,False,False
+P-00956,Dettol Sanitary Pad 28,Dettol,FMCG,Sanitary Pad,,False,95.46,74.78,21.7,False,False
+P-00957,Colgate Toothpaste 561,Colgate,FMCG,Toothpaste,,False,166.71,137.13,17.7,False,False
+P-00958,Savlon Bandage 64,Savlon,FMCG,Bandage,,False,106.52,87.26,18.1,False,False
+P-00959,Lifebuoy Soap 382,Lifebuoy,FMCG,Soap,,False,223.98,184.22,17.8,False,False
+P-00960,Colgate Tissue 518,Colgate,FMCG,Tissue,,False,79.91,63.48,20.6,False,False
+P-00961,Dettol Sanitizer 584,Dettol,FMCG,Sanitizer,,False,76.68,63.8,16.8,False,False
+P-00962,Lifebuoy Sanitizer 432,Lifebuoy,FMCG,Sanitizer,,False,91.12,72.78,20.1,False,False
+P-00963,Dettol Diaper 846,Dettol,FMCG,Diaper,,False,86.63,73.01,15.7,False,False
+P-00964,Dettol Wipes 789,Dettol,FMCG,Wipes,,False,83.6,65.26,21.9,False,False
+P-00965,Dettol Toothpaste 650,Dettol,FMCG,Toothpaste,,False,105.15,89.28,15.1,False,False
+P-00966,Moov Cotton 428,Moov,FMCG,Cotton,,False,106.96,88.4,17.4,False,False
+P-00967,Huggies Sanitizer 118,Huggies,FMCG,Sanitizer,,False,169.3,141.68,16.3,False,False
+P-00968,Colgate Wipes 836,Colgate,FMCG,Wipes,,False,54.69,45.49,16.8,False,False
+P-00969,Whisper Sanitary Pad 539,Whisper,FMCG,Sanitary Pad,,False,115.16,93.28,19.0,False,False
+P-00970,Whisper Toothpaste 437,Whisper,FMCG,Toothpaste,,False,87.45,70.85,19.0,False,False
+P-00971,Stayfree Sanitary Pad 517,Stayfree,FMCG,Sanitary Pad,,False,100.28,82.51,17.7,False,False
+P-00972,Huggies Bandage 503,Huggies,FMCG,Bandage,,False,120.02,94.73,21.1,False,False
+P-00973,Stayfree Sanitizer 418,Stayfree,FMCG,Sanitizer,,False,131.57,102.93,21.8,False,False
+P-00974,Dettol Sanitary Pad 825,Dettol,FMCG,Sanitary Pad,,False,77.78,64.66,16.9,False,False
+P-00975,Lifebuoy Sanitary Pad 627,Lifebuoy,FMCG,Sanitary Pad,,False,110.62,93.66,15.3,False,False
+P-00976,Pampers Hand Wash 389,Pampers,FMCG,Hand Wash,,False,66.59,56.57,15.0,False,False
+P-00977,Whisper Hand Wash 26,Whisper,FMCG,Hand Wash,,False,95.67,77.03,19.5,False,False
+P-00978,Lifebuoy Tissue 488,Lifebuoy,FMCG,Tissue,,False,192.13,154.15,19.8,False,False
+P-00979,Savlon Tissue 54,Savlon,FMCG,Tissue,,False,79.43,64.78,18.4,False,False
+P-00980,Band-Aid Sanitizer 565,Band-Aid,FMCG,Sanitizer,,False,89.91,75.1,16.5,False,False
+P-00981,Huggies Hand Wash 863,Huggies,FMCG,Hand Wash,,False,38.07,29.86,21.6,False,False
+P-00982,Band-Aid Sanitizer 341,Band-Aid,FMCG,Sanitizer,,False,61.96,52.35,15.5,False,False
+P-00983,Colgate Tissue 609,Colgate,FMCG,Tissue,,False,117.88,99.46,15.6,False,False
+P-00984,Colgate Soap 334,Colgate,FMCG,Soap,,False,75.49,63.04,16.5,False,False
+P-00985,Band-Aid Bandage 525,Band-Aid,FMCG,Bandage,,False,67.17,55.26,17.7,False,False
+P-00986,Stayfree Sanitizer 878,Stayfree,FMCG,Sanitizer,,False,48.41,38.44,20.6,False,False
+P-00987,Stayfree Sanitary Pad 470,Stayfree,FMCG,Sanitary Pad,,False,46.2,37.87,18.0,False,False
+P-00988,Lifebuoy Sanitary Pad 753,Lifebuoy,FMCG,Sanitary Pad,,False,59.98,48.1,19.8,False,False
+P-00989,Colgate Sanitizer 483,Colgate,FMCG,Sanitizer,,False,63.44,53.14,16.2,False,False
+P-00990,Huggies Tissue 453,Huggies,FMCG,Tissue,,False,128.26,101.28,21.0,False,False
+P-00991,Band-Aid Cotton 66,Band-Aid,FMCG,Cotton,,False,159.17,130.19,18.2,False,False
+P-00992,Stayfree Sanitary Pad 182,Stayfree,FMCG,Sanitary Pad,,False,313.95,254.37,19.0,False,False
+P-00993,Savlon Sanitizer 126,Savlon,FMCG,Sanitizer,,False,96.07,76.8,20.1,False,False
+P-00994,Stayfree Wipes 171,Stayfree,FMCG,Wipes,,False,38.3,30.86,19.4,False,False
+P-00995,Savlon Cotton 79,Savlon,FMCG,Cotton,,False,87.88,72.87,17.1,False,False
+P-00996,Moov Soap 955,Moov,FMCG,Soap,,False,72.06,59.62,17.3,False,False
+P-00997,Moov Tissue 928,Moov,FMCG,Tissue,,False,73.4,61.55,16.1,False,False
+P-00998,Huggies Sanitary Pad 223,Huggies,FMCG,Sanitary Pad,,False,35.98,28.55,20.7,False,False
+P-00999,Lifebuoy Bandage 58,Lifebuoy,FMCG,Bandage,,False,68.99,56.23,18.5,False,False
+P-01000,Lifebuoy Toothpaste 248,Lifebuoy,FMCG,Toothpaste,,False,86.87,71.05,18.2,False,False

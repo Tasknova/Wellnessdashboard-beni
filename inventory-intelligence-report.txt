@@ -1,0 +1,151 @@
+================================================================================
+        COMPREHENSIVE INVENTORY INTELLIGENCE REPORT
+        Wellness Forever | May 2026
+================================================================================
+Demand-Availability Mismatch, SKU Classification & Profit Optimization
+Data: 30 stores, 1K SKUs, 52K orders, 152K line items, 78K inventory snapshots
+================================================================================
+
+KEY METRICS AT A GLANCE
+--------------------------------------------------------------------------------
+  Total Network Revenue          Rs 78.67 Cr
+  Working Capital Trapped        Rs 3.82 Cr  (zero velocity)
+  Working Capital At Risk        Rs 19.47 Cr (near-zero velocity)
+  Estimated Lost Sales (OOS)     Rs 1.4-1.5 Cr
+  SKUs to Phase Out              816
+
+================================================================================
+1. SKU DECISION BUCKETS
+================================================================================
+
+  Bucket                  SKUs    Revenue       Action
+  ---------------------   ----    ----------    ---------------------------------
+  PROTECT & REPLENISH     12      Rs 18.99 Cr   High-revenue + high OOS. Restock now
+  MONITOR & REBALANCE     34      Rs 10.26 Cr   Good revenue but margin <20%. Renegotiate
+  SEASONAL HOLD           138     Rs 37.02 Cr   Revenue dropped >70%. Hold, don't reorder
+  PHASE OUT               816     Rs 12.41 Cr   Low revenue + low margin. Liquidate
+
+Top PROTECT & REPLENISH SKUs:
+  Product                    Therapeutic      Revenue       OOS%   Action
+  -------------------------  -------------    ----------    ----   --------------------------
+  Sun Pharma Gel 349         Neurological     Rs 8.70 Cr   7.4%   CRITICAL: #1 SKU, Rs 64L lost
+  Aurobindo Drops 122        Dermatological   Rs 2.02 Cr   6.7%   Increase safety stock
+  Abbott India Inhaler 394   Anti-diabetic    Rs 1.10 Cr   5.9%   Chronic-use, OOS = churn
+  Sun Pharma Ointment 845    Cardiac          Rs 1.04 Cr   5.9%   Anchor SKU, 100% avail
+  Macleods Capsule 690       Antibiotic       Rs 1.01 Cr   5.4%   High Rx volume, buffer needed
+
+================================================================================
+2. WORKING CAPITAL ANALYSIS
+================================================================================
+
+  Status                   SKUs    Capital Locked    Issue
+  -----------------------  ----    --------------    ----------------------------
+  TRAPPED (zero sales)     4       Rs 3.82 Cr        No movement 30+ days. Liquidate
+  AT RISK (<5% velocity)   19      Rs 19.47 Cr       Velocity collapsing. Redistribute
+  HEALTHY                  rest    --                 Adequate demand-to-stock
+
+Trapped Capital Details:
+  Product                    Therapeutic    Capital       Hist Qty   Recent Qty
+  -------------------------  -----------    ----------    --------   ----------
+  Cipla Suspension 572       Pain Mgmt      Rs 1.15 Cr   122        0
+  Aurobindo Ointment 60      Neurological   Rs 95.1L     22         0
+  Torrent Suspension 626     Neurological   Rs 88.5L     38         0
+  Torrent Injection 406      Cardiac        Rs 83.1L     31         0
+
+  >> ACTION: Write off or transfer to clearance. Rs 3.82 Cr recoverable.
+
+Top At-Risk Capital:
+  Product                    Therapeutic    Capital       Total Qty  Recent Qty
+  -------------------------  -----------    ----------    ---------  ----------
+  Zydus Injection 25         Anti-viral     Rs 1.90 Cr   326        1
+  Lupin Syrup 167            Anti-diabetic  Rs 1.61 Cr   634        17
+  Glenmark Tablet 224        Cardiac        Rs 1.54 Cr   62         2
+  Glenmark Gel 258           Anti-diabetic  Rs 1.20 Cr   113        3
+  Macleods Powder 665        Anti-viral     Rs 1.18 Cr   162        8
+
+================================================================================
+3. CITY-CATEGORY DEMAND vs INVENTORY
+================================================================================
+
+  City       Category       Revenue       OOS%   Stock Value    Status
+  --------   -----------    ----------    ----   -----------    ------------------
+  Mumbai     Rx Medicines   Rs 15.84 Cr   6.4%   Rs 38.59 Cr   UNDERSTOCK
+  Pune       Rx Medicines   Rs 7.79 Cr    6.1%   Rs 19.58 Cr   UNDERSTOCK
+  Mumbai     Wellness       Rs 6.99 Cr    0.0%   --             Balanced
+  Thane      Rx Medicines   Rs 5.36 Cr    6.0%   Rs 12.90 Cr   Balanced
+  Mumbai     OTC Medicines  Rs 4.59 Cr    0.0%   --             Balanced
+  Goa        Rx Medicines   Rs 1.40 Cr    7.4%   Rs 3.17 Cr    Highest OOS in network
+
+  >> KEY FINDING: Mumbai + Pune Rx are structurally understocked.
+     6.1-6.4% OOS on Rs 23.6 Cr combined revenue = Rs 1.4-1.5 Cr lost sales.
+
+================================================================================
+4. STORE-LEVEL LOST SALES (Top 10)
+================================================================================
+
+  Store            City      Revenue       OOS%   Est. Lost Sales
+  ---------------  ------    ----------    ----   ---------------
+  Pune STA-13      Pune      Rs 1.56 Cr    6.7%   Rs 10.5L
+  Mumbai STA-12    Mumbai    Rs 1.45 Cr    7.2%   Rs 10.4L
+  Goa STA-28       Goa       Rs 1.40 Cr    7.4%   Rs 10.4L
+  Mumbai STA-4     Mumbai    Rs 1.45 Cr    7.1%   Rs 10.3L
+  Pune FLA-17      Pune      Rs 1.53 Cr    6.7%   Rs 10.2L
+  Mumbai STA-5     Mumbai    Rs 1.48 Cr    6.8%   Rs 10.0L
+  Mumbai STA-9     Mumbai    Rs 1.54 Cr    6.4%   Rs 9.9L
+  Thane NEI-22     Thane     Rs 1.52 Cr    6.3%   Rs 9.6L
+  Mumbai STA-2     Mumbai    Rs 1.51 Cr    6.2%   Rs 9.4L
+  Thane FLA-20     Thane     Rs 1.50 Cr    6.2%   Rs 9.2L
+
+================================================================================
+5. CATEGORY PROFITABILITY (Margin-Dilutive Alert)
+================================================================================
+
+  Category      Therapeutic         Revenue       Margin%  Stock Value    Verdict
+  -----------   -----------------   ----------    ------   -----------    ----------------
+  Rx Medicines  Neurological        Rs 12.26 Cr   17.6%    Rs 7.78 Cr    MARGIN-DILUTIVE
+  Rx Medicines  Cardiac             Rs 3.79 Cr    17.9%    Rs 10.13 Cr   CAPITAL TRAP (2.7x)
+  Rx Medicines  Anti-hypertensive   Rs 95.4L      19.2%    Rs 8.61 Cr    CAPITAL TRAP (9x!)
+  Rx Medicines  Anti-allergic       Rs 93.0L      18.5%    Rs 7.70 Cr    CAPITAL TRAP (8.3x)
+  Rx Medicines  Anti-viral          Rs 2.19 Cr    19.2%    Rs 9.61 Cr    CAPITAL TRAP (4.4x)
+
+================================================================================
+6. NETWORK-WIDE SUMMARY
+================================================================================
+
+  Total Network Revenue             Rs 78.67 Cr
+  Total Working Capital Trapped     Rs 3.82 Cr   (zero velocity)
+  Working Capital At Risk           Rs 19.47 Cr  (near-zero velocity)
+  Total Estimated Lost Sales        Rs 1.4-1.5 Cr (from OOS)
+  Worst Capital Trap Category       Anti-hypertensive (stock 9x revenue)
+  Most Underserved Market           Mumbai Rx Medicines (Rs 15.84 Cr, 6.4% OOS)
+  Highest OOS Store-Node            Goa STA-28 (7.4% OOS)
+  SKUs to Phase Out                 816 SKUs (Rs 12.41 Cr)
+
+================================================================================
+7. RECOMMENDED ACTIONS (Priority Order)
+================================================================================
+
+  1. IMMEDIATE: Restock 12 PROTECT SKUs (esp. Sun Pharma Gel 349 at 7.4% OOS)
+     - Recover Rs 64L+ in lost sales
+
+  2. IMMEDIATE: Liquidate 4 TRAPPED capital SKUs
+     - Free Rs 3.82 Cr
+
+  3. THIS WEEK: Review 19 AT-RISK capital SKUs (Rs 19.47 Cr)
+     - Redistribute or mark down
+
+  4. THIS MONTH: Rebalance Anti-hypertensive, Anti-allergic, Anti-viral inventory
+     - Stock at 4-9x revenue is unsustainable
+
+  5. THIS MONTH: Increase Mumbai & Pune Rx safety stock
+     - These cities drive 30% of revenue but are structurally understocked
+
+  6. THIS QUARTER: Phase out 816 low-performing SKUs
+     - Redirect shelf space to PROTECT tier
+
+  7. THIS QUARTER: Fix Goa STA-28 supply chain
+     - Highest OOS in network at 7.4%
+
+================================================================================
+  Wellness Forever Revenue Intelligence | Generated by Tasknova AI | May 2026
+================================================================================

@@ -1,0 +1,83 @@
+{"ts": "2026-05-09T15:19:20", "query": "Best day of the week for sales?", "mode": "BRIEF", "handler": "day_of_week", "entities": {}, "response_len": 70, "cached": false}
+{"ts": "2026-05-09T15:19:55", "query": "whats the best non-medicine product based on revenue", "mode": "BRIEF", "handler": "top_products", "entities": {}, "response_len": 80, "cached": false}
+{"ts": "2026-05-09T15:20:09", "query": "based on profit?", "mode": "BRIEF", "handler": "margin", "entities": {}, "response_len": 243, "cached": false}
+{"ts": "2026-05-09T15:25:19", "query": "give me a competitor analysis", "mode": "DEEP", "handler": null, "entities": {}, "response_len": 515, "cached": false}
+{"ts": "2026-05-09T15:27:19", "query": "whats the best product based on revenue", "mode": "INSIGHTS", "handler": "top_products", "entities": {}, "response_len": 1091, "cached": false}
+{"ts": "2026-05-09T15:27:19", "query": "based on profit?", "mode": "INSIGHTS", "handler": "top_products", "entities": {}, "response_len": 1091, "cached": true}
+{"ts": "2026-05-09T15:27:56", "query": "whats the best product based on revenue", "mode": "INSIGHTS", "handler": "top_products", "entities": {}, "response_len": 1091, "cached": true}
+{"ts": "2026-05-09T15:27:56", "query": "based on profit?", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": false}
+{"ts": "2026-05-09T15:27:56", "query": "What about Mumbai?", "mode": "INSIGHTS", "handler": "margin", "entities": {"city": "Mumbai"}, "response_len": 1179, "cached": false}
+{"ts": "2026-05-09T15:28:46", "query": "whats the best product based on revenue", "mode": "INSIGHTS", "handler": "top_products", "entities": {}, "response_len": 1091, "cached": true}
+{"ts": "2026-05-09T15:28:46", "query": "based on profit?", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": true}
+{"ts": "2026-05-09T15:28:46", "query": "based on profit? what about mumbai?", "mode": "INSIGHTS", "handler": "store_city_performance", "entities": {"city": "Mumbai"}, "response_len": 1740, "cached": false}
+{"ts": "2026-05-09T15:28:46", "query": "How bad is our stockout problem?", "mode": "INSIGHTS", "handler": "stockouts", "entities": {}, "response_len": 1518, "cached": false}
+{"ts": "2026-05-09T15:40:20", "query": "Which stores are bleeding revenue?", "mode": "INSIGHTS", "handler": "stores_bleeding", "entities": {}, "response_len": 2271, "cached": false}
+{"ts": "2026-05-09T15:45:34", "query": "Generic vs branded margin", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": true}
+{"ts": "2026-05-09T15:48:32", "query": "Generic vs branded margin", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": true}
+{"ts": "2026-05-09T15:50:20", "query": "Generic vs branded margin", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": true}
+{"ts": "2026-05-09T15:50:50", "query": "generic vs branded margin what are our competitors doign differently", "mode": "DEEP", "handler": null, "entities": {}, "response_len": 824, "cached": false}
+{"ts": "2026-05-09T16:10:33", "query": "Which stores are bleeding?", "mode": "INSIGHTS", "handler": "stores_bleeding", "entities": {}, "response_len": 2271, "cached": true}
+{"ts": "2026-05-09T16:10:55", "query": "Where is revenue leaking?", "mode": "INSIGHTS", "handler": null, "entities": {}, "response_len": 515, "cached": false}
+{"ts": "2026-05-09T16:11:01", "query": "How bad is our stockout problem?", "mode": "INSIGHTS", "handler": "stockouts", "entities": {}, "response_len": 1518, "cached": true}
+{"ts": "2026-05-09T16:13:32", "query": "Monsoon readiness in Mumbai?", "mode": "INSIGHTS", "handler": "store_city_performance", "entities": {"city": "Mumbai"}, "response_len": 1740, "cached": false}
+{"ts": "2026-05-09T16:14:10", "query": "who wrote this code", "mode": "INSIGHTS", "handler": null, "entities": {}, "response_len": 515, "cached": false}
+{"ts": "2026-05-09T16:14:18", "query": "Are we ready for monsoon in Mumbai?", "mode": "INSIGHTS", "handler": "seasonal_readiness", "entities": {"city": "Mumbai"}, "response_len": 1195, "cached": false}
+{"ts": "2026-05-09T16:14:46", "query": "what is OOS in above answer", "mode": "INSIGHTS", "handler": "stockouts", "entities": {"city": "Mumbai"}, "response_len": 1518, "cached": false}
+{"ts": "2026-05-09T16:17:43", "query": "Monsoon readiness in Mumbai?", "mode": "INSIGHTS", "handler": "seasonal_readiness", "entities": {"city": "Mumbai"}, "response_len": 1195, "cached": false}
+{"ts": "2026-05-09T16:17:43", "query": "Where is revenue leaking?", "mode": "INSIGHTS", "handler": "leakage", "entities": {}, "response_len": 1064, "cached": false}
+{"ts": "2026-05-09T17:50:47", "query": "Monsoon readiness in Mumbai?", "mode": "INSIGHTS", "handler": "margin", "entities": {"city": "Mumbai"}, "response_len": 1179, "cached": false}
+{"ts": "2026-05-09T17:52:43", "query": "Monsoon readiness in Mumbai?", "mode": "INSIGHTS", "handler": "seasonal_readiness", "entities": {"city": "Mumbai"}, "response_len": 1195, "cached": false}
+{"ts": "2026-05-09T17:52:49", "query": "Where is revenue leaking?", "mode": "INSIGHTS", "handler": "leakage", "entities": {}, "response_len": 1064, "cached": true}
+{"ts": "2026-05-09T17:52:53", "query": "How profitable are we?", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": false}
+{"ts": "2026-05-09T17:52:59", "query": "What is our customer retention like?", "mode": "INSIGHTS", "handler": "churn", "entities": {}, "response_len": 986, "cached": false}
+{"ts": "2026-05-09T17:57:42", "query": "Monsoon readiness in Mumbai?", "mode": "INSIGHTS", "handler": "seasonal_readiness", "entities": {"city": "Mumbai"}, "response_len": 1195, "cached": false}
+{"ts": "2026-05-09T17:57:44", "query": "Where is revenue leaking?", "mode": "INSIGHTS", "handler": "leakage", "entities": {}, "response_len": 1064, "cached": true}
+{"ts": "2026-05-09T17:57:48", "query": "How profitable are we?", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": true}
+{"ts": "2026-05-09T17:57:52", "query": "What is our customer retention like?", "mode": "INSIGHTS", "handler": "churn", "entities": {}, "response_len": 986, "cached": true}
+{"ts": "2026-05-09T17:57:56", "query": "What is our total revenue?", "mode": "INSIGHTS", "handler": "total_revenue", "entities": {}, "response_len": 1067, "cached": false}
+{"ts": "2026-05-09T17:58:00", "query": "Year over year growth rate", "mode": "INSIGHTS", "handler": "yoy", "entities": {}, "response_len": 1067, "cached": false}
+{"ts": "2026-05-09T17:58:05", "query": "Which categories sell the most?", "mode": "INSIGHTS", "handler": "categories", "entities": {}, "response_len": 972, "cached": false}
+{"ts": "2026-05-09T17:58:09", "query": "Revenue by city", "mode": "INSIGHTS", "handler": "city_revenue", "entities": {}, "response_len": 764, "cached": false}
+{"ts": "2026-05-09T17:58:14", "query": "Sales in Pune", "mode": "INSIGHTS", "handler": "city_revenue_specific", "entities": {"city": "Pune"}, "response_len": 615, "cached": false}
+{"ts": "2026-05-09T17:58:18", "query": "Top performing stores", "mode": "INSIGHTS", "handler": "store_city_performance", "entities": {"city": "Pune"}, "response_len": 952, "cached": false}
+{"ts": "2026-05-09T17:58:23", "query": "Best selling products", "mode": "INSIGHTS", "handler": "city_revenue_specific", "entities": {}, "response_len": 764, "cached": false}
+{"ts": "2026-05-09T17:58:27", "query": "Which brands make the most money?", "mode": "INSIGHTS", "handler": "top_brands", "entities": {}, "response_len": 639, "cached": false}
+{"ts": "2026-05-09T17:58:31", "query": "How many customers do we have?", "mode": "INSIGHTS", "handler": "customers", "entities": {}, "response_len": 986, "cached": false}
+{"ts": "2026-05-09T17:58:35", "query": "Who are our most loyal buyers?", "mode": "INSIGHTS", "handler": "loyal_customers", "entities": {}, "response_len": 986, "cached": false}
+{"ts": "2026-05-09T17:58:39", "query": "Generic vs branded margin comparison", "mode": "INSIGHTS", "handler": "generic_branded", "entities": {}, "response_len": 1179, "cached": false}
+{"ts": "2026-05-09T17:58:43", "query": "Why are orders being cancelled?", "mode": "INSIGHTS", "handler": "cancellations", "entities": {}, "response_len": 1064, "cached": false}
+{"ts": "2026-05-09T17:58:48", "query": "What is our return rate?", "mode": "INSIGHTS", "handler": "returns", "entities": {}, "response_len": 1253, "cached": false}
+{"ts": "2026-05-09T17:58:52", "query": "How bad is the stockout problem?", "mode": "INSIGHTS", "handler": "stockouts", "entities": {}, "response_len": 1518, "cached": false}
+{"ts": "2026-05-09T17:58:54", "query": "How fast is our delivery?", "mode": "INSIGHTS", "handler": "delivery", "entities": {}, "response_len": 414, "cached": false}
+{"ts": "2026-05-09T17:58:58", "query": "Online vs offline sales", "mode": "INSIGHTS", "handler": "online", "entities": {}, "response_len": 930, "cached": false}
+{"ts": "2026-05-09T17:59:04", "query": "How do customers pay?", "mode": "INSIGHTS", "handler": "payments", "entities": {}, "response_len": 497, "cached": false}
+{"ts": "2026-05-09T17:59:06", "query": "What did we discuss?", "mode": "INSIGHTS", "handler": "session_history", "entities": {}, "response_len": 2226, "cached": false}
+{"ts": "2026-05-09T17:59:10", "query": "What do people usually ask?", "mode": "INSIGHTS", "handler": "popular_questions", "entities": {}, "response_len": 994, "cached": false}
+{"ts": "2026-05-09T17:59:15", "query": "What has the system learned?", "mode": "INSIGHTS", "handler": "learned_insights", "entities": {}, "response_len": 1472, "cached": false}
+{"ts": "2026-05-09T17:59:21", "query": "Give me the big picture", "mode": "INSIGHTS", "handler": "summary", "entities": {}, "response_len": 971, "cached": false}
+{"ts": "2026-05-09T17:59:25", "query": "What is our average order value?", "mode": "INSIGHTS", "handler": "aov", "entities": {}, "response_len": 68, "cached": false}
+{"ts": "2026-05-09T17:59:27", "query": "Which stores are bleeding money?", "mode": "INSIGHTS", "handler": "stores_bleeding", "entities": {}, "response_len": 2271, "cached": false}
+{"ts": "2026-05-09T17:59:31", "query": "Show me dead stock", "mode": "INSIGHTS", "handler": "slow_moving_stock", "entities": {}, "response_len": 258, "cached": false}
+{"ts": "2026-05-09T17:59:36", "query": "Which day is busiest?", "mode": "INSIGHTS", "handler": "day_of_week", "entities": {}, "response_len": 712, "cached": false}
+{"ts": "2026-05-09T17:59:40", "query": "How are stores in Thane doing?", "mode": "INSIGHTS", "handler": "store_city_performance", "entities": {"city": "Thane"}, "response_len": 709, "cached": false}
+{"ts": "2026-05-09T17:59:46", "query": "Is there demand for diabetes medicines?", "mode": "INSIGHTS", "handler": "drug_interest", "entities": {"therapeutic": "Anti-diabetic"}, "response_len": 1083, "cached": false}
+{"ts": "2026-05-09T17:59:48", "query": "Are we prepared for summer?", "mode": "INSIGHTS", "handler": "seasonal_readiness", "entities": {}, "response_len": 711, "cached": false}
+{"ts": "2026-05-09T17:59:52", "query": "How is our bottom line?", "mode": "INSIGHTS", "handler": "margin", "entities": {}, "response_len": 1179, "cached": true}
+{"ts": "2026-05-09T17:59:56", "query": "Show me the health check", "mode": "INSIGHTS", "handler": "summary", "entities": {}, "response_len": 971, "cached": true}
+{"ts": "2026-05-09T18:00:00", "query": "Which products are not available?", "mode": "INSIGHTS", "handler": "stockouts", "entities": {}, "response_len": 1518, "cached": true}
+{"ts": "2026-05-09T18:06:38", "query": "How bad is our stockout problem?", "mode": "INSIGHTS", "handler": "stockouts", "entities": {}, "response_len": 1518, "cached": true}
+{"ts": "2026-05-09T18:07:14", "query": "buying patterns of the stockedout medicines in mumbai stores", "mode": "INSIGHTS", "handler": "drug_interest", "entities": {"city": "Mumbai"}, "response_len": 1092, "cached": false}
+{"ts": "2026-05-09T18:10:47", "query": "Which stores are bleeding?", "mode": "INSIGHTS", "handler": "stores_bleeding", "entities": {}, "response_len": 2271, "cached": true}
+{"ts": "2026-05-09T18:10:58", "query": "How are stores in Pune performing?", "mode": "INSIGHTS", "handler": "store_city_performance", "entities": {"city": "Pune"}, "response_len": 952, "cached": false}
+{"ts": "2026-05-09T18:12:44", "query": "I need medicine which went out of stock from 4 weeks to 12 weeks range but hasn't been demanded by the local managers", "mode": "INSIGHTS", "handler": "drug_interest", "entities": {}, "response_len": 1083, "cached": false}
+{"ts": "2026-05-09T18:41:13", "query": "Generic vs branded margin", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 1800, "cached": false}
+{"ts": "2026-05-09T18:41:13", "query": "Tell me list of medicines that were fast moving earlier but have no real movement now", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 2900, "cached": false}
+{"ts": "2026-05-09T18:43:29", "query": "how are we doing compared to our competitors", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 2800, "cached": false}
+{"ts": "2026-05-09T18:45:46", "query": "which SKU had a sharp sale rise suddenly before going out of stock?", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 3200, "cached": false}
+{"ts": "2026-05-09T18:58:02", "query": "Which medicines which are in stock have a X MRP but the currently the same product in the market is re-released at a X+Delta Cost", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 3800, "cached": false}
+{"ts": "2026-05-09T19:07:26", "query": "which medicines have X price are in stock with us but currently the medicines parent company hiked the price", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 4200, "cached": false}
+{"ts": "2026-05-09T19:11:23", "query": "What is the SKU left in storewise and in central warehouse of these medicines", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 4500, "cached": false}
+{"ts": "2026-05-09T19:13:44", "query": "can you give me storewise breakdown", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 5800, "cached": false}
+{"ts": "2026-05-09T19:16:38", "query": "How are stores in Mumbai performing?", "mode": "INSIGHTS", "handler": "claude_code", "entities": {"city": "Mumbai"}, "response_len": 5200, "cached": false}
+{"ts": "2026-05-09T19:50:20.177525", "query": "Comprehensive inventory intelligence - demand/availability mismatch, SKU classification, working capital, locality patterns", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 9985, "cached": false}
+{"ts": "2026-05-09T20:04:46.593912", "query": "Restyled inventory intelligence report (light-theme fix)", "mode": "INSIGHTS", "handler": "claude_code", "entities": {}, "response_len": 13322, "cached": false}
